@@ -130,12 +130,42 @@ tr.chg .flch{color:var(--rouge);font-weight:700;padding:0 4px}.tag.chg{backgroun
 tr.new{background:var(--vert-bg)}.tag.new{background:var(--vert);color:#04210f}
 tr.sup td{color:var(--gris);text-decoration:line-through}.tag.sup{background:var(--gris);color:#fff;text-decoration:none}
 .vide{color:var(--muted);font-style:italic;padding:12px}
+td.diff{white-space:nowrap}
+.dfx{display:inline-block;font-size:11px;font-weight:700;border-radius:5px;padding:1px 7px;margin-right:4px}
+.dfx-htv{background:#e30613;color:#fff}
+.dfx-bein{background:#5b2a86;color:#fff}
+.dfx-x{background:transparent;color:var(--muted);font-weight:400}
+.ac{color:var(--muted);font-style:italic;font-size:12px}
 footer{color:var(--muted);font-size:12px;text-align:center;margin-top:30px}
 """
 
 
 def _esc(s):
     return html.escape(s or "")
+
+
+def _horaire_html(s):
+    """Affiche l'horaire ; met « (à confirmer) » en gris italique."""
+    s = s or ""
+    if "(à confirmer)" in s:
+        base = _esc(s.replace("(à confirmer)", "").strip())
+        return f'{base} <span class="ac">(à confirmer)</span>'
+    return _esc(s)
+
+
+def _diffuseur_html(d):
+    """Petit badge coloré selon le diffuseur."""
+    if not d:
+        return '<span class="dfx dfx-x">—</span>'
+    dl = d.lower()
+    if "handball tv" in dl and "bein" in dl:
+        return ('<span class="dfx dfx-htv">Handball TV</span>'
+                '<span class="dfx dfx-bein">beIN</span>')
+    if "handball tv" in dl:
+        return '<span class="dfx dfx-htv">Handball TV</span>'
+    if "bein" in dl:
+        return '<span class="dfx dfx-bein">beIN SPORTS</span>'
+    return f'<span class="dfx dfx-x">{_esc(d)}</span>'
 
 
 def generer_html(competitions, maj_horodatage=None):
@@ -173,28 +203,31 @@ def generer_html(competitions, maj_horodatage=None):
             classe, tag = "", ""
             if m["id"] in ids_chg:
                 classe = "chg"; tag = '<span class="tag chg">HORAIRE MODIFIÉ</span>'
-                horaire_cell = (f'<span class="avant">{_esc(ids_chg[m["id"]]["avant"])}</span>'
-                                f'<span class="flch">→</span>{_esc(ids_chg[m["id"]]["apres"])}')
+                horaire_cell = (f'<span class="avant">{_horaire_html(ids_chg[m["id"]]["avant"])}</span>'
+                                f'<span class="flch">→</span>{_horaire_html(ids_chg[m["id"]]["apres"])}')
             elif m["id"] in ids_new:
                 classe = "new"; tag = '<span class="tag new">NOUVEAU</span>'
-                horaire_cell = _esc(m.get("horaire",""))
+                horaire_cell = _horaire_html(m.get("horaire",""))
             else:
-                horaire_cell = _esc(m.get("horaire",""))
+                horaire_cell = _horaire_html(m.get("horaire",""))
             lignes.append(f'<tr class="{classe}"><td class="jr">{_esc(m.get("journee",""))}</td>'
                           f'<td>{_esc(m.get("match",""))}{tag}</td>'
-                          f'<td class="horaire">{horaire_cell}</td></tr>')
+                          f'<td class="horaire">{horaire_cell}</td>'
+                          f'<td class="diff">{_diffuseur_html(m.get("diffuseur",""))}</td></tr>')
         for m in d["supprimes"]:
             lignes.append(f'<tr class="sup"><td class="jr">{_esc(m.get("journee",""))}</td>'
                           f'<td>{_esc(m.get("match",""))}<span class="tag sup">RETIRÉ</span></td>'
-                          f'<td class="horaire">{_esc(m.get("horaire",""))}</td></tr>')
-        corps = "".join(lignes) if lignes else '<tr><td colspan="3" class="vide">Aucun match récupéré.</td></tr>'
+                          f'<td class="horaire">{_horaire_html(m.get("horaire",""))}</td>'
+                          f'<td class="diff">{_diffuseur_html(m.get("diffuseur",""))}</td></tr>')
+        corps = "".join(lignes) if lignes else '<tr><td colspan="4" class="vide">Aucun match récupéré.</td></tr>'
         titre = _esc(c["nom"])
         if c.get("url"):
             titre = f'<a href="{_esc(c["url"])}" target="_blank" rel="noopener">{titre}</a>'
         src = (f' <span class="src">({len(c["matchs"])} matchs · voir sur lnh.fr ↗)</span>'
                if c.get("url") else f' <span class="src">({len(c["matchs"])} matchs)</span>')
         sections.append(f'<section class="comp"><h2>{titre}{src}</h2>'
-                        f'<table><thead><tr><th>J.</th><th>Match</th><th>Date &amp; horaire</th></tr></thead>'
+                        f'<table><thead><tr><th>J.</th><th>Match</th><th>Date &amp; horaire</th>'
+                        f'<th>Diffuseur</th></tr></thead>'
                         f'<tbody>{corps}</tbody></table></section>')
 
     return f"""<!DOCTYPE html>
