@@ -2,7 +2,7 @@ name: Surveillance calendriers LNH
 
 on:
   schedule:
-    - cron: "0 * * * *"
+       - cron: "13,43 * * * *"
   workflow_dispatch: {}
 
 permissions:
