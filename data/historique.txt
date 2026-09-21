@@ -1,0 +1,25 @@
+
+===== 21/09/2026 à 15:19 — 13 changement(s) =====
+13 changement(s) détecté(s) sur les calendriers LNH :
+
+— Daikin StarLigue —
+  • RETIRÉ   J07  TOULOUSE – SAINT-RAPHAËL  (ven. 16 oct. 20h00)
+  • RETIRÉ   J07  CAEN – PARIS  (sam. 17 oct. 19h00)
+  • RETIRÉ   J07  MONTPELLIER – LIMOGES  (dim. 18 oct. 17h00)
+  • RETIRÉ   J08  AIX – TOULOUSE  (ven. 23 oct. 20h00)
+  • RETIRÉ   J08  NANTES – CHAMBÉRY  (sam. 24 oct. 19h00)
+  • RETIRÉ   J08  SAINT-RAPHAËL – PARIS  (dim. 25 oct. 16h00)
+  • RETIRÉ   J09  TOULOUSE – LIMOGES  (ven. 30 oct. 20h00)
+  • RETIRÉ   J09  CESSON-RENNES – NANTES  (sam. 31 oct. 19h00)
+  • RETIRÉ   J09  PARIS – MONTPELLIER  (dim. 1 nov. 17h00)
+
+— ProLigue —
+  • RETIRÉ   Finale a  Vainqueur Demi Finale Moins Bien Classe – Vainqueur Demi Finale Mieux Classe  (jeu. 3 juin. 20h30)
+  • RETIRÉ   Finale r  Vainqueur Demi Finale Mieux Classe – Vainqueur Demi Finale Moins Bien Classe  (dim. 6 juin. 17h00)
+
+— Ligue des Champions —
+  • RETIRÉ   J04  NANTES – MELSUNGEN  (mer. 14 oct. 20h45)
+  • RETIRÉ   J05  ZAGREB – PARIS  (mer. 21 oct. 18h45)
+
+
+(Message automatique — surveillance des calendriers lnh.fr)
