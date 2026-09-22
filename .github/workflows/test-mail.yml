@@ -1,0 +1,25 @@
+name: Test mail
+on:
+  workflow_dispatch: {}
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Envoyer un mail de test
+        env:
+          SMTP_USER: ${{ secrets.SMTP_USER }}
+          SMTP_PASS: ${{ secrets.SMTP_PASS }}
+          MAIL_TO:   ${{ secrets.MAIL_TO }}
+        run: |
+          python - <<'EOF'
+          import os, smtplib
+          from email.mime.text import MIMEText
+          user=os.environ["SMTP_USER"]; pwd=os.environ["SMTP_PASS"]
+          dest=os.environ.get("MAIL_TO") or user
+          dests=[d.strip() for d in dest.split(",") if d.strip()]
+          msg=MIMEText("Mail de TEST — le suivi des calendriers LNH fonctionne !","plain","utf-8")
+          msg["Subject"]="[LNH] Mail de test"; msg["From"]=user; msg["To"]=", ".join(dests)
+          s=smtplib.SMTP("smtp.gmail.com",587,timeout=25); s.starttls(); s.login(user,pwd)
+          s.sendmail(user,dests,msg.as_string()); s.quit()
+          print("Envoyé à",dests)
+          EOF
