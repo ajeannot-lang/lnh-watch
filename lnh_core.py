@@ -6,7 +6,29 @@ lnh_core.py — Cœur : comparaison de calendriers + génération de la page web
 
 import html
 import re
-from datetime import datetime
+from datetime import datetime, timedelta
+
+
+def _maintenant():
+    """Heure actuelle en France (le robot tourne en UTC dans le cloud)."""
+    try:
+        from zoneinfo import ZoneInfo
+        return datetime.now(ZoneInfo("Europe/Paris")).replace(tzinfo=None)
+    except Exception:
+        return datetime.now() + timedelta(hours=1)   # approximation si zoneinfo absent
+
+
+def _est_passe(horaire, maintenant):
+    """Vrai si le match est déjà joué (avec 3h de marge pour ne pas griser
+    un match en cours). Pour un horaire « à confirmer » (sans heure), on se
+    base sur la date du jour."""
+    dt = parse_horaire(horaire)
+    if not dt:
+        return False
+    if re.search(r"\dh", horaire or ""):
+        return dt + timedelta(hours=3) < maintenant
+    return dt.date() < maintenant.date()
+
 
 _MOIS = {"janv":1,"févr":2,"fevr":2,"mars":3,"avr":4,"mai":5,"juin":6,
          "juil":7,"août":8,"aout":8,"sept":9,"oct":10,"nov":11,"déc":12,"dec":12}
@@ -129,6 +151,9 @@ tr.chg .avant{color:var(--muted);text-decoration:line-through;font-weight:400}
 tr.chg .flch{color:var(--rouge);font-weight:700;padding:0 4px}.tag.chg{background:var(--rouge);color:#fff}
 tr.new{background:var(--vert-bg)}.tag.new{background:var(--vert);color:#04210f}
 tr.sup td{color:var(--gris);text-decoration:line-through}.tag.sup{background:var(--gris);color:#fff;text-decoration:none}
+tr.passe td{color:var(--muted);opacity:.65}tr.passe td.jr{opacity:.65}
+.tag.passe{background:var(--gris);color:#fff}
+tr.passe .dfx-htv,tr.passe .dfx-bein{opacity:.55}
 .vide{color:var(--muted);font-style:italic;padding:12px}
 td.diff{white-space:nowrap}
 .dfx{display:inline-block;font-size:11px;font-weight:700;border-radius:5px;padding:1px 7px;margin-right:4px}
@@ -230,9 +255,11 @@ def generer_html(competitions, maj_horodatage=None, changements7=None):
         removed = [e for i, e in suppr.items() if i not in cur_ids]
 
         lignes = []
+        maintenant = _maintenant()
         matchs = sorted(c["matchs"], key=lambda m: (parse_horaire(m.get("horaire","")) or datetime.max))
         for m in matchs:
             classe, tag = "", ""
+            passe = _est_passe(m.get("horaire", ""), maintenant)
             if m["id"] in ids_chg:
                 classe = "chg"; tag = '<span class="tag chg">HORAIRE MODIFIÉ</span>'
                 horaire_cell = (f'<span class="avant">{_horaire_html(ids_chg[m["id"]]["avant"])}</span>'
@@ -242,6 +269,8 @@ def generer_html(competitions, maj_horodatage=None, changements7=None):
                 horaire_cell = _horaire_html(m.get("horaire",""))
             else:
                 horaire_cell = _horaire_html(m.get("horaire",""))
+                if passe:
+                    classe = "passe"; tag = '<span class="tag passe">terminé</span>'
             lignes.append(f'<tr class="{classe}"><td class="jr">{_esc(m.get("journee",""))}</td>'
                           f'<td>{_esc(m.get("match",""))}{tag}</td>'
                           f'<td class="horaire">{horaire_cell}</td>'

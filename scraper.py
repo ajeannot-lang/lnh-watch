@@ -45,21 +45,22 @@ COMPETITIONS = [
 JS_EXTRACTION = r"""
 () => {
   const out = []; const vus = new Set();
-  const diffDe = (el) => {
-    // Cherche le diffuseur (logo/texte) dans la carte et ses parents proches
-    let n = el, htv = false, bein = false;
-    for (let i=0; i<8 && n; i++, n = n.parentElement) {
-      const imgs = n.querySelectorAll ? n.querySelectorAll('img') : [];
-      for (const im of imgs) {
-        const s = ((im.getAttribute('src')||'')+' '+(im.getAttribute('alt')||'')+' '+(im.getAttribute('title')||'')).toLowerCase();
-        if (s.includes('bein')) bein = true;
-        if (s.includes('htv') || (s.includes('handball') && s.includes('tv'))) htv = true;
-      }
-      const t = (n.innerText||'').toLowerCase();
-      if (t.includes('bein')) bein = true;
-      if (t.includes('handball tv') || t.includes('handballtv')) htv = true;
-      if (htv || bein) break;   // trouvé dans la carte : on s'arrête
+  const diffDe = (card) => {
+    // Lit le diffuseur UNIQUEMENT dans la carte du match (pas les voisins).
+    if (!card) return '';
+    let htv = false, bein = false;
+    const scan = (s) => {
+      s = (s || '').toLowerCase();
+      if (/bein/.test(s)) bein = true;
+      if (/handball[ \-_]?tv|hbtv|htv/.test(s)) htv = true;
+    };
+    const imgs = card.querySelectorAll ? card.querySelectorAll('img') : [];
+    for (const im of imgs) {
+      scan((im.getAttribute('src')||'')+' '+(im.getAttribute('alt')||'')+' '
+          +(im.getAttribute('title')||'')+' '+(im.getAttribute('class')||''));
     }
+    // couvre aussi les logos en background-image, <svg>, classes, alt…
+    scan(card.innerHTML || '');
     if (htv && bein) return 'Handball TV + beIN SPORTS';
     if (htv) return 'Handball TV';
     if (bein) return 'beIN SPORTS';
@@ -77,7 +78,7 @@ JS_EXTRACTION = r"""
       if (/\b\d{1,2}\s+(janv|févr|fevr|mars|avr|mai|juin|juil|août|aout|sept|oct|nov|déc|dec)/i.test(t)){texte=t;break;}
       texte = t;
     }
-    out.push({id, saison:m[1], tour:m[3], dom:m[4], ext:m[5], texte, diffuseur: diffDe(a)});
+    out.push({id, saison:m[1], tour:m[3], dom:m[4], ext:m[5], texte, diffuseur: diffDe(el)});
   }
   return out;
 }
@@ -240,7 +241,9 @@ def recuperer(page, comp):
     _fermer_cookies(page)
     _attendre_matchs(page, 30)
 
-    if os.environ.get("LNH_DEBUG"):
+    # Diagnostic : on enregistre la page rendue (permet de fiabiliser la lecture
+    # des logos diffuseur). Sans effet visible pour l'utilisateur.
+    if True:
         try:
             slug = re.sub(r"[^a-z0-9]+", "_", comp["nom"].lower())
             with open(os.path.join(ICI, "docs", f"_debug_{slug}.html"), "w", encoding="utf-8") as f:
