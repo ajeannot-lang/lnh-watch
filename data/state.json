@@ -1631,7 +1631,7 @@
    "journee": "J01",
    "match": "Valence – Cherbourg",
    "horaire": "sam. 5 sept. 20h00",
-   "diffuseur": "Handball TV"
+   "diffuseur": "Handball TV + beIN SPORTS"
   },
   "pl/j01/sarrebourg/cournon": {
    "id": "pl/j01/sarrebourg/cournon",
@@ -1701,7 +1701,7 @@
    "journee": "J03",
    "match": "Valence – Ivry",
    "horaire": "jeu. 17 sept. 20h00",
-   "diffuseur": "Handball TV"
+   "diffuseur": "Handball TV + beIN SPORTS"
   },
   "pl/j03/besancon/pau-billere": {
    "id": "pl/j03/besancon/pau-billere",
@@ -1757,7 +1757,7 @@
    "journee": "J05",
    "match": "VALENCE – BESANÇON",
    "horaire": "ven. 2 oct. 20h00",
-   "diffuseur": "Handball TV"
+   "diffuseur": "Handball TV + beIN SPORTS"
   },
   "pl/j05/cherbourg/istres": {
    "id": "pl/j05/cherbourg/istres",
@@ -1806,7 +1806,7 @@
    "journee": "J05",
    "match": "SARREBOURG – MASSY",
    "horaire": "sam. 3 oct. 20h30",
-   "diffuseur": "Handball TV"
+   "diffuseur": "Handball TV + beIN SPORTS"
   },
   "pl/j06/istres/ivry": {
    "id": "pl/j06/istres/ivry",
@@ -1869,7 +1869,7 @@
    "journee": "J07",
    "match": "VALENCE – PAU BILLÈRE",
    "horaire": "ven. 16 oct. 20h00",
-   "diffuseur": "Handball TV"
+   "diffuseur": "Handball TV + beIN SPORTS"
   },
   "pl/j07/cherbourg/cournon": {
    "id": "pl/j07/cherbourg/cournon",
@@ -1918,7 +1918,7 @@
    "journee": "J07",
    "match": "SARREBOURG – BESANÇON",
    "horaire": "sam. 17 oct. 20h30",
-   "diffuseur": "Handball TV"
+   "diffuseur": "Handball TV + beIN SPORTS"
   },
   "pl/j08/besancon/pontault": {
    "id": "pl/j08/besancon/pontault",
@@ -1995,7 +1995,7 @@
    "journee": "J09",
    "match": "VALENCE – CRÉTEIL",
    "horaire": "ven. 30 oct. 20h00",
-   "diffuseur": "Handball TV"
+   "diffuseur": "Handball TV + beIN SPORTS"
   },
   "pl/j09/cherbourg/elite-val-d-oise": {
    "id": "pl/j09/cherbourg/elite-val-d-oise",
@@ -2107,7 +2107,7 @@
    "journee": "J11",
    "match": "VALENCE – PONTAULT",
    "horaire": "ven. 20 nov. 20h00",
-   "diffuseur": "Handball TV"
+   "diffuseur": "Handball TV + beIN SPORTS"
   },
   "pl/j11/cherbourg/massy": {
    "id": "pl/j11/cherbourg/massy",
@@ -2212,7 +2212,7 @@
    "journee": "J13",
    "match": "VALENCE – SAINTES",
    "horaire": "ven. 4 déc. 20h00",
-   "diffuseur": "Handball TV"
+   "diffuseur": "Handball TV + beIN SPORTS"
   },
   "pl/j13/cherbourg/besancon": {
    "id": "pl/j13/cherbourg/besancon",
@@ -2261,7 +2261,7 @@
    "journee": "J14",
    "match": "VALENCE – FRONTIGNAN",
    "horaire": "ven. 11 déc. 20h00",
-   "diffuseur": "Handball TV"
+   "diffuseur": "Handball TV + beIN SPORTS"
   },
   "pl/j14/besancon/cournon": {
    "id": "pl/j14/besancon/cournon",
@@ -2422,7 +2422,7 @@
    "journee": "J16",
    "match": "VALENCE – ELITE VAL D'OISE",
    "horaire": "mar. 22 déc. 20h30",
-   "diffuseur": "Handball TV"
+   "diffuseur": "Handball TV + beIN SPORTS"
   },
   "pl/j17/creteil/draguignan": {
    "id": "pl/j17/creteil/draguignan",
