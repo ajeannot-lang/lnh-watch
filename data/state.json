@@ -15,13 +15,6 @@
    "diffuseur": "Handball TV"
   },
   {
-   "id": "dsl/j04/chambery/tremblay",
-   "journee": "J04",
-   "match": "CHAMBÉRY – TREMBLAY",
-   "horaire": "ven. 25 sept. 20h00",
-   "diffuseur": "Handball TV"
-  },
-  {
    "id": "dsl/j04/chartres/cesson-rennes",
    "journee": "J04",
    "match": "CHARTRES – CESSON-RENNES",
@@ -40,27 +33,6 @@
    "journee": "J04",
    "match": "SÉLESTAT – MONTPELLIER",
    "horaire": "ven. 25 sept. 20h30",
-   "diffuseur": "Handball TV"
-  },
-  {
-   "id": "dsl/j04/limoges/paris",
-   "journee": "J04",
-   "match": "LIMOGES – PARIS",
-   "horaire": "sam. 26 sept. 19h00",
-   "diffuseur": "Handball TV"
-  },
-  {
-   "id": "dsl/j04/nantes/toulouse",
-   "journee": "J04",
-   "match": "NANTES – TOULOUSE",
-   "horaire": "dim. 27 sept. 17h00",
-   "diffuseur": "Handball TV"
-  },
-  {
-   "id": "dsl/j01/chambery/paris",
-   "journee": "J01",
-   "match": "Chambery – Paris",
-   "horaire": "ven. 4 sept. 20h00",
    "diffuseur": "Handball TV"
   },
   {
@@ -92,24 +64,10 @@
    "diffuseur": "Handball TV"
   },
   {
-   "id": "dsl/j01/tremblay/nantes",
-   "journee": "J01",
-   "match": "Tremblay – Nantes",
-   "horaire": "sam. 5 sept. 19h00",
-   "diffuseur": "Handball TV"
-  },
-  {
    "id": "dsl/j01/saran/toulouse",
    "journee": "J01",
    "match": "Saran – Toulouse",
    "horaire": "sam. 5 sept. 20h00",
-   "diffuseur": "Handball TV"
-  },
-  {
-   "id": "dsl/j01/caen/dunkerque",
-   "journee": "J01",
-   "match": "Caen – Dunkerque",
-   "horaire": "dim. 6 sept. 17h00",
    "diffuseur": "Handball TV"
   },
   {
@@ -127,13 +85,6 @@
    "diffuseur": "Handball TV"
   },
   {
-   "id": "dsl/j02/chartres/tremblay",
-   "journee": "J02",
-   "match": "Chartres – Tremblay",
-   "horaire": "ven. 11 sept. 20h00",
-   "diffuseur": "Handball TV"
-  },
-  {
    "id": "dsl/j02/selestat/chambery",
    "journee": "J02",
    "match": "Selestat – Chambery",
@@ -148,24 +99,10 @@
    "diffuseur": "Handball TV"
   },
   {
-   "id": "dsl/j02/nantes/aix",
-   "journee": "J02",
-   "match": "Nantes – Aix",
-   "horaire": "sam. 12 sept. 19h00",
-   "diffuseur": "Handball TV"
-  },
-  {
    "id": "dsl/j02/paris/cesson-rennes",
    "journee": "J02",
    "match": "Paris – Cesson Rennes",
    "horaire": "sam. 12 sept. 20h00",
-   "diffuseur": "Handball TV"
-  },
-  {
-   "id": "dsl/j02/nimes/montpellier",
-   "journee": "J02",
-   "match": "Nimes – Montpellier",
-   "horaire": "dim. 13 sept. 17h00",
    "diffuseur": "Handball TV"
   },
   {
@@ -190,13 +127,6 @@
    "diffuseur": "Handball TV"
   },
   {
-   "id": "dsl/j03/tremblay/saint-raphael",
-   "journee": "J03",
-   "match": "Tremblay – Saint Raphael",
-   "horaire": "ven. 18 sept. 20h00",
-   "diffuseur": "Handball TV"
-  },
-  {
    "id": "dsl/j03/caen/limoges",
    "journee": "J03",
    "match": "Caen – Limoges",
@@ -204,31 +134,10 @@
    "diffuseur": "Handball TV"
   },
   {
-   "id": "dsl/j03/cesson-rennes/aix",
-   "journee": "J03",
-   "match": "Cesson Rennes – Aix",
-   "horaire": "sam. 19 sept. 19h00",
-   "diffuseur": "Handball TV"
-  },
-  {
-   "id": "dsl/j03/montpellier/nantes",
-   "journee": "J03",
-   "match": "Montpellier – Nantes",
-   "horaire": "dim. 20 sept. 17h00",
-   "diffuseur": "Handball TV"
-  },
-  {
    "id": "dsl/j03/paris/chartres",
    "journee": "J03",
    "match": "Paris – Chartres",
    "horaire": "dim. 20 sept. 17h00",
-   "diffuseur": "Handball TV"
-  },
-  {
-   "id": "dsl/j05/saran/paris",
-   "journee": "J05",
-   "match": "SARAN – PARIS",
-   "horaire": "jeu. 1 oct. 20h00",
    "diffuseur": "Handball TV"
   },
   {
@@ -253,24 +162,10 @@
    "diffuseur": "Handball TV"
   },
   {
-   "id": "dsl/j05/montpellier/chambery",
-   "journee": "J05",
-   "match": "MONTPELLIER – CHAMBÉRY",
-   "horaire": "sam. 3 oct. 19h00",
-   "diffuseur": "Handball TV"
-  },
-  {
    "id": "dsl/j05/cesson-rennes/limoges",
    "journee": "J05",
    "match": "CESSON-RENNES – LIMOGES",
    "horaire": "sam. 3 oct. 20h30",
-   "diffuseur": "Handball TV"
-  },
-  {
-   "id": "dsl/j05/nimes/aix",
-   "journee": "J05",
-   "match": "NÎMES – AIX",
-   "horaire": "dim. 4 oct. 17h00",
    "diffuseur": "Handball TV"
   },
   {
@@ -295,23 +190,9 @@
    "diffuseur": "Handball TV"
   },
   {
-   "id": "dsl/j06/chartres/chambery",
-   "journee": "J06",
-   "match": "CHARTRES – CHAMBÉRY",
-   "horaire": "ven. 9 oct. 20h00",
-   "diffuseur": "Handball TV"
-  },
-  {
    "id": "dsl/j06/limoges/nimes",
    "journee": "J06",
    "match": "LIMOGES – NÎMES",
-   "horaire": "sam. 10 oct. 19h00",
-   "diffuseur": "Handball TV"
-  },
-  {
-   "id": "dsl/j06/paris/toulouse",
-   "journee": "J06",
-   "match": "PARIS – TOULOUSE",
    "horaire": "sam. 10 oct. 19h00",
    "diffuseur": "Handball TV"
   },
@@ -326,13 +207,6 @@
    "id": "dsl/j06/nantes/caen",
    "journee": "J06",
    "match": "NANTES – CAEN",
-   "horaire": "dim. 11 oct. 17h00",
-   "diffuseur": "Handball TV"
-  },
-  {
-   "id": "dsl/j06/selestat/dunkerque",
-   "journee": "J06",
-   "match": "SÉLESTAT – DUNKERQUE",
    "horaire": "dim. 11 oct. 17h00",
    "diffuseur": "Handball TV"
   },
@@ -1622,28 +1496,28 @@
    "journee": "1 2 aller",
    "match": "QUATRIÈME SAISONS RÉGULIÈRE – PREMIER SAISON RÉGULIÈRE",
    "horaire": "mer. 26 mai. 20h00",
-   "diffuseur": "Handball TV"
+   "diffuseur": ""
   },
   {
    "id": "dsl/1-2-aller/troisieme-saison-reguliere/deuxieme-saison-reguliere",
    "journee": "1 2 aller",
    "match": "TROISIÈME SAISON RÉGULIÈRE – DEUXIÈME SAISON RÉGULIÈRE",
    "horaire": "mer. 26 mai. 20h00",
-   "diffuseur": "Handball TV"
+   "diffuseur": ""
   },
   {
    "id": "dsl/1-2-retour/deuxieme-saison-reguliere/troisieme-saison-reguliere",
    "journee": "1 2 retour",
    "match": "DEUXIÈME SAISON RÉGULIÈRE – TROISIÈME SAISON RÉGULIÈRE",
    "horaire": "sam. 29 mai. 20h00",
-   "diffuseur": "Handball TV"
+   "diffuseur": ""
   },
   {
    "id": "dsl/1-2-retour/premier-saison-reguliere/quatrieme-saisons-reguliere",
    "journee": "1 2 retour",
    "match": "PREMIER SAISON RÉGULIÈRE – QUATRIÈME SAISONS RÉGULIÈRE",
    "horaire": "sam. 29 mai. 20h00",
-   "diffuseur": "Handball TV"
+   "diffuseur": ""
   },
   {
    "id": "dsl/finale/vainqueur-demi-finale-mieux-classe/vainqueur-demi-finale-moins-bien-classe",
@@ -3339,84 +3213,91 @@
    "journee": "1 4 aller",
    "match": "6ÈME PROLIGUE – 5ÈME PROLIGUE",
    "horaire": "jeu. 20 mai. 20h30",
-   "diffuseur": "Handball TV"
+   "diffuseur": ""
   },
   {
    "id": "pl/1-4-aller/7eme-proligue/4eme-proligue",
    "journee": "1 4 aller",
    "match": "7ÈME PROLIGUE – 4ÈME PROLIGUE",
    "horaire": "jeu. 20 mai. 20h30",
-   "diffuseur": "Handball TV"
+   "diffuseur": ""
   },
   {
    "id": "pl/1-4-aller/8eme-proligue/3eme-proligue",
    "journee": "1 4 aller",
    "match": "8ÈME PROLIGUE – 3ÈME PROLIGUE",
    "horaire": "jeu. 20 mai. 20h30",
-   "diffuseur": "Handball TV"
+   "diffuseur": ""
   },
   {
    "id": "pl/1-4-aller/9eme-proligue/2eme-proligue",
    "journee": "1 4 aller",
    "match": "9ÈME PROLIGUE – 2ÈME PROLIGUE",
    "horaire": "jeu. 20 mai. 20h30",
-   "diffuseur": "Handball TV"
+   "diffuseur": ""
   },
   {
    "id": "pl/1-4-retour/2eme-proligue/9eme-proligue",
    "journee": "1 4 retour",
    "match": "2ÈME PROLIGUE – 9ÈME PROLIGUE",
    "horaire": "dim. 23 mai. 17h00",
-   "diffuseur": "Handball TV"
+   "diffuseur": ""
   },
   {
    "id": "pl/1-4-retour/3eme-proligue/8eme-proligue",
    "journee": "1 4 retour",
    "match": "3ÈME PROLIGUE – 8ÈME PROLIGUE",
    "horaire": "dim. 23 mai. 17h00",
-   "diffuseur": "Handball TV"
+   "diffuseur": ""
   },
   {
    "id": "pl/1-4-retour/4eme-proligue/7eme-proligue",
    "journee": "1 4 retour",
    "match": "4ÈME PROLIGUE – 7ÈME PROLIGUE",
    "horaire": "dim. 23 mai. 17h00",
-   "diffuseur": "Handball TV"
+   "diffuseur": ""
   },
   {
    "id": "pl/1-4-retour/5eme-proligue/6eme-proligue",
    "journee": "1 4 retour",
    "match": "5ÈME PROLIGUE – 6ÈME PROLIGUE",
    "horaire": "dim. 23 mai. 17h00",
-   "diffuseur": "Handball TV"
+   "diffuseur": ""
   },
   {
    "id": "pl/1-2-aller/vainqueur-quart-de-finale-3/vainqueur-quart-de-finale-2",
    "journee": "1 2 aller",
    "match": "VAINQUEUR QUART DE FINALE 3 – VAINQUEUR QUART DE FINALE 2",
    "horaire": "jeu. 27 mai. 20h30",
-   "diffuseur": "Handball TV"
+   "diffuseur": ""
   },
   {
    "id": "pl/1-2-aller/vainqueur-quart-de-finale-4/vainqueur-quart-de-finale-1",
    "journee": "1 2 aller",
    "match": "VAINQUEUR QUART DE FINALE 4 – VAINQUEUR QUART DE FINALE 1",
    "horaire": "jeu. 27 mai. 20h30",
-   "diffuseur": "Handball TV"
+   "diffuseur": ""
   },
   {
    "id": "pl/1-2-retour/vainqueur-quart-de-finale-1/vainqueur-quart-de-finale-4",
    "journee": "1 2 retour",
    "match": "VAINQUEUR QUART DE FINALE 1 – VAINQUEUR QUART DE FINALE 4",
    "horaire": "dim. 30 mai. 17h00",
-   "diffuseur": "Handball TV"
+   "diffuseur": ""
   },
   {
    "id": "pl/1-2-retour/vainqueur-quart-de-finale-2/vainqueur-quart-de-finale-3",
    "journee": "1 2 retour",
    "match": "VAINQUEUR QUART DE FINALE 2 – VAINQUEUR QUART DE FINALE 3",
    "horaire": "dim. 30 mai. 17h00",
-   "diffuseur": "Handball TV"
+   "diffuseur": ""
+  },
+  {
+   "id": "pl/finale-r/vainqueur-demi-finale-mieux-classe/vainqueur-demi-finale-moins-bien-classe",
+   "journee": "Finale r",
+   "match": "Vainqueur Demi Finale Mieux Classe – Vainqueur Demi Finale Moins Bien Classe",
+   "horaire": "dim. 6 juin. 17h00",
+   "diffuseur": ""
   }
  ],
  "Coupe de France": [
@@ -3474,7 +3355,7 @@
    "journee": "1er tour",
    "match": "Pau Billere – Aix",
    "horaire": "mer. 26 août. 20h00",
-   "diffuseur": "Handball TV"
+   "diffuseur": ""
   },
   {
    "id": "cdf/1er-tour/besancon/selestat",
@@ -3530,7 +3411,7 @@
    "journee": "1er tour",
    "match": "Draguignan – Valence",
    "horaire": "dim. 30 août. 17h00",
-   "diffuseur": "Handball TV"
+   "diffuseur": ""
   },
   {
    "id": "cdf/1er-tour/dunkerque/ivry",
@@ -3551,17 +3432,10 @@
    "journee": "1er tour",
    "match": "Dijon – Istres",
    "horaire": "dim. 30 août. 19h00",
-   "diffuseur": "Handball TV"
+   "diffuseur": ""
   }
  ],
  "Ligue des Champions": [
-  {
-   "id": "ehfcl/j01/aalborg/paris",
-   "journee": "J01",
-   "match": "Aalborg – Paris",
-   "horaire": "mer. 9 sept. 18h45",
-   "diffuseur": "Handball TV"
-  },
   {
    "id": "ehfcl/j01/veszprem/porto",
    "journee": "J01",
@@ -3574,7 +3448,7 @@
    "journee": "J01",
    "match": "Nantes – Plock",
    "horaire": "mer. 9 sept. 20h45",
-   "diffuseur": "Handball TV"
+   "diffuseur": "Handball TV + beIN SPORTS"
   },
   {
    "id": "ehfcl/j01/bucarest/montpellier",
@@ -3605,13 +3479,6 @@
    "diffuseur": "Handball TV"
   },
   {
-   "id": "ehfcl/j02/paris/zagreb",
-   "journee": "J02",
-   "match": "Paris – Zagreb",
-   "horaire": "mer. 16 sept. 20h45",
-   "diffuseur": "Handball TV"
-  },
-  {
    "id": "ehfcl/j02/plock/melsungen",
    "journee": "J02",
    "match": "PLOCK – MELSUNGEN",
@@ -3623,7 +3490,7 @@
    "journee": "J02",
    "match": "Montpellier – Barcelone",
    "horaire": "jeu. 17 sept. 20h45",
-   "diffuseur": "Handball TV"
+   "diffuseur": "Handball TV + beIN SPORTS"
   },
   {
    "id": "ehfcl/j03/rk-partizan/veszprem",
@@ -3640,13 +3507,6 @@
    "diffuseur": "Handball TV"
   },
   {
-   "id": "ehfcl/j03/paris/celje",
-   "journee": "J03",
-   "match": "PARIS – CELJE",
-   "horaire": "mer. 7 oct. 20h45",
-   "diffuseur": "Handball TV + beIN SPORTS"
-  },
-  {
    "id": "ehfcl/j03/berlin/porto",
    "journee": "J03",
    "match": "BERLIN – PORTO",
@@ -3658,7 +3518,7 @@
    "journee": "J03",
    "match": "MELSUNGEN – NANTES",
    "horaire": "jeu. 8 oct. 20h45",
-   "diffuseur": "Handball TV"
+   "diffuseur": "Handball TV + beIN SPORTS"
   },
   {
    "id": "ehfcl/j03/sah-aarhus/montpellier",
@@ -3728,21 +3588,21 @@
    "journee": "J06",
    "match": "PLOCK – NANTES",
    "horaire": "mer. 28 oct. 18h45",
-   "diffuseur": "Handball TV + beIN SPORTS"
+   "diffuseur": ""
   },
   {
    "id": "ehfcl/j06/paris/aalborg",
    "journee": "J06",
    "match": "PARIS – AALBORG",
    "horaire": "mer. 28 oct. 20h45",
-   "diffuseur": "Handball TV + beIN SPORTS"
+   "diffuseur": ""
   },
   {
    "id": "ehfcl/j06/montpellier/bucarest",
    "journee": "J06",
    "match": "MONTPELLIER – BUCAREST",
    "horaire": "jeu. 29 oct. 20h45",
-   "diffuseur": "Handball TV + beIN SPORTS"
+   "diffuseur": ""
   }
  ],
  "Ligue Européenne EHF": [
@@ -3807,48 +3667,6 @@
    "journee": "01",
    "match": "LIMOGES – IRUN",
    "horaire": "mar. 13 oct. 20h45",
-   "diffuseur": "Handball TV"
-  },
-  {
-   "id": "eurehf/01/saint-raphael/hammarby-handboll",
-   "journee": "01",
-   "match": "SAINT-RAPHAËL – STOCKHOLM",
-   "horaire": "mar. 17 nov. 18h45",
-   "diffuseur": "Handball TV"
-  },
-  {
-   "id": "eurehf/01/chambery/csm-bucarest",
-   "journee": "01",
-   "match": "CHAMBÉRY – CSM BUCAREST",
-   "horaire": "mar. 17 nov. 20h45",
-   "diffuseur": "Handball TV"
-  },
-  {
-   "id": "eurehf/01/irun/limoges",
-   "journee": "01",
-   "match": "IRUN – LIMOGES",
-   "horaire": "mar. 17 nov. 20h45",
-   "diffuseur": "Handball TV"
-  },
-  {
-   "id": "eurehf/01/schaffhausen/chambery",
-   "journee": "01",
-   "match": "SCHAFFHAUSEN – CHAMBÉRY",
-   "horaire": "mar. 24 nov. 18h45",
-   "diffuseur": "Handball TV"
-  },
-  {
-   "id": "eurehf/01/maritimo-da-madeira-andebol-sad/limoges",
-   "journee": "01",
-   "match": "MADEIRA – LIMOGES",
-   "horaire": "mar. 24 nov. 20h45",
-   "diffuseur": "Handball TV"
-  },
-  {
-   "id": "eurehf/01/saint-raphael/nasice",
-   "journee": "01",
-   "match": "SAINT-RAPHAËL – NAŠICE",
-   "horaire": "mar. 24 nov. 20h45",
    "diffuseur": "Handball TV"
   },
   {

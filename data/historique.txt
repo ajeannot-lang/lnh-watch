@@ -33,3 +33,45 @@
 
 
 (Message automatique — surveillance des calendriers lnh.fr)
+
+===== 22/09/2026 à 07:59 — 28 changement(s) =====
+28 changement(s) détecté(s) sur les calendriers LNH :
+
+— Daikin StarLigue —
+  • RETIRÉ   J04  CHAMBÉRY – TREMBLAY  (ven. 25 sept. 20h00)
+  • RETIRÉ   J04  LIMOGES – PARIS  (sam. 26 sept. 19h00)
+  • RETIRÉ   J04  NANTES – TOULOUSE  (dim. 27 sept. 17h00)
+  • RETIRÉ   J01  Chambery – Paris  (ven. 4 sept. 20h00)
+  • RETIRÉ   J01  Tremblay – Nantes  (sam. 5 sept. 19h00)
+  • RETIRÉ   J01  Caen – Dunkerque  (dim. 6 sept. 17h00)
+  • RETIRÉ   J02  Chartres – Tremblay  (ven. 11 sept. 20h00)
+  • RETIRÉ   J02  Nantes – Aix  (sam. 12 sept. 19h00)
+  • RETIRÉ   J02  Nimes – Montpellier  (dim. 13 sept. 17h00)
+  • RETIRÉ   J03  Tremblay – Saint Raphael  (ven. 18 sept. 20h00)
+  • RETIRÉ   J03  Cesson Rennes – Aix  (sam. 19 sept. 19h00)
+  • RETIRÉ   J03  Montpellier – Nantes  (dim. 20 sept. 17h00)
+  • RETIRÉ   J05  SARAN – PARIS  (jeu. 1 oct. 20h00)
+  • RETIRÉ   J05  MONTPELLIER – CHAMBÉRY  (sam. 3 oct. 19h00)
+  • RETIRÉ   J05  NÎMES – AIX  (dim. 4 oct. 17h00)
+  • RETIRÉ   J06  CHARTRES – CHAMBÉRY  (ven. 9 oct. 20h00)
+  • RETIRÉ   J06  PARIS – TOULOUSE  (sam. 10 oct. 19h00)
+  • RETIRÉ   J06  SÉLESTAT – DUNKERQUE  (dim. 11 oct. 17h00)
+
+— ProLigue —
+  • NOUVEAU  Finale r  Vainqueur Demi Finale Mieux Classe – Vainqueur Demi Finale Moins Bien Classe  (dim. 6 juin. 17h00)
+
+— Ligue des Champions —
+  • RETIRÉ   J01  Aalborg – Paris  (mer. 9 sept. 18h45)
+  • RETIRÉ   J02  Paris – Zagreb  (mer. 16 sept. 20h45)
+  • RETIRÉ   J03  PARIS – CELJE  (mer. 7 oct. 20h45)
+
+— Ligue Européenne EHF —
+  • RETIRÉ   01  SAINT-RAPHAËL – STOCKHOLM  (mar. 17 nov. 18h45)
+  • RETIRÉ   01  CHAMBÉRY – CSM BUCAREST  (mar. 17 nov. 20h45)
+  • RETIRÉ   01  IRUN – LIMOGES  (mar. 17 nov. 20h45)
+  • RETIRÉ   01  SCHAFFHAUSEN – CHAMBÉRY  (mar. 24 nov. 18h45)
+  • RETIRÉ   01  MADEIRA – LIMOGES  (mar. 24 nov. 20h45)
+  • RETIRÉ   01  SAINT-RAPHAËL – NAŠICE  (mar. 24 nov. 20h45)
+
+
+(Message automatique — surveillance des calendriers lnh.fr)
