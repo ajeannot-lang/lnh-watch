@@ -136,6 +136,7 @@ td.diff{white-space:nowrap}
 .dfx-bein{background:#5b2a86;color:#fff}
 .dfx-x{background:transparent;color:var(--muted);font-weight:400}
 .ac{color:var(--muted);font-style:italic;font-size:12px}
+.alerte .qd{display:inline-block;min-width:118px;color:var(--muted);font-size:12px;font-variant-numeric:tabular-nums}
 footer{color:var(--muted);font-size:12px;text-align:center;margin-top:30px}
 """
 
@@ -168,35 +169,66 @@ def _diffuseur_html(d):
     return f'<span class="dfx dfx-x">{_esc(d)}</span>'
 
 
-def generer_html(competitions, maj_horodatage=None):
-    maj = maj_horodatage or datetime.now().strftime("%d/%m/%Y à %H:%M")
-    total = sum(nb_changements(c["diff"]) for c in competitions)
+def _fmt_dt(ts):
+    jours = ["lun.", "mar.", "mer.", "jeu.", "ven.", "sam.", "dim."]
+    mois = ["janv.", "févr.", "mars", "avr.", "mai", "juin", "juil.",
+            "août", "sept.", "oct.", "nov.", "déc."]
+    try:
+        dt = datetime.fromisoformat(ts)
+        return f"{jours[dt.weekday()]} {dt.day} {mois[dt.month-1]} {dt.hour}h{dt.minute:02d}"
+    except Exception:
+        return ts
 
-    if total == 0:
-        alerte = ('<div class="rien">✓ Aucun changement depuis la dernière '
-                  'vérification. Tous les horaires sont identiques.</div>')
+
+def generer_html(competitions, maj_horodatage=None, changements7=None):
+    """competitions : [{nom, url, matchs:[...]}]
+    changements7 : liste d'événements datés des 7 derniers jours, chacun :
+       {ts, comp, type: 'horaire'|'nouveau'|'retire', id, journee, match, avant, apres, diffuseur}
+    """
+    maj = maj_horodatage or datetime.now().strftime("%d/%m/%Y à %H:%M")
+    changements7 = changements7 or []
+
+    # --- Rubrique « Changements » (7 derniers jours, plus récent en haut) ---
+    if not changements7:
+        alerte = ('<div class="rien">✓ Aucun changement sur les 7 derniers jours. '
+                  'Tous les horaires sont stables.</div>')
     else:
         items = []
-        for c in competitions:
-            d = c["diff"]
-            for ch in d["changements"]:
-                items.append(f'<li><b>{_esc(c["nom"])}</b> — {_esc(ch["journee"])} — '
-                             f'{_esc(ch["match"])} : <span class="avant">{_esc(ch["avant"])}</span>'
-                             f'<span class="flch"> → </span><b>{_esc(ch["apres"])}</b></li>')
-            for m in d["nouveaux"]:
-                items.append(f'<li><b>{_esc(c["nom"])}</b> — nouveau match : '
-                             f'{_esc(m.get("match",""))} ({_esc(m.get("horaire",""))})</li>')
-            for m in d["supprimes"]:
-                items.append(f'<li><b>{_esc(c["nom"])}</b> — match retiré : '
-                             f'{_esc(m.get("match",""))} ({_esc(m.get("horaire",""))})</li>')
-        alerte = (f'<div class="alerte"><h2>⚠ {total} changement(s) détecté(s) '
-                  f'depuis la dernière vérification</h2><ul>{"".join(items)}</ul></div>')
+        for e in sorted(changements7, key=lambda x: x.get("ts", ""), reverse=True):
+            quand = _fmt_dt(e.get("ts", ""))
+            comp = _esc(e.get("comp", "")); jr = _esc(e.get("journee", ""))
+            match = _esc(e.get("match", ""))
+            if e.get("type") == "horaire":
+                items.append(f'<li><span class="qd">{quand}</span> <b>{comp}</b> — {jr} — '
+                             f'{match} : <span class="avant">{_esc(e.get("avant",""))}</span>'
+                             f'<span class="flch"> → </span><b>{_esc(e.get("apres",""))}</b></li>')
+            elif e.get("type") == "nouveau":
+                items.append(f'<li><span class="qd">{quand}</span> <b>{comp}</b> — nouveau match : '
+                             f'{match} ({_esc(e.get("apres",""))})</li>')
+            else:
+                items.append(f'<li><span class="qd">{quand}</span> <b>{comp}</b> — match retiré : '
+                             f'{match} ({_esc(e.get("apres",""))})</li>')
+        alerte = (f'<div class="alerte"><h2>⚠ {len(changements7)} changement(s) — '
+                  f'7 derniers jours</h2><ul>{"".join(items)}</ul></div>')
 
+    # --- Tableaux par compétition (rouge = changé dans les 7 derniers jours) ---
     sections = []
     for c in competitions:
-        d = c["diff"]
-        ids_chg = {x["id"]: x for x in d["changements"]}
-        ids_new = {m["id"] for m in d["nouveaux"]}
+        evs = [e for e in changements7 if e.get("comp") == c["nom"]]
+        ids_chg, ids_new, suppr = {}, set(), {}
+        for e in sorted(evs, key=lambda x: x.get("ts", "")):   # ancien→récent : le récent gagne
+            if e.get("type") == "horaire":
+                ids_chg[e["id"]] = {"avant": e.get("avant", ""), "apres": e.get("apres", "")}
+            elif e.get("type") == "nouveau":
+                ids_new.add(e["id"])
+            elif e.get("type") == "retire":
+                suppr[e["id"]] = e
+
+        cur_ids = {m["id"] for m in c["matchs"]}
+        ids_chg = {i: v for i, v in ids_chg.items() if i in cur_ids}
+        ids_new = {i for i in ids_new if i in cur_ids}
+        removed = [e for i, e in suppr.items() if i not in cur_ids]
+
         lignes = []
         matchs = sorted(c["matchs"], key=lambda m: (parse_horaire(m.get("horaire","")) or datetime.max))
         for m in matchs:
@@ -214,11 +246,11 @@ def generer_html(competitions, maj_horodatage=None):
                           f'<td>{_esc(m.get("match",""))}{tag}</td>'
                           f'<td class="horaire">{horaire_cell}</td>'
                           f'<td class="diff">{_diffuseur_html(m.get("diffuseur",""))}</td></tr>')
-        for m in d["supprimes"]:
-            lignes.append(f'<tr class="sup"><td class="jr">{_esc(m.get("journee",""))}</td>'
-                          f'<td>{_esc(m.get("match",""))}<span class="tag sup">RETIRÉ</span></td>'
-                          f'<td class="horaire">{_horaire_html(m.get("horaire",""))}</td>'
-                          f'<td class="diff">{_diffuseur_html(m.get("diffuseur",""))}</td></tr>')
+        for e in removed:
+            lignes.append(f'<tr class="sup"><td class="jr">{_esc(e.get("journee",""))}</td>'
+                          f'<td>{_esc(e.get("match",""))}<span class="tag sup">RETIRÉ</span></td>'
+                          f'<td class="horaire">{_horaire_html(e.get("apres",""))}</td>'
+                          f'<td class="diff">{_diffuseur_html(e.get("diffuseur",""))}</td></tr>')
         corps = "".join(lignes) if lignes else '<tr><td colspan="4" class="vide">Aucun match récupéré.</td></tr>'
         titre = _esc(c["nom"])
         if c.get("url"):
@@ -239,6 +271,6 @@ def generer_html(competitions, maj_horodatage=None):
 <div class="maj">Dernière vérification automatique : {_esc(maj)}</div>
 {alerte}
 {''.join(sections)}
-<footer>Mise à jour automatique toutes les heures — données © Ligue Nationale de Handball (lnh.fr).<br>
-Les changements sont calculés par rapport à la vérification précédente.</footer>
+<footer>Mise à jour automatique toutes les 30 min — données © Ligue Nationale de Handball (lnh.fr).<br>
+La rubrique « Changements » conserve les 7 derniers jours.</footer>
 </div></body></html>"""

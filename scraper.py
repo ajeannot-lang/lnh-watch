@@ -19,13 +19,15 @@ import json
 import os
 import re
 import sys
-from datetime import datetime
+from datetime import datetime, timedelta
 
 import lnh_core as core
 
 ICI = os.path.dirname(os.path.abspath(__file__))
 STATE = os.path.join(ICI, "data", "state.json")
 HISTO = os.path.join(ICI, "data", "historique.txt")
+CHANGES = os.path.join(ICI, "data", "changements.json")
+RETENTION_JOURS = 7
 SITE = os.path.join(ICI, "docs", "index.html")
 
 COMPETITIONS = [
@@ -330,6 +332,56 @@ def sauver_state(state):
         json.dump(state, f, ensure_ascii=False, indent=1)
 
 
+def charger_changements():
+    try:
+        with open(CHANGES, "r", encoding="utf-8") as f:
+            return json.load(f)
+    except (FileNotFoundError, json.JSONDecodeError):
+        return []
+
+
+def sauver_changements(lst):
+    os.makedirs(os.path.dirname(CHANGES), exist_ok=True)
+    with open(CHANGES, "w", encoding="utf-8") as f:
+        json.dump(lst, f, ensure_ascii=False, indent=1)
+
+
+def entrees_du_diff(nom, diff, matchs, ts):
+    """Transforme les changements détectés à ce passage en événements datés
+    (pour la rubrique « Changements » à 7 jours)."""
+    idx = {m["id"]: m for m in matchs}
+    es = []
+    for c in diff["changements"]:
+        es.append({"ts": ts, "comp": nom, "type": "horaire", "id": c["id"],
+                   "journee": c["journee"], "match": c["match"],
+                   "avant": c["avant"], "apres": c["apres"],
+                   "diffuseur": idx.get(c["id"], {}).get("diffuseur", "")})
+    for m in diff["nouveaux"]:
+        es.append({"ts": ts, "comp": nom, "type": "nouveau", "id": m["id"],
+                   "journee": m.get("journee", ""), "match": m.get("match", ""),
+                   "avant": "", "apres": m.get("horaire", ""),
+                   "diffuseur": m.get("diffuseur", "")})
+    for m in diff["supprimes"]:
+        es.append({"ts": ts, "comp": nom, "type": "retire", "id": m["id"],
+                   "journee": m.get("journee", ""), "match": m.get("match", ""),
+                   "avant": "", "apres": m.get("horaire", ""),
+                   "diffuseur": m.get("diffuseur", "")})
+    return es
+
+
+def purger_7j(changements, maintenant):
+    """Ne garde que les événements des RETENTION_JOURS derniers jours."""
+    limite = maintenant - timedelta(days=RETENTION_JOURS)
+    gardes = []
+    for e in changements:
+        try:
+            if datetime.fromisoformat(e.get("ts", "")) >= limite:
+                gardes.append(e)
+        except Exception:
+            gardes.append(e)   # ts illisible : on garde par prudence
+    return gardes
+
+
 def envoyer_email(sujet, corps):
     import smtplib
     from email.mime.text import MIMEText
@@ -358,7 +410,10 @@ def main():
 
     horod = datetime.now().strftime("%d/%m/%Y à %H:%M")
     print(f"=== Vérification {horod} ===")
+    maintenant = datetime.now().replace(microsecond=0)
+    ts = maintenant.isoformat(timespec="minutes")
     state = charger_state()
+    changements = charger_changements()
     resultats = []
     total = 0
 
@@ -398,13 +453,19 @@ def main():
             n = core.nb_changements(diff)
             total += n
             if n:
+                changements.extend(entrees_du_diff(nom, diff, affichage, ts))
                 print(f"     >>> {n} changement(s) !")
         nav.close()
 
-    # Page web
+    # Historique des changements : on ne garde que les 7 derniers jours
+    changements = purger_7j(changements, maintenant)
+    sauver_changements(changements)
+
+    # Page web (rubrique « Changements » = 7 derniers jours)
     os.makedirs(os.path.dirname(SITE), exist_ok=True)
     with open(SITE, "w", encoding="utf-8") as f:
-        f.write(core.generer_html(resultats, datetime.now().strftime("%d/%m/%Y à %H:%M")))
+        f.write(core.generer_html(resultats, datetime.now().strftime("%d/%m/%Y à %H:%M"),
+                                  changements7=changements))
     sauver_state(state)
 
     if total:
