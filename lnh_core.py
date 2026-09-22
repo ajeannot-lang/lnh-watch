@@ -130,6 +130,10 @@ header.top{display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin-bottom
 header.top h1{font-size:20px;margin:0;font-weight:800}
 .badge{background:var(--accent);color:#fff;border-radius:6px;padding:2px 8px;font-size:12px;font-weight:700}
 .maj{color:var(--muted);font-size:13px;margin:2px 0 18px}
+.catnav{position:sticky;top:0;z-index:5;display:flex;flex-wrap:wrap;gap:8px;padding:10px 0;margin:0 0 16px;background:var(--bg)}
+.catbtn{border:1px solid var(--line);background:var(--card);color:var(--txt);border-radius:999px;padding:6px 14px;font-size:13px;font-weight:600;cursor:pointer}
+.catbtn:hover{border-color:var(--accent)}
+.catbtn.active{background:var(--accent);color:#fff;border-color:var(--accent)}
 .alerte{border:1px solid var(--rouge);background:var(--rouge-bg);border-radius:12px;padding:14px 16px;margin:0 0 22px}
 .alerte h2{margin:0 0 8px;font-size:15px;color:var(--rouge)}
 .alerte ul{margin:0;padding-left:18px}.alerte li{margin:4px 0;font-size:14px}
@@ -168,6 +172,10 @@ footer{color:var(--muted);font-size:12px;text-align:center;margin-top:30px}
 
 def _esc(s):
     return html.escape(s or "")
+
+
+def _slug(s):
+    return re.sub(r"[^a-z0-9]+", "-", (s or "").lower()).strip("-") or "x"
 
 
 def _horaire_html(s):
@@ -286,10 +294,18 @@ def generer_html(competitions, maj_horodatage=None, changements7=None):
             titre = f'<a href="{_esc(c["url"])}" target="_blank" rel="noopener">{titre}</a>'
         src = (f' <span class="src">({len(c["matchs"])} matchs · voir sur lnh.fr ↗)</span>'
                if c.get("url") else f' <span class="src">({len(c["matchs"])} matchs)</span>')
-        sections.append(f'<section class="comp"><h2>{titre}{src}</h2>'
+        slug = _slug(c["nom"])
+        sections.append(f'<section class="comp" id="cat-{slug}" data-cat="{slug}"><h2>{titre}{src}</h2>'
                         f'<table><thead><tr><th>J.</th><th>Match</th><th>Date &amp; horaire</th>'
                         f'<th>Diffuseur</th></tr></thead>'
                         f'<tbody>{corps}</tbody></table></section>')
+
+    # Menu de catégories (onglets) pour filtrer par compétition
+    boutons = ['<button class="catbtn active" onclick="filtreCat(\'all\',this)">Toutes</button>']
+    for c in competitions:
+        boutons.append(f'<button class="catbtn" onclick="filtreCat(\'{_slug(c["nom"])}\',this)">'
+                       f'{_esc(c["nom"])}</button>')
+    catnav = f'<nav class="catnav">{"".join(boutons)}</nav>'
 
     return f"""<!DOCTYPE html>
 <html lang="fr"><head><meta charset="utf-8">
@@ -298,8 +314,20 @@ def generer_html(competitions, maj_horodatage=None, changements7=None):
 <body><div class="wrap">
 <header class="top"><span class="badge">LNH</span><h1>Calendriers — suivi des changements</h1></header>
 <div class="maj">Dernière vérification automatique : {_esc(maj)}</div>
+{catnav}
 {alerte}
 {''.join(sections)}
 <footer>Mise à jour automatique toutes les 30 min — données © Ligue Nationale de Handball (lnh.fr).<br>
 La rubrique « Changements » conserve les 7 derniers jours.</footer>
-</div></body></html>"""
+</div>
+<script>
+function filtreCat(cat, btn){{
+  document.querySelectorAll('.catbtn').forEach(function(b){{b.classList.remove('active');}});
+  if(btn) btn.classList.add('active');
+  document.querySelectorAll('section.comp').forEach(function(s){{
+    s.style.display = (cat==='all' || s.getAttribute('data-cat')===cat) ? '' : 'none';
+  }});
+  window.scrollTo({{top:0,behavior:'smooth'}});
+}}
+</script>
+</body></html>"""
