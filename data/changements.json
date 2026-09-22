@@ -1,1 +1,13 @@
-[]
+[
+ {
+  "ts": "2026-09-22T13:26",
+  "comp": "Daikin StarLigue",
+  "type": "horaire",
+  "id": "dsl/j09/caen/chartres",
+  "journee": "J09",
+  "match": "CAEN – CHARTRES",
+  "avant": "ven. 30 oct. 20h00",
+  "apres": "ven. 30 oct. 20h30",
+  "diffuseur": "Handball TV"
+ }
+]
