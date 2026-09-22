@@ -1,0 +1,24 @@
+[
+ {
+  "ts": "2026-09-22T07:42",
+  "comp": "Coupe de France",
+  "type": "nouveau",
+  "id": "cdf/2eme-tour/pontault/cesson-rennes",
+  "journee": "2e tour",
+  "match": "PONTAULT – CESSON-RENNES",
+  "avant": "",
+  "apres": "mar. 29 sept. 20h00",
+  "diffuseur": "Handball TV"
+ },
+ {
+  "ts": "2026-09-22T07:42",
+  "comp": "Coupe de France",
+  "type": "retire",
+  "id": "cdf/1er-tour/pontault/cesson-rennes",
+  "journee": "1er tour",
+  "match": "PONTAULT – CESSON-RENNES",
+  "avant": "",
+  "apres": "mar. 29 sept. 20h00",
+  "diffuseur": "Handball TV"
+ }
+]
