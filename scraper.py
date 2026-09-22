@@ -46,21 +46,17 @@ JS_EXTRACTION = r"""
 () => {
   const out = []; const vus = new Set();
   const diffDe = (card) => {
-    // Lit le diffuseur UNIQUEMENT dans la carte du match (pas les voisins).
+    // Lit le diffuseur via les logos de la rubrique /medias/televisions/ :
+    //   nom contenant "htv" -> Handball TV ; tout autre logo télé -> beIN.
     if (!card) return '';
     let htv = false, bein = false;
-    const scan = (s) => {
-      s = (s || '').toLowerCase();
-      if (/bein/.test(s)) bein = true;
-      if (/handball[ \-_]?tv|hbtv|htv/.test(s)) htv = true;
-    };
     const imgs = card.querySelectorAll ? card.querySelectorAll('img') : [];
     for (const im of imgs) {
-      scan((im.getAttribute('src')||'')+' '+(im.getAttribute('alt')||'')+' '
-          +(im.getAttribute('title')||'')+' '+(im.getAttribute('class')||''));
+      const src = (im.getAttribute('src') || '').toLowerCase();
+      if (src.indexOf('/televisions/') < 0 && src.indexOf('television') < 0) continue;
+      if (src.indexOf('htv') >= 0 || /handball[ \-_]?tv/.test(src)) htv = true;
+      else bein = true;
     }
-    // couvre aussi les logos en background-image, <svg>, classes, alt…
-    scan(card.innerHTML || '');
     if (htv && bein) return 'Handball TV + beIN SPORTS';
     if (htv) return 'Handball TV';
     if (bein) return 'beIN SPORTS';
@@ -241,9 +237,9 @@ def recuperer(page, comp):
     _fermer_cookies(page)
     _attendre_matchs(page, 30)
 
-    # Diagnostic : on enregistre la page rendue (permet de fiabiliser la lecture
-    # des logos diffuseur). Sans effet visible pour l'utilisateur.
-    if True:
+    # Diagnostic (optionnel) : mettre le secret LNH_DEBUG=1 pour enregistrer la
+    # page rendue et vérifier la lecture des logos.
+    if os.environ.get("LNH_DEBUG"):
         try:
             slug = re.sub(r"[^a-z0-9]+", "_", comp["nom"].lower())
             with open(os.path.join(ICI, "docs", f"_debug_{slug}.html"), "w", encoding="utf-8") as f:
