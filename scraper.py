@@ -415,10 +415,18 @@ def main():
     print(f"=== Vérification {horod} ===")
     maintenant = datetime.now().replace(microsecond=0)
     ts = maintenant.isoformat(timespec="minutes")
+
     state = charger_state()
-    changements = charger_changements()
+    # Migration : l'ancien format stockait une LISTE par compétition ; le
+    # nouveau stocke un dictionnaire {id: match} « collant » (mémoire qui
+    # n'oublie jamais un match, pour ne plus signaler de faux retraits/ajouts).
+    migration = (not state) or any(not isinstance(v, dict) for v in state.values())
+    changements = [] if migration else charger_changements()
+    if migration:
+        print("  (migration du format — base de référence réinitialisée, sans alerte)")
+
     resultats = []
-    total = 0
+    nouveaux_evenements = []   # changements de CE passage (pour l'e-mail)
 
     with sync_playwright() as p:
         nav = p.chromium.launch(headless=True)
@@ -428,63 +436,83 @@ def main():
         page = ctx.new_page()
         for comp in COMPETITIONS:
             nom = comp["nom"]
-            anciens = state.get(nom, None)
-            nouveaux = recuperer(page, comp)
+            connus = state.get(nom)
+            if not isinstance(connus, dict):
+                connus = {}
+            premiere = (len(connus) == 0)
+            captures = recuperer(page, comp)
 
-            # --- Garde-fous anti fausse alerte ---
-            if nouveaux is None:
-                # échec réseau/lecture : on garde l'affichage précédent, aucune alerte
-                affichage = anciens or []
-                diff = core.diff_matchs(affichage, affichage)
-            elif anciens is None:
-                # première fois : on enregistre la référence, sans alerter
-                state[nom] = nouveaux
-                affichage = nouveaux
-                diff = {"changements": [], "nouveaux": [], "supprimes": []}
-                print("     (référence initiale enregistrée)")
-            elif len(nouveaux) == 0 and len(anciens) > 0:
-                # 0 match alors qu'on en avait : anomalie probable → on ne touche à rien
-                affichage = anciens
-                diff = core.diff_matchs(affichage, affichage)
-                print("     (0 match reçu — ignoré pour éviter une fausse alerte)")
+            if captures is None:
+                print("     (échec — on garde la mémoire, aucune alerte)")
+            elif len(captures) == 0 and connus:
+                print("     (0 match capté — ignoré, aucune alerte)")
             else:
-                diff = core.diff_matchs(anciens, nouveaux)
-                state[nom] = nouveaux
-                affichage = nouveaux
+                for m in captures:
+                    mid = m["id"]
+                    if mid not in connus:
+                        # Nouveau match : signalé UNE seule fois (jamais au 1er peuplement)
+                        if not premiere:
+                            ev = {"ts": ts, "comp": nom, "type": "nouveau", "id": mid,
+                                  "journee": m.get("journee", ""), "match": m.get("match", ""),
+                                  "avant": "", "apres": m.get("horaire", ""),
+                                  "diffuseur": m.get("diffuseur", "")}
+                            changements.append(ev); nouveaux_evenements.append(ev)
+                    else:
+                        ancien = connus[mid]
+                        if core._norm(ancien.get("horaire", "")) != core._norm(m.get("horaire", "")):
+                            ev = {"ts": ts, "comp": nom, "type": "horaire", "id": mid,
+                                  "journee": m.get("journee", ""), "match": m.get("match", ""),
+                                  "avant": ancien.get("horaire", ""), "apres": m.get("horaire", ""),
+                                  "diffuseur": m.get("diffuseur", "")}
+                            changements.append(ev); nouveaux_evenements.append(ev)
+                    connus[mid] = m   # on met à jour / on n'oublie jamais → pas de flapping
 
-            resultats.append({"nom": nom, "url": comp["url"], "matchs": affichage, "diff": diff})
-            n = core.nb_changements(diff)
-            total += n
-            if n:
-                changements.extend(entrees_du_diff(nom, diff, affichage, ts))
-                print(f"     >>> {n} changement(s) !")
+            state[nom] = connus
+            # Affichage = toute la mémoire (stable même si un passage charge mal)
+            resultats.append({"nom": nom, "url": comp["url"], "matchs": list(connus.values())})
+            if captures is not None:
+                print(f"     {len(captures)} captés · {len(connus)} connus au total")
         nav.close()
 
-    # Historique des changements : on ne garde que les 7 derniers jours
+    # Historique : on ne garde que les 7 derniers jours
     changements = purger_7j(changements, maintenant)
     sauver_changements(changements)
 
-    # Page web (rubrique « Changements » = 7 derniers jours)
+    # Page web
     os.makedirs(os.path.dirname(SITE), exist_ok=True)
+    # .nojekyll : sans lui, GitHub Pages ignore les fichiers commençant par « _ »
+    try:
+        open(os.path.join(ICI, "docs", ".nojekyll"), "w").close()
+    except Exception:
+        pass
     with open(SITE, "w", encoding="utf-8") as f:
         f.write(core.generer_html(resultats, datetime.now().strftime("%d/%m/%Y à %H:%M"),
                                   changements7=changements))
     sauver_state(state)
 
-    if total:
-        mail = core.construire_email(resultats, os.environ.get("SITE_URL"))
-        if mail:
-            entete = f"\n===== {horod} — {total} changement(s) =====\n"
-            os.makedirs(os.path.dirname(HISTO), exist_ok=True)
-            with open(HISTO, "a", encoding="utf-8") as f:
-                f.write(entete + mail[1] + "\n")
-            try:
-                envoyer_email(*mail)
-            except Exception as e:
-                print(f"  (échec e-mail : {e})")
-        print(f"{total} changement(s) au total.")
+    if nouveaux_evenements:
+        lignes = [f"{len(nouveaux_evenements)} changement(s) sur les calendriers LNH :", ""]
+        for e in nouveaux_evenements:
+            if e["type"] == "horaire":
+                lignes.append(f"- {e['comp']} {e['journee']} — {e['match']} : "
+                              f"{e['avant']} -> {e['apres']}")
+            else:
+                lignes.append(f"- {e['comp']} {e['journee']} — nouveau : "
+                              f"{e['match']} ({e['apres']})")
+        url = os.environ.get("SITE_URL", "")
+        if url:
+            lignes += ["", f"Page à jour : {url}"]
+        corps = "\n".join(lignes)
+        os.makedirs(os.path.dirname(HISTO), exist_ok=True)
+        with open(HISTO, "a", encoding="utf-8") as f:
+            f.write(f"\n===== {horod} =====\n" + corps + "\n")
+        try:
+            envoyer_email(f"[LNH] {len(nouveaux_evenements)} changement(s) de calendrier", corps)
+        except Exception as e:
+            print(f"  (échec e-mail : {e})")
+        print(f"{len(nouveaux_evenements)} changement(s) ce passage.")
     else:
-        print("Aucun changement.")
+        print("Aucun nouveau changement ce passage.")
 
 
 if __name__ == "__main__":
