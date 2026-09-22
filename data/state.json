@@ -3670,6 +3670,48 @@
    "diffuseur": "Handball TV"
   },
   {
+   "id": "eurehf/01/saint-raphael/hammarby-handboll",
+   "journee": "01",
+   "match": "SAINT-RAPHAËL – STOCKHOLM",
+   "horaire": "mar. 17 nov. 18h45",
+   "diffuseur": "Handball TV"
+  },
+  {
+   "id": "eurehf/01/chambery/csm-bucarest",
+   "journee": "01",
+   "match": "CHAMBÉRY – CSM BUCAREST",
+   "horaire": "mar. 17 nov. 20h45",
+   "diffuseur": "Handball TV"
+  },
+  {
+   "id": "eurehf/01/irun/limoges",
+   "journee": "01",
+   "match": "IRUN – LIMOGES",
+   "horaire": "mar. 17 nov. 20h45",
+   "diffuseur": "Handball TV"
+  },
+  {
+   "id": "eurehf/01/schaffhausen/chambery",
+   "journee": "01",
+   "match": "SCHAFFHAUSEN – CHAMBÉRY",
+   "horaire": "mar. 24 nov. 18h45",
+   "diffuseur": "Handball TV"
+  },
+  {
+   "id": "eurehf/01/maritimo-da-madeira-andebol-sad/limoges",
+   "journee": "01",
+   "match": "MADEIRA – LIMOGES",
+   "horaire": "mar. 24 nov. 20h45",
+   "diffuseur": "Handball TV"
+  },
+  {
+   "id": "eurehf/01/saint-raphael/nasice",
+   "journee": "01",
+   "match": "SAINT-RAPHAËL – NAŠICE",
+   "horaire": "mar. 24 nov. 20h45",
+   "diffuseur": "Handball TV"
+  },
+  {
    "id": "eurehf/01/chambery/ljubuski",
    "journee": "01",
    "match": "CHAMBÉRY – LJUBUŠKI",

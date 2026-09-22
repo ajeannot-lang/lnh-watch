@@ -75,3 +75,17 @@
 
 
 (Message automatique — surveillance des calendriers lnh.fr)
+
+===== 22/09/2026 à 08:11 — 6 changement(s) =====
+6 changement(s) détecté(s) sur les calendriers LNH :
+
+— Ligue Européenne EHF —
+  • NOUVEAU  01  SAINT-RAPHAËL – STOCKHOLM  (mar. 17 nov. 18h45)
+  • NOUVEAU  01  CHAMBÉRY – CSM BUCAREST  (mar. 17 nov. 20h45)
+  • NOUVEAU  01  IRUN – LIMOGES  (mar. 17 nov. 20h45)
+  • NOUVEAU  01  SCHAFFHAUSEN – CHAMBÉRY  (mar. 24 nov. 18h45)
+  • NOUVEAU  01  MADEIRA – LIMOGES  (mar. 24 nov. 20h45)
+  • NOUVEAU  01  SAINT-RAPHAËL – NAŠICE  (mar. 24 nov. 20h45)
+
+
+(Message automatique — surveillance des calendriers lnh.fr)
