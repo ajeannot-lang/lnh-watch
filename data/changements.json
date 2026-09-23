@@ -31,5 +31,27 @@
   "avant": "mar. 29 sept. 20h00",
   "apres": "mar. 22 sept. 20h00",
   "diffuseur": "Handball TV"
+ },
+ {
+  "ts": "2026-09-23T15:50",
+  "comp": "ProLigue",
+  "type": "reporte",
+  "id": "pl/j04/istres/pontault",
+  "journee": "J04",
+  "match": "CHERBOURG – FRONTIGNAN",
+  "avant": "",
+  "apres": "ven. 25 sept. 20h30",
+  "diffuseur": "Handball TV"
+ },
+ {
+  "ts": "2026-09-23T15:50",
+  "comp": "Coupe de France",
+  "type": "reporte",
+  "id": "cdf/2eme-tour/pontault/cesson-rennes",
+  "journee": "2e tour",
+  "match": "PAU BILLÈRE – ISTRES",
+  "avant": "",
+  "apres": "mar. 22 sept. 20h00",
+  "diffuseur": "Handball TV"
  }
 ]
