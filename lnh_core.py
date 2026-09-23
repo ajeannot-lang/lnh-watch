@@ -157,6 +157,10 @@ tr.new{background:var(--vert-bg)}.tag.new{background:var(--vert);color:#04210f}
 tr.sup td{color:var(--gris);text-decoration:line-through}.tag.sup{background:var(--gris);color:#fff;text-decoration:none}
 tr.passe td{color:var(--muted);opacity:.65}tr.passe td.jr{opacity:.65}
 .tag.passe{background:var(--gris);color:#fff}
+tr.annule td{color:var(--muted);opacity:.7;text-decoration:line-through}
+tr.annule td.jr{text-decoration:none}
+.tag.annule{background:var(--rouge);color:#fff;text-decoration:none}
+.tag.reporte{background:#e08a00;color:#fff}
 tr.passe .dfx-htv,tr.passe .dfx-bein{opacity:.55}
 .vide{color:var(--muted);font-style:italic;padding:12px}
 td.diff{white-space:nowrap}
@@ -238,6 +242,14 @@ def generer_html(competitions, maj_horodatage=None, changements7=None):
             elif e.get("type") == "nouveau":
                 items.append(f'<li><span class="qd">{quand}</span> <b>{comp}</b> — nouveau match : '
                              f'{match} ({_esc(e.get("apres",""))})</li>')
+            elif e.get("type") == "annule":
+                items.append(f'<li><span class="qd">{quand}</span> <b>{comp}</b> — '
+                             f'<b style="color:var(--rouge)">match annulé</b> : '
+                             f'{match} ({_esc(e.get("apres",""))})</li>')
+            elif e.get("type") == "reporte":
+                items.append(f'<li><span class="qd">{quand}</span> <b>{comp}</b> — '
+                             f'<b style="color:#e08a00">match reporté</b> : '
+                             f'{match} ({_esc(e.get("apres",""))})</li>')
             else:
                 items.append(f'<li><span class="qd">{quand}</span> <b>{comp}</b> — match retiré : '
                              f'{match} ({_esc(e.get("apres",""))})</li>')
@@ -268,6 +280,7 @@ def generer_html(competitions, maj_horodatage=None, changements7=None):
         for m in matchs:
             classe, tag = "", ""
             passe = _est_passe(m.get("horaire", ""), maintenant)
+            statut = (m.get("statut", "") or "").lower()
             if m["id"] in ids_chg:
                 classe = "chg"; tag = '<span class="tag chg">HORAIRE MODIFIÉ</span>'
                 horaire_cell = (f'<span class="avant">{_horaire_html(ids_chg[m["id"]]["avant"])}</span>'
@@ -279,6 +292,11 @@ def generer_html(competitions, maj_horodatage=None, changements7=None):
                 horaire_cell = _horaire_html(m.get("horaire",""))
                 if passe:
                     classe = "passe"; tag = '<span class="tag passe">terminé</span>'
+            # Statut annulé/reporté : prioritaire sur l'affichage
+            if "annul" in statut:
+                classe = "annule"; tag = '<span class="tag annule">ANNULÉ</span>'
+            elif "report" in statut:
+                tag = '<span class="tag reporte">REPORTÉ</span>' + tag
             lignes.append(f'<tr class="{classe}"><td class="jr">{_esc(m.get("journee",""))}</td>'
                           f'<td>{_esc(m.get("match",""))}{tag}</td>'
                           f'<td class="horaire">{horaire_cell}</td>'

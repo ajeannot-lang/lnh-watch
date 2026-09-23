@@ -28,6 +28,7 @@ STATE = os.path.join(ICI, "data", "state.json")
 HISTO = os.path.join(ICI, "data", "historique.txt")
 CHANGES = os.path.join(ICI, "data", "changements.json")
 RETENTION_JOURS = 7
+SEUIL_ABSENCE = 2          # nb de passages consécutifs absent avant « annulé ? »
 SITE = os.path.join(ICI, "docs", "index.html")
 
 COMPETITIONS = [
@@ -143,11 +144,26 @@ def _journee(tour):
     return lib[:1].upper() + lib[1:]
 
 
+def _statut(texte):
+    t = (texte or "").lower()
+    if "annul" in t:
+        return "annulé"
+    if "report" in t:
+        return "reporté"
+    return ""
+
+
+def _est_futur(horaire):
+    dt = core.parse_horaire(horaire or "")
+    return bool(dt) and dt.date() >= datetime.now().date()
+
+
 def normaliser(bruts):
     return [{"id": b["id"], "journee": _journee(b.get("tour", "")),
              "match": _nom_match(b.get("texte", ""), b.get("dom", ""), b.get("ext", "")),
              "horaire": _horaire(b.get("texte", "")),
-             "diffuseur": b.get("diffuseur", "")} for b in bruts]
+             "diffuseur": b.get("diffuseur", ""),
+             "statut": _statut(b.get("texte", ""))} for b in bruts]
 
 
 def garder_handball_tv(matchs):
@@ -381,6 +397,75 @@ def purger_7j(changements, maintenant):
     return gardes
 
 
+def traiter_comp(nom, connus, captures, premiere, ts):
+    """Met à jour la mémoire « collante » d'une compétition et renvoie les
+    événements détectés. Règles :
+      - mémoire qui n'oublie jamais un match (pas de flapping) ;
+      - changement d'horaire signalé seulement après DOUBLE confirmation
+        (vu 2 passages de suite), lecture vide ignorée (anti-bug de lecture) ;
+      - annulé / reporté détectés via la mention du site, plus annulation
+        probable si un match futur disparaît SEUIL_ABSENCE passages de suite."""
+    evs = []
+
+    def _ev(typ, mid, m, avant="", apres=""):
+        evs.append({"ts": ts, "comp": nom, "type": typ, "id": mid,
+                    "journee": m.get("journee", ""), "match": m.get("match", ""),
+                    "avant": avant, "apres": apres, "diffuseur": m.get("diffuseur", "")})
+
+    if captures is None:
+        return evs                       # échec de lecture : on ne touche à rien
+    if len(captures) == 0 and connus:
+        return evs                       # 0 capté alors qu'on connaît des matchs : ignoré
+
+    caps = {m["id"]: m for m in captures}
+    # 1) Matchs vus à ce passage
+    for mid, m in caps.items():
+        if mid not in connus:
+            rec = dict(m); rec["_miss"] = 0; rec["_pend"] = None; rec["_annule"] = False
+            connus[mid] = rec
+            if not premiere:
+                _ev("nouveau", mid, m, apres=m.get("horaire", ""))
+            continue
+        rec = connus[mid]
+        rec["_miss"] = 0
+        for k in ("match", "journee", "diffuseur"):
+            if m.get(k):
+                rec[k] = m[k]
+        ancien_statut = rec.get("statut", "")
+        nouv_statut = m.get("statut", "")
+        rec["statut"] = nouv_statut
+        if "annul" in nouv_statut and "annul" not in ancien_statut:
+            rec["_annule"] = True
+            _ev("annule", mid, m, apres=rec.get("horaire", ""))
+        elif "report" in nouv_statut and "report" not in ancien_statut:
+            _ev("reporte", mid, m, apres=m.get("horaire", "") or rec.get("horaire", ""))
+        elif nouv_statut == "" and ancien_statut:
+            rec["_annule"] = False       # revenu à la normale, silencieux
+        # Horaire : double confirmation + lecture vide ignorée
+        h = m.get("horaire", "")
+        if core._norm(h) == core._norm(rec.get("horaire", "")):
+            rec["_pend"] = None
+        elif not h:
+            rec["_pend"] = None
+        elif rec.get("_pend") == h:
+            _ev("horaire", mid, m, avant=rec.get("horaire", ""), apres=h)
+            rec["horaire"] = h; rec["_pend"] = None
+        else:
+            rec["_pend"] = h
+    # 2) Matchs connus absents → annulation probable après SEUIL_ABSENCE passages
+    for mid, rec in connus.items():
+        if mid in caps:
+            continue
+        rec["_pend"] = None
+        rec["_miss"] = rec.get("_miss", 0) + 1
+        if (not rec.get("_annule")) and rec["_miss"] >= SEUIL_ABSENCE \
+                and _est_futur(rec.get("horaire", "")):
+            rec["_annule"] = True
+            rec["statut"] = "annulé ?"
+            _ev("annule", mid, rec, apres=rec.get("horaire", ""))
+    return evs
+
+
 def envoyer_email(sujet, corps):
     import smtplib
     from email.mime.text import MIMEText
@@ -438,30 +523,14 @@ def main():
             premiere = (len(connus) == 0)
             captures = recuperer(page, comp)
 
+            evs = traiter_comp(nom, connus, captures, premiere, ts)
+            for ev in evs:
+                changements.append(ev); nouveaux_evenements.append(ev)
+
             if captures is None:
                 print("     (échec — on garde la mémoire, aucune alerte)")
             elif len(captures) == 0 and connus:
                 print("     (0 match capté — ignoré, aucune alerte)")
-            else:
-                for m in captures:
-                    mid = m["id"]
-                    if mid not in connus:
-                        # Nouveau match : signalé UNE seule fois (jamais au 1er peuplement)
-                        if not premiere:
-                            ev = {"ts": ts, "comp": nom, "type": "nouveau", "id": mid,
-                                  "journee": m.get("journee", ""), "match": m.get("match", ""),
-                                  "avant": "", "apres": m.get("horaire", ""),
-                                  "diffuseur": m.get("diffuseur", "")}
-                            changements.append(ev); nouveaux_evenements.append(ev)
-                    else:
-                        ancien = connus[mid]
-                        if core._norm(ancien.get("horaire", "")) != core._norm(m.get("horaire", "")):
-                            ev = {"ts": ts, "comp": nom, "type": "horaire", "id": mid,
-                                  "journee": m.get("journee", ""), "match": m.get("match", ""),
-                                  "avant": ancien.get("horaire", ""), "apres": m.get("horaire", ""),
-                                  "diffuseur": m.get("diffuseur", "")}
-                            changements.append(ev); nouveaux_evenements.append(ev)
-                    connus[mid] = m   # on met à jour / on n'oublie jamais → pas de flapping
 
             state[nom] = connus
             # Affichage = toute la mémoire (stable même si un passage charge mal)
@@ -492,6 +561,12 @@ def main():
             if e["type"] == "horaire":
                 lignes.append(f"- {e['comp']} {e['journee']} — {e['match']} : "
                               f"{e['avant']} -> {e['apres']}")
+            elif e["type"] == "annule":
+                lignes.append(f"- {e['comp']} {e['journee']} — ANNULÉ : "
+                              f"{e['match']} ({e['apres']})")
+            elif e["type"] == "reporte":
+                lignes.append(f"- {e['comp']} {e['journee']} — REPORTÉ : "
+                              f"{e['match']} ({e['apres']})")
             else:
                 lignes.append(f"- {e['comp']} {e['journee']} — nouveau : "
                               f"{e['match']} ({e['apres']})")
