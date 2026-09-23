@@ -2189,8 +2189,9 @@
    "horaire": "ven. 25 sept. 20h30",
    "diffuseur": "Handball TV",
    "_miss": 0,
-   "statut": "reporté",
-   "_pend": null
+   "statut": "",
+   "_pend": null,
+   "_annule": false
   },
   "pl/j04/cherbourg/frontignan": {
    "id": "pl/j04/cherbourg/frontignan",
@@ -4741,8 +4742,9 @@
    "horaire": "mar. 22 sept. 20h00",
    "diffuseur": "Handball TV",
    "_miss": 0,
-   "statut": "reporté",
-   "_pend": null
+   "statut": "",
+   "_pend": null,
+   "_annule": false
   },
   "cdf/2eme-tour/valence/dunkerque": {
    "id": "cdf/2eme-tour/valence/dunkerque",
