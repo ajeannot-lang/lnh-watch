@@ -1531,8 +1531,8 @@
   "pl/j04/istres/pontault": {
    "id": "pl/j04/istres/pontault",
    "journee": "J04",
-   "match": "ISTRES – PONTAULT",
-   "horaire": "ven. 25 sept. 20h00",
+   "match": "CHERBOURG – FRONTIGNAN",
+   "horaire": "ven. 25 sept. 20h30",
    "diffuseur": "Handball TV"
   },
   "pl/j04/cherbourg/frontignan": {
@@ -3318,8 +3318,8 @@
   "cdf/2eme-tour/pontault/cesson-rennes": {
    "id": "cdf/2eme-tour/pontault/cesson-rennes",
    "journee": "2e tour",
-   "match": "PONTAULT – CESSON-RENNES",
-   "horaire": "mar. 29 sept. 20h00",
+   "match": "PAU BILLÈRE – ISTRES",
+   "horaire": "mar. 22 sept. 20h00",
    "diffuseur": "Handball TV"
   },
   "cdf/2eme-tour/valence/dunkerque": {
