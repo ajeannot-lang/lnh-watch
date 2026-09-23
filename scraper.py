@@ -145,11 +145,9 @@ def _journee(tour):
 
 
 def _statut(texte):
-    t = (texte or "").lower()
-    if "annul" in t:
-        return "annulé"
-    if "report" in t:
-        return "reporté"
+    # Détection « annulé / reporté » par le texte désactivée temporairement :
+    # elle produisait des faux positifs (mots « report… » sans rapport, ou
+    # dates parasites). Réactivée une fois la lecture fiabilisée via le diag.
     return ""
 
 
@@ -253,9 +251,9 @@ def recuperer(page, comp):
     _fermer_cookies(page)
     _attendre_matchs(page, 30)
 
-    # Diagnostic (optionnel) : mettre le secret LNH_DEBUG=1 pour enregistrer la
-    # page rendue et vérifier la lecture des logos.
-    if os.environ.get("LNH_DEBUG"):
+    # Diagnostic (temporairement activé) : enregistre la page rendue pour
+    # fiabiliser la lecture des dates ProLigue / Coupe de France.
+    if True:
         try:
             slug = re.sub(r"[^a-z0-9]+", "_", comp["nom"].lower())
             with open(os.path.join(ICI, "docs", f"_debug_{slug}.html"), "w", encoding="utf-8") as f:
