@@ -69,13 +69,16 @@ JS_EXTRACTION = r"""
     if (!m || href.includes('/equipes/')) continue;
     const id = (m[2]+'/'+m[3]+'/'+m[4]+'/'+m[5]).toLowerCase();
     if (vus.has(id)) continue; vus.add(id);
-    let el = a, texte = '';
-    for (let i=0;i<6 && el;i++){ el = el.parentElement; if(!el) break;
-      const t = el.innerText || '';
-      if (/\b\d{1,2}\s+(janv|févr|fevr|mars|avr|mai|juin|juil|août|aout|sept|oct|nov|déc|dec)/i.test(t)){texte=t;break;}
-      texte = t;
+    // Carte du match = plus grand ancêtre ne contenant qu'UN SEUL lien de match
+    // (évite d'attraper la date / le "reporté" d'un match voisin).
+    let card = a;
+    while (card.parentElement) {
+      const p = card.parentElement;
+      if (p.querySelectorAll('a[href*="/calendriers/"]').length > 1) break;
+      card = p;
     }
-    out.push({id, saison:m[1], tour:m[3], dom:m[4], ext:m[5], texte, diffuseur: diffDe(el)});
+    const texte = card.innerText || '';
+    out.push({id, saison:m[1], tour:m[3], dom:m[4], ext:m[5], texte, diffuseur: diffDe(card)});
   }
   return out;
 }
@@ -145,9 +148,13 @@ def _journee(tour):
 
 
 def _statut(texte):
-    # Détection « annulé / reporté » par le texte désactivée temporairement :
-    # elle produisait des faux positifs (mots « report… » sans rapport, ou
-    # dates parasites). Réactivée une fois la lecture fiabilisée via le diag.
+    # Le texte est désormais isolé à la carte du match (pas de contamination
+    # par un voisin), donc ces mots sont fiables.
+    t = (texte or "").lower()
+    if "annul" in t:
+        return "annulé"
+    if "report" in t:
+        return "reporté"
     return ""
 
 
@@ -251,9 +258,8 @@ def recuperer(page, comp):
     _fermer_cookies(page)
     _attendre_matchs(page, 30)
 
-    # Diagnostic (temporairement activé) : enregistre la page rendue pour
-    # fiabiliser la lecture des dates ProLigue / Coupe de France.
-    if True:
+    # Diagnostic (optionnel) : secret LNH_DEBUG=1 pour enregistrer la page rendue.
+    if os.environ.get("LNH_DEBUG"):
         try:
             slug = re.sub(r"[^a-z0-9]+", "_", comp["nom"].lower())
             with open(os.path.join(ICI, "docs", f"_debug_{slug}.html"), "w", encoding="utf-8") as f:
@@ -496,13 +502,19 @@ def main():
     ts = maintenant.isoformat(timespec="minutes")
 
     state = charger_state()
-    # Migration : l'ancien format stockait une LISTE par compétition ; le
-    # nouveau stocke un dictionnaire {id: match} « collant » (mémoire qui
-    # n'oublie jamais un match, pour ne plus signaler de faux retraits/ajouts).
-    migration = (not state) or any(not isinstance(v, dict) for v in state.values())
-    changements = [] if migration else charger_changements()
+    # Schéma d'état : on repart d'une base propre quand la lecture change en
+    # profondeur (sinon les lectures corrigées seraient vues comme des
+    # « changements »). On incrémente SCHEMA à chaque correction majeure.
+    SCHEMA = 3
+    comps_state = {k: v for k, v in state.items() if not k.startswith("__")}
+    migration = (state.get("__schema__") != SCHEMA) \
+        or any(not isinstance(v, dict) for v in comps_state.values())
     if migration:
-        print("  (migration du format — base de référence réinitialisée, sans alerte)")
+        state = {"__schema__": SCHEMA}
+        changements = []
+        print("  (base de référence réinitialisée — lecture fiabilisée, sans alerte)")
+    else:
+        changements = charger_changements()
 
     resultats = []
     nouveaux_evenements = []   # changements de CE passage (pour l'e-mail)
