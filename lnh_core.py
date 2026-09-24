@@ -225,36 +225,37 @@ def generer_html(competitions, maj_horodatage=None, changements7=None):
     maj = maj_horodatage or datetime.now().strftime("%d/%m/%Y à %H:%M")
     changements7 = changements7 or []
 
-    # --- Rubrique « Changements » (7 derniers jours, plus récent en haut) ---
-    if not changements7:
+    # --- Rubrique « Changements » : groupée par type, sur 7 jours glissants ---
+    buckets = {"nouveau": [], "reporte": [], "horaire": [], "annule": [], "retire": []}
+    for e in sorted(changements7, key=lambda x: x.get("ts", ""), reverse=True):
+        quand = _fmt_dt(e.get("ts", ""))
+        comp = _esc(e.get("comp", "")); jr = _esc(e.get("journee", ""))
+        match = _esc(e.get("match", "")); apres = _esc(e.get("apres", ""))
+        typ = e.get("type", "")
+        if typ == "horaire":
+            li = (f'<li><span class="qd">{quand}</span> <b>{comp}</b> — {jr} — {match} : '
+                  f'<span class="avant">{_esc(e.get("avant",""))}</span>'
+                  f'<span class="flch"> → </span><b>{apres}</b></li>')
+        else:
+            li = f'<li><span class="qd">{quand}</span> <b>{comp}</b> — {jr} — {match} ({apres})</li>'
+        buckets.get(typ, buckets["retire"]).append(li)
+
+    if not any(buckets.values()):
         alerte = ('<div class="rien">✓ Aucun changement sur les 7 derniers jours. '
                   'Tous les horaires sont stables.</div>')
     else:
-        items = []
-        for e in sorted(changements7, key=lambda x: x.get("ts", ""), reverse=True):
-            quand = _fmt_dt(e.get("ts", ""))
-            comp = _esc(e.get("comp", "")); jr = _esc(e.get("journee", ""))
-            match = _esc(e.get("match", ""))
-            if e.get("type") == "horaire":
-                items.append(f'<li><span class="qd">{quand}</span> <b>{comp}</b> — {jr} — '
-                             f'{match} : <span class="avant">{_esc(e.get("avant",""))}</span>'
-                             f'<span class="flch"> → </span><b>{_esc(e.get("apres",""))}</b></li>')
-            elif e.get("type") == "nouveau":
-                items.append(f'<li><span class="qd">{quand}</span> <b>{comp}</b> — nouveau match : '
-                             f'{match} ({_esc(e.get("apres",""))})</li>')
-            elif e.get("type") == "annule":
-                items.append(f'<li><span class="qd">{quand}</span> <b>{comp}</b> — '
-                             f'<b style="color:var(--rouge)">match annulé</b> : '
-                             f'{match} ({_esc(e.get("apres",""))})</li>')
-            elif e.get("type") == "reporte":
-                items.append(f'<li><span class="qd">{quand}</span> <b>{comp}</b> — '
-                             f'<b style="color:#e08a00">match reporté</b> : '
-                             f'{match} ({_esc(e.get("apres",""))})</li>')
-            else:
-                items.append(f'<li><span class="qd">{quand}</span> <b>{comp}</b> — match retiré : '
-                             f'{match} ({_esc(e.get("apres",""))})</li>')
-        alerte = (f'<div class="alerte"><h2>⚠ {len(changements7)} changement(s) — '
-                  f'7 derniers jours</h2><ul>{"".join(items)}</ul></div>')
+        blocs = ""
+        ordre = [("nouveau", "#3ddc84", "🆕 {n} nouveau(x) match(s)"),
+                 ("reporte", "#e08a00", "⏸ {n} match(s) reporté(s)"),
+                 ("horaire", "var(--rouge)", "⚠ {n} horaire(s) décalé(s)"),
+                 ("annule",  "var(--rouge)", "❌ {n} match(s) annulé(s)"),
+                 ("retire",  "var(--muted)", "{n} match(s) retiré(s)")]
+        for typ, couleur, titre in ordre:
+            if buckets[typ]:
+                blocs += (f'<h2 style="color:{couleur}">{titre.format(n=len(buckets[typ]))} '
+                          f'<span style="font-weight:400;color:var(--muted);font-size:12px">'
+                          f'(7 derniers jours)</span></h2><ul>{"".join(buckets[typ])}</ul>')
+        alerte = f'<div class="alerte">{blocs}</div>'
 
     # --- Tableaux par compétition (rouge = changé dans les 7 derniers jours) ---
     sections = []
@@ -276,7 +277,11 @@ def generer_html(competitions, maj_horodatage=None, changements7=None):
 
         lignes = []
         maintenant = _maintenant()
-        matchs = sorted(c["matchs"], key=lambda m: (parse_horaire(m.get("horaire","")) or datetime.max))
+
+        def _tri(m):
+            reporte = "report" in (m.get("statut", "") or "").lower()
+            return (0 if reporte else 1, parse_horaire(m.get("horaire", "")) or datetime.max)
+        matchs = sorted(c["matchs"], key=_tri)
         for m in matchs:
             classe, tag = "", ""
             passe = _est_passe(m.get("horaire", ""), maintenant)
