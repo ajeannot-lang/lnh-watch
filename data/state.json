@@ -7,10 +7,10 @@
    "match": "SAINT-RAPHAËL – SARAN",
    "horaire": "ven. 25 sept. 19h30",
    "diffuseur": "Handball TV",
-   "statut": "",
-   "_miss": 1,
+   "statut": "annulé ?",
+   "_miss": 2,
    "_pend": null,
-   "_annule": false
+   "_annule": true
   },
   "dsl/j04/aix/caen": {
    "id": "dsl/j04/aix/caen",
@@ -30,7 +30,7 @@
    "horaire": "ven. 25 sept. 20h00",
    "diffuseur": "Handball TV",
    "statut": "",
-   "_miss": 0,
+   "_miss": 1,
    "_pend": null,
    "_annule": false
   },
@@ -2419,7 +2419,7 @@
    "horaire": "ven. 25 sept. 20h30",
    "diffuseur": "Handball TV",
    "statut": "",
-   "_miss": 0,
+   "_miss": 1,
    "_pend": null,
    "_annule": false
   },
