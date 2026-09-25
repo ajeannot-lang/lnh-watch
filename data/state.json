@@ -48,13 +48,13 @@
   "dsl/j04/selestat/montpellier": {
    "id": "dsl/j04/selestat/montpellier",
    "journee": "J04",
-   "match": "SÉLESTAT – MONTPELLIER",
+   "match": "Selestat – Montpellier",
    "horaire": "ven. 25 sept. 20h30",
    "diffuseur": "Handball TV",
-   "statut": "annulé ?",
-   "_miss": 5,
+   "statut": "",
+   "_miss": 0,
    "_pend": null,
-   "_annule": true
+   "_annule": false
   },
   "dsl/j01/limoges/saint-raphael": {
    "id": "dsl/j01/limoges/saint-raphael",
@@ -2415,68 +2415,68 @@
   "pl/j04/cherbourg/frontignan": {
    "id": "pl/j04/cherbourg/frontignan",
    "journee": "J04",
-   "match": "CHERBOURG – FRONTIGNAN",
+   "match": "Cherbourg – Frontignan",
    "horaire": "ven. 25 sept. 20h30",
    "diffuseur": "Handball TV",
-   "statut": "annulé ?",
-   "_miss": 6,
+   "statut": "",
+   "_miss": 0,
    "_pend": null,
-   "_annule": true
+   "_annule": false
   },
   "pl/j04/cournon/draguignan": {
    "id": "pl/j04/cournon/draguignan",
    "journee": "J04",
-   "match": "COURNON – DRAGUIGNAN",
+   "match": "Cournon – Draguignan",
    "horaire": "ven. 25 sept. 20h30",
    "diffuseur": "Handball TV",
-   "statut": "annulé ?",
-   "_miss": 5,
+   "statut": "",
+   "_miss": 0,
    "_pend": null,
-   "_annule": true
+   "_annule": false
   },
   "pl/j04/creteil/sarrebourg": {
    "id": "pl/j04/creteil/sarrebourg",
    "journee": "J04",
-   "match": "CRÉTEIL – SARREBOURG",
+   "match": "Creteil – Sarrebourg",
    "horaire": "ven. 25 sept. 20h30",
    "diffuseur": "Handball TV",
-   "statut": "annulé ?",
-   "_miss": 4,
+   "statut": "",
+   "_miss": 0,
    "_pend": null,
-   "_annule": true
+   "_annule": false
   },
   "pl/j04/elite-val-d-oise/valence": {
    "id": "pl/j04/elite-val-d-oise/valence",
    "journee": "J04",
-   "match": "ELITE VAL D'OISE – VALENCE",
+   "match": "Elite Val D Oise – Valence",
    "horaire": "ven. 25 sept. 20h30",
    "diffuseur": "Handball TV",
-   "statut": "annulé ?",
-   "_miss": 5,
+   "statut": "",
+   "_miss": 0,
    "_pend": null,
-   "_annule": true
+   "_annule": false
   },
   "pl/j04/pau-billere/massy": {
    "id": "pl/j04/pau-billere/massy",
    "journee": "J04",
-   "match": "PAU BILLÈRE – MASSY",
+   "match": "Pau Billere – Massy",
    "horaire": "ven. 25 sept. 20h30",
    "diffuseur": "Handball TV",
-   "statut": "annulé ?",
-   "_miss": 5,
+   "statut": "",
+   "_miss": 0,
    "_pend": null,
-   "_annule": true
+   "_annule": false
   },
   "pl/j04/saintes/besancon": {
    "id": "pl/j04/saintes/besancon",
    "journee": "J04",
-   "match": "SAINTES – BESANÇON",
+   "match": "Saintes – Besancon",
    "horaire": "ven. 25 sept. 20h30",
    "diffuseur": "Handball TV",
-   "statut": "annulé ?",
-   "_miss": 4,
+   "statut": "",
+   "_miss": 0,
    "_pend": null,
-   "_annule": true
+   "_annule": false
   },
   "pl/j04/dijon/ivry": {
    "id": "pl/j04/dijon/ivry",
