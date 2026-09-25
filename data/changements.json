@@ -31,5 +31,71 @@
   "avant": "",
   "apres": "ven. 25 sept. 20h30",
   "diffuseur": "Handball TV"
+ },
+ {
+  "ts": "2026-09-25T18:26",
+  "comp": "Daikin StarLigue",
+  "type": "annule",
+  "id": "dsl/j04/aix/caen",
+  "journee": "J04",
+  "match": "AIX – CAEN",
+  "avant": "",
+  "apres": "ven. 25 sept. 20h00",
+  "diffuseur": "Handball TV"
+ },
+ {
+  "ts": "2026-09-25T18:26",
+  "comp": "Daikin StarLigue",
+  "type": "annule",
+  "id": "dsl/j04/nimes/dunkerque",
+  "journee": "J04",
+  "match": "NÎMES – DUNKERQUE",
+  "avant": "",
+  "apres": "ven. 25 sept. 20h00",
+  "diffuseur": "Handball TV"
+ },
+ {
+  "ts": "2026-09-25T18:26",
+  "comp": "Daikin StarLigue",
+  "type": "annule",
+  "id": "dsl/j04/selestat/montpellier",
+  "journee": "J04",
+  "match": "SÉLESTAT – MONTPELLIER",
+  "avant": "",
+  "apres": "ven. 25 sept. 20h30",
+  "diffuseur": "Handball TV"
+ },
+ {
+  "ts": "2026-09-25T18:26",
+  "comp": "ProLigue",
+  "type": "annule",
+  "id": "pl/j04/cournon/draguignan",
+  "journee": "J04",
+  "match": "COURNON – DRAGUIGNAN",
+  "avant": "",
+  "apres": "ven. 25 sept. 20h30",
+  "diffuseur": "Handball TV"
+ },
+ {
+  "ts": "2026-09-25T18:26",
+  "comp": "ProLigue",
+  "type": "annule",
+  "id": "pl/j04/elite-val-d-oise/valence",
+  "journee": "J04",
+  "match": "ELITE VAL D'OISE – VALENCE",
+  "avant": "",
+  "apres": "ven. 25 sept. 20h30",
+  "diffuseur": "Handball TV"
+ },
+ {
+  "ts": "2026-09-25T18:26",
+  "comp": "ProLigue",
+  "type": "annule",
+  "id": "pl/j04/pau-billere/massy",
+  "journee": "J04",
+  "match": "PAU BILLÈRE – MASSY",
+  "avant": "",
+  "apres": "ven. 25 sept. 20h30",
+  "diffuseur": "Handball TV"
  }
 ]
