@@ -8,7 +8,7 @@
    "horaire": "ven. 25 sept. 19h30",
    "diffuseur": "Handball TV",
    "statut": "annulé ?",
-   "_miss": 4,
+   "_miss": 5,
    "_pend": null,
    "_annule": true
   },
@@ -19,7 +19,7 @@
    "horaire": "ven. 25 sept. 20h00",
    "diffuseur": "Handball TV",
    "statut": "annulé ?",
-   "_miss": 2,
+   "_miss": 3,
    "_pend": null,
    "_annule": true
   },
@@ -30,7 +30,7 @@
    "horaire": "ven. 25 sept. 20h00",
    "diffuseur": "Handball TV",
    "statut": "annulé ?",
-   "_miss": 3,
+   "_miss": 4,
    "_pend": null,
    "_annule": true
   },
@@ -41,7 +41,7 @@
    "horaire": "ven. 25 sept. 20h00",
    "diffuseur": "Handball TV",
    "statut": "annulé ?",
-   "_miss": 2,
+   "_miss": 3,
    "_pend": null,
    "_annule": true
   },
@@ -52,7 +52,7 @@
    "horaire": "ven. 25 sept. 20h30",
    "diffuseur": "Handball TV",
    "statut": "annulé ?",
-   "_miss": 2,
+   "_miss": 3,
    "_pend": null,
    "_annule": true
   },
@@ -2419,7 +2419,7 @@
    "horaire": "ven. 25 sept. 20h30",
    "diffuseur": "Handball TV",
    "statut": "annulé ?",
-   "_miss": 3,
+   "_miss": 4,
    "_pend": null,
    "_annule": true
   },
@@ -2430,7 +2430,7 @@
    "horaire": "ven. 25 sept. 20h30",
    "diffuseur": "Handball TV",
    "statut": "annulé ?",
-   "_miss": 2,
+   "_miss": 3,
    "_pend": null,
    "_annule": true
   },
@@ -2440,10 +2440,10 @@
    "match": "CRÉTEIL – SARREBOURG",
    "horaire": "ven. 25 sept. 20h30",
    "diffuseur": "Handball TV",
-   "statut": "",
-   "_miss": 1,
+   "statut": "annulé ?",
+   "_miss": 2,
    "_pend": null,
-   "_annule": false
+   "_annule": true
   },
   "pl/j04/elite-val-d-oise/valence": {
    "id": "pl/j04/elite-val-d-oise/valence",
@@ -2452,7 +2452,7 @@
    "horaire": "ven. 25 sept. 20h30",
    "diffuseur": "Handball TV",
    "statut": "annulé ?",
-   "_miss": 2,
+   "_miss": 3,
    "_pend": null,
    "_annule": true
   },
@@ -2463,7 +2463,7 @@
    "horaire": "ven. 25 sept. 20h30",
    "diffuseur": "Handball TV",
    "statut": "annulé ?",
-   "_miss": 2,
+   "_miss": 3,
    "_pend": null,
    "_annule": true
   },
@@ -2473,10 +2473,10 @@
    "match": "SAINTES – BESANÇON",
    "horaire": "ven. 25 sept. 20h30",
    "diffuseur": "Handball TV",
-   "statut": "",
-   "_miss": 1,
+   "statut": "annulé ?",
+   "_miss": 2,
    "_pend": null,
-   "_annule": false
+   "_annule": true
   },
   "pl/j04/dijon/ivry": {
    "id": "pl/j04/dijon/ivry",

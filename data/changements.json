@@ -97,5 +97,27 @@
   "avant": "",
   "apres": "ven. 25 sept. 20h30",
   "diffuseur": "Handball TV"
+ },
+ {
+  "ts": "2026-09-25T18:53",
+  "comp": "ProLigue",
+  "type": "annule",
+  "id": "pl/j04/creteil/sarrebourg",
+  "journee": "J04",
+  "match": "CRÉTEIL – SARREBOURG",
+  "avant": "",
+  "apres": "ven. 25 sept. 20h30",
+  "diffuseur": "Handball TV"
+ },
+ {
+  "ts": "2026-09-25T18:53",
+  "comp": "ProLigue",
+  "type": "annule",
+  "id": "pl/j04/saintes/besancon",
+  "journee": "J04",
+  "match": "SAINTES – BESANÇON",
+  "avant": "",
+  "apres": "ven. 25 sept. 20h30",
+  "diffuseur": "Handball TV"
  }
 ]
