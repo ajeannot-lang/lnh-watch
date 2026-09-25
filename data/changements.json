@@ -9,5 +9,27 @@
   "avant": "",
   "apres": "ven. 25 sept. 19h30",
   "diffuseur": "Handball TV"
+ },
+ {
+  "ts": "2026-09-25T17:52",
+  "comp": "Daikin StarLigue",
+  "type": "annule",
+  "id": "dsl/j04/chartres/cesson-rennes",
+  "journee": "J04",
+  "match": "CHARTRES – CESSON-RENNES",
+  "avant": "",
+  "apres": "ven. 25 sept. 20h00",
+  "diffuseur": "Handball TV"
+ },
+ {
+  "ts": "2026-09-25T17:52",
+  "comp": "ProLigue",
+  "type": "annule",
+  "id": "pl/j04/cherbourg/frontignan",
+  "journee": "J04",
+  "match": "CHERBOURG – FRONTIGNAN",
+  "avant": "",
+  "apres": "ven. 25 sept. 20h30",
+  "diffuseur": "Handball TV"
  }
 ]

@@ -8,7 +8,7 @@
    "horaire": "ven. 25 sept. 19h30",
    "diffuseur": "Handball TV",
    "statut": "annulé ?",
-   "_miss": 2,
+   "_miss": 3,
    "_pend": null,
    "_annule": true
   },
@@ -19,7 +19,7 @@
    "horaire": "ven. 25 sept. 20h00",
    "diffuseur": "Handball TV",
    "statut": "",
-   "_miss": 0,
+   "_miss": 1,
    "_pend": null,
    "_annule": false
   },
@@ -29,10 +29,10 @@
    "match": "CHARTRES – CESSON-RENNES",
    "horaire": "ven. 25 sept. 20h00",
    "diffuseur": "Handball TV",
-   "statut": "",
-   "_miss": 1,
+   "statut": "annulé ?",
+   "_miss": 2,
    "_pend": null,
-   "_annule": false
+   "_annule": true
   },
   "dsl/j04/nimes/dunkerque": {
    "id": "dsl/j04/nimes/dunkerque",
@@ -41,7 +41,7 @@
    "horaire": "ven. 25 sept. 20h00",
    "diffuseur": "Handball TV",
    "statut": "",
-   "_miss": 0,
+   "_miss": 1,
    "_pend": null,
    "_annule": false
   },
@@ -52,7 +52,7 @@
    "horaire": "ven. 25 sept. 20h30",
    "diffuseur": "Handball TV",
    "statut": "",
-   "_miss": 0,
+   "_miss": 1,
    "_pend": null,
    "_annule": false
   },
@@ -2418,10 +2418,10 @@
    "match": "CHERBOURG – FRONTIGNAN",
    "horaire": "ven. 25 sept. 20h30",
    "diffuseur": "Handball TV",
-   "statut": "",
-   "_miss": 1,
+   "statut": "annulé ?",
+   "_miss": 2,
    "_pend": null,
-   "_annule": false
+   "_annule": true
   },
   "pl/j04/cournon/draguignan": {
    "id": "pl/j04/cournon/draguignan",
@@ -2430,7 +2430,7 @@
    "horaire": "ven. 25 sept. 20h30",
    "diffuseur": "Handball TV",
    "statut": "",
-   "_miss": 0,
+   "_miss": 1,
    "_pend": null,
    "_annule": false
   },
@@ -2452,7 +2452,7 @@
    "horaire": "ven. 25 sept. 20h30",
    "diffuseur": "Handball TV",
    "statut": "",
-   "_miss": 0,
+   "_miss": 1,
    "_pend": null,
    "_annule": false
   },
@@ -2463,7 +2463,7 @@
    "horaire": "ven. 25 sept. 20h30",
    "diffuseur": "Handball TV",
    "statut": "",
-   "_miss": 0,
+   "_miss": 1,
    "_pend": null,
    "_annule": false
   },
