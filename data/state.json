@@ -4,13 +4,13 @@
   "dsl/j04/saint-raphael/saran": {
    "id": "dsl/j04/saint-raphael/saran",
    "journee": "J04",
-   "match": "SAINT-RAPHAËL – SARAN",
+   "match": "Saint Raphael – Saran",
    "horaire": "ven. 25 sept. 19h30",
    "diffuseur": "Handball TV",
-   "statut": "annulé ?",
-   "_miss": 5,
+   "statut": "",
+   "_miss": 0,
    "_pend": null,
-   "_annule": true
+   "_annule": false
   },
   "dsl/j04/aix/caen": {
    "id": "dsl/j04/aix/caen",
@@ -19,7 +19,7 @@
    "horaire": "ven. 25 sept. 20h00",
    "diffuseur": "Handball TV",
    "statut": "annulé ?",
-   "_miss": 3,
+   "_miss": 4,
    "_pend": null,
    "_annule": true
   },
@@ -30,7 +30,7 @@
    "horaire": "ven. 25 sept. 20h00",
    "diffuseur": "Handball TV",
    "statut": "annulé ?",
-   "_miss": 4,
+   "_miss": 5,
    "_pend": null,
    "_annule": true
   },
@@ -41,7 +41,7 @@
    "horaire": "ven. 25 sept. 20h00",
    "diffuseur": "Handball TV",
    "statut": "annulé ?",
-   "_miss": 3,
+   "_miss": 4,
    "_pend": null,
    "_annule": true
   },
@@ -52,7 +52,7 @@
    "horaire": "ven. 25 sept. 20h30",
    "diffuseur": "Handball TV",
    "statut": "annulé ?",
-   "_miss": 3,
+   "_miss": 4,
    "_pend": null,
    "_annule": true
   },
@@ -2419,7 +2419,7 @@
    "horaire": "ven. 25 sept. 20h30",
    "diffuseur": "Handball TV",
    "statut": "annulé ?",
-   "_miss": 4,
+   "_miss": 5,
    "_pend": null,
    "_annule": true
   },
@@ -2430,7 +2430,7 @@
    "horaire": "ven. 25 sept. 20h30",
    "diffuseur": "Handball TV",
    "statut": "annulé ?",
-   "_miss": 3,
+   "_miss": 4,
    "_pend": null,
    "_annule": true
   },
@@ -2441,7 +2441,7 @@
    "horaire": "ven. 25 sept. 20h30",
    "diffuseur": "Handball TV",
    "statut": "annulé ?",
-   "_miss": 2,
+   "_miss": 3,
    "_pend": null,
    "_annule": true
   },
@@ -2452,7 +2452,7 @@
    "horaire": "ven. 25 sept. 20h30",
    "diffuseur": "Handball TV",
    "statut": "annulé ?",
-   "_miss": 3,
+   "_miss": 4,
    "_pend": null,
    "_annule": true
   },
@@ -2463,7 +2463,7 @@
    "horaire": "ven. 25 sept. 20h30",
    "diffuseur": "Handball TV",
    "statut": "annulé ?",
-   "_miss": 3,
+   "_miss": 4,
    "_pend": null,
    "_annule": true
   },
@@ -2474,7 +2474,7 @@
    "horaire": "ven. 25 sept. 20h30",
    "diffuseur": "Handball TV",
    "statut": "annulé ?",
-   "_miss": 2,
+   "_miss": 3,
    "_pend": null,
    "_annule": true
   },
