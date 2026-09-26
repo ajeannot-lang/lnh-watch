@@ -119,5 +119,16 @@
   "avant": "",
   "apres": "ven. 25 sept. 20h30",
   "diffuseur": "Handball TV"
+ },
+ {
+  "ts": "2026-09-26T18:27",
+  "comp": "ProLigue",
+  "type": "annule",
+  "id": "pl/j04/dijon/ivry",
+  "journee": "J04",
+  "match": "DIJON – IVRY",
+  "avant": "",
+  "apres": "sam. 26 sept. 20h30",
+  "diffuseur": "Handball TV"
  }
 ]

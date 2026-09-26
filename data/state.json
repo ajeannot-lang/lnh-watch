@@ -2484,10 +2484,10 @@
    "match": "DIJON – IVRY",
    "horaire": "sam. 26 sept. 20h30",
    "diffuseur": "Handball TV",
-   "statut": "",
-   "_miss": 1,
+   "statut": "annulé ?",
+   "_miss": 2,
    "_pend": null,
-   "_annule": false
+   "_annule": true
   },
   "pl/j01/istres/pau-billere": {
    "id": "pl/j01/istres/pau-billere",
