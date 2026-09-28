@@ -456,17 +456,13 @@ def traiter_comp(nom, connus, captures, premiere, ts):
             rec["horaire"] = h; rec["_pend"] = None
         else:
             rec["_pend"] = h
-    # 2) Matchs connus absents → annulation probable après SEUIL_ABSENCE passages
+    # 2) Matchs connus absents de cette capture : on ne fait RIEN (mémoire
+    # collante). On ne devine plus d'annulation par disparition — trop de faux
+    # positifs (un match qui se joue disparaît brièvement le jour même). Les
+    # annulations viennent uniquement de la mention « annulé » du site.
     for mid, rec in connus.items():
-        if mid in caps:
-            continue
-        rec["_pend"] = None
-        rec["_miss"] = rec.get("_miss", 0) + 1
-        if (not rec.get("_annule")) and rec["_miss"] >= SEUIL_ABSENCE \
-                and _est_futur(rec.get("horaire", "")):
-            rec["_annule"] = True
-            rec["statut"] = "annulé ?"
-            _ev("annule", mid, rec, apres=rec.get("horaire", ""))
+        if mid not in caps:
+            rec["_pend"] = None
     return evs
 
 
@@ -548,6 +544,17 @@ def main():
             if captures is not None:
                 print(f"     {len(captures)} captés · {len(connus)} connus au total")
         nav.close()
+
+    # Nettoyage : efface les « annulé » qui concernent des matchs finalement
+    # présents et non annulés (ex. anciens faux positifs sur des matchs joués).
+    presents_ok = set()
+    for comp_state in state.values():
+        if isinstance(comp_state, dict):
+            for mid, rec in comp_state.items():
+                if not rec.get("_annule"):
+                    presents_ok.add(mid)
+    changements = [e for e in changements
+                   if not (e.get("type") == "annule" and e.get("id") in presents_ok)]
 
     # Historique : on ne garde que les 7 derniers jours
     changements = purger_7j(changements, maintenant)
