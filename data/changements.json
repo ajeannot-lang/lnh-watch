@@ -1,1 +1,167 @@
-[]
+[
+ {
+  "ts": "2026-10-01T07:30",
+  "comp": "Ligue Européenne EHF",
+  "type": "nouveau",
+  "id": "eurehf/j02/csm-bucarest/chambery",
+  "journee": "J02",
+  "match": "CSM BUCAREST – CHAMBÉRY",
+  "avant": "",
+  "apres": "mar. 6 oct. 18h45",
+  "diffuseur": "Handball TV"
+ },
+ {
+  "ts": "2026-10-01T07:30",
+  "comp": "Ligue Européenne EHF",
+  "type": "nouveau",
+  "id": "eurehf/j02/hafnarfjor-ur/limoges",
+  "journee": "J02",
+  "match": "HAFNARFJÖRÐUR – LIMOGES",
+  "avant": "",
+  "apres": "mar. 6 oct. 20h45",
+  "diffuseur": "Handball TV"
+ },
+ {
+  "ts": "2026-10-01T07:30",
+  "comp": "Ligue Européenne EHF",
+  "type": "nouveau",
+  "id": "eurehf/j02/saint-raphael/elverum",
+  "journee": "J02",
+  "match": "SAINT-RAPHAËL – ELVERUM",
+  "avant": "",
+  "apres": "mar. 6 oct. 20h45",
+  "diffuseur": "Handball TV"
+ },
+ {
+  "ts": "2026-10-01T07:30",
+  "comp": "Ligue Européenne EHF",
+  "type": "nouveau",
+  "id": "eurehf/j03/chambery/schaffhausen",
+  "journee": "J03",
+  "match": "CHAMBÉRY – SCHAFFHAUSEN",
+  "avant": "",
+  "apres": "mar. 13 oct. 18h45",
+  "diffuseur": "Handball TV"
+ },
+ {
+  "ts": "2026-10-01T07:30",
+  "comp": "Ligue Européenne EHF",
+  "type": "nouveau",
+  "id": "eurehf/j03/stockholm/saint-raphael",
+  "journee": "J03",
+  "match": "STOCKHOLM HAMMARBY – SAINT-RAPHAËL",
+  "avant": "",
+  "apres": "mar. 13 oct. 18h45",
+  "diffuseur": "Handball TV"
+ },
+ {
+  "ts": "2026-10-01T07:30",
+  "comp": "Ligue Européenne EHF",
+  "type": "nouveau",
+  "id": "eurehf/j01/limoges/irun",
+  "journee": "J01",
+  "match": "LIMOGES – IRUN",
+  "avant": "",
+  "apres": "mar. 13 oct. 20h45",
+  "diffuseur": "Handball TV"
+ },
+ {
+  "ts": "2026-10-01T07:30",
+  "comp": "Ligue Européenne EHF",
+  "type": "nouveau",
+  "id": "eurehf/j04/saint-raphael/stockholm-hammarby",
+  "journee": "J04",
+  "match": "SAINT-RAPHAËL – STOCKHOLM HAMMARBY",
+  "avant": "",
+  "apres": "mar. 17 nov. 18h45",
+  "diffuseur": "Handball TV"
+ },
+ {
+  "ts": "2026-10-01T07:30",
+  "comp": "Ligue Européenne EHF",
+  "type": "nouveau",
+  "id": "eurehf/j04/chambery/csm-bucarest",
+  "journee": "J04",
+  "match": "CHAMBÉRY – CSM BUCAREST",
+  "avant": "",
+  "apres": "mar. 17 nov. 20h45",
+  "diffuseur": "Handball TV"
+ },
+ {
+  "ts": "2026-10-01T07:30",
+  "comp": "Ligue Européenne EHF",
+  "type": "nouveau",
+  "id": "eurehf/j04/irun/limoges",
+  "journee": "J04",
+  "match": "IRUN – LIMOGES",
+  "avant": "",
+  "apres": "mar. 17 nov. 20h45",
+  "diffuseur": "Handball TV"
+ },
+ {
+  "ts": "2026-10-01T07:30",
+  "comp": "Ligue Européenne EHF",
+  "type": "nouveau",
+  "id": "eurehf/j05/schaffhausen/chambery",
+  "journee": "J05",
+  "match": "SCHAFFHAUSEN – CHAMBÉRY",
+  "avant": "",
+  "apres": "mar. 24 nov. 18h45",
+  "diffuseur": "Handball TV"
+ },
+ {
+  "ts": "2026-10-01T07:30",
+  "comp": "Ligue Européenne EHF",
+  "type": "nouveau",
+  "id": "eurehf/j01/madeira/limoges",
+  "journee": "J01",
+  "match": "MADEIRA – LIMOGES",
+  "avant": "",
+  "apres": "mar. 24 nov. 20h45",
+  "diffuseur": "Handball TV"
+ },
+ {
+  "ts": "2026-10-01T07:30",
+  "comp": "Ligue Européenne EHF",
+  "type": "nouveau",
+  "id": "eurehf/j05/saint-raphael/na-ice",
+  "journee": "J05",
+  "match": "SAINT-RAPHAËL – NAŠICE",
+  "avant": "",
+  "apres": "mar. 24 nov. 20h45",
+  "diffuseur": "Handball TV"
+ },
+ {
+  "ts": "2026-10-01T07:30",
+  "comp": "Ligue Européenne EHF",
+  "type": "nouveau",
+  "id": "eurehf/j06/chambery/ljubu-ki",
+  "journee": "J06",
+  "match": "CHAMBÉRY – LJUBUŠKI",
+  "avant": "",
+  "apres": "mar. 1 déc. 18h45",
+  "diffuseur": "Handball TV"
+ },
+ {
+  "ts": "2026-10-01T07:30",
+  "comp": "Ligue Européenne EHF",
+  "type": "nouveau",
+  "id": "eurehf/j06/elverum/saint-raphael",
+  "journee": "J06",
+  "match": "ELVERUM – SAINT-RAPHAËL",
+  "avant": "",
+  "apres": "mar. 1 déc. 18h45",
+  "diffuseur": "Handball TV"
+ },
+ {
+  "ts": "2026-10-01T07:30",
+  "comp": "Ligue Européenne EHF",
+  "type": "nouveau",
+  "id": "eurehf/j06/limoges/hafnarfjor-ur",
+  "journee": "J06",
+  "match": "LIMOGES – HAFNARFJÖRÐUR",
+  "avant": "",
+  "apres": "mar. 1 déc. 20h45",
+  "diffuseur": "Handball TV"
+ }
+]

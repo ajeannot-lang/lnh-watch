@@ -138,3 +138,22 @@
 1 changement(s) sur les calendriers LNH :
 
 - ProLigue J04 — ANNULÉ : DIJON – IVRY (sam. 26 sept. 20h30)
+
+===== 01/10/2026 à 07:30 =====
+15 changement(s) sur les calendriers LNH :
+
+- Ligue Européenne EHF J02 — nouveau : CSM BUCAREST – CHAMBÉRY (mar. 6 oct. 18h45)
+- Ligue Européenne EHF J02 — nouveau : HAFNARFJÖRÐUR – LIMOGES (mar. 6 oct. 20h45)
+- Ligue Européenne EHF J02 — nouveau : SAINT-RAPHAËL – ELVERUM (mar. 6 oct. 20h45)
+- Ligue Européenne EHF J03 — nouveau : CHAMBÉRY – SCHAFFHAUSEN (mar. 13 oct. 18h45)
+- Ligue Européenne EHF J03 — nouveau : STOCKHOLM HAMMARBY – SAINT-RAPHAËL (mar. 13 oct. 18h45)
+- Ligue Européenne EHF J01 — nouveau : LIMOGES – IRUN (mar. 13 oct. 20h45)
+- Ligue Européenne EHF J04 — nouveau : SAINT-RAPHAËL – STOCKHOLM HAMMARBY (mar. 17 nov. 18h45)
+- Ligue Européenne EHF J04 — nouveau : CHAMBÉRY – CSM BUCAREST (mar. 17 nov. 20h45)
+- Ligue Européenne EHF J04 — nouveau : IRUN – LIMOGES (mar. 17 nov. 20h45)
+- Ligue Européenne EHF J05 — nouveau : SCHAFFHAUSEN – CHAMBÉRY (mar. 24 nov. 18h45)
+- Ligue Européenne EHF J01 — nouveau : MADEIRA – LIMOGES (mar. 24 nov. 20h45)
+- Ligue Européenne EHF J05 — nouveau : SAINT-RAPHAËL – NAŠICE (mar. 24 nov. 20h45)
+- Ligue Européenne EHF J06 — nouveau : CHAMBÉRY – LJUBUŠKI (mar. 1 déc. 18h45)
+- Ligue Européenne EHF J06 — nouveau : ELVERUM – SAINT-RAPHAËL (mar. 1 déc. 18h45)
+- Ligue Européenne EHF J06 — nouveau : LIMOGES – HAFNARFJÖRÐUR (mar. 1 déc. 20h45)

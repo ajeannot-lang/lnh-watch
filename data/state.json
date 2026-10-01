@@ -5860,6 +5860,171 @@
    "_miss": 0,
    "_pend": null,
    "_annule": false
+  },
+  "eurehf/j02/csm-bucarest/chambery": {
+   "id": "eurehf/j02/csm-bucarest/chambery",
+   "journee": "J02",
+   "match": "CSM BUCAREST – CHAMBÉRY",
+   "horaire": "mar. 6 oct. 18h45",
+   "diffuseur": "Handball TV",
+   "statut": "",
+   "_miss": 0,
+   "_pend": null,
+   "_annule": false
+  },
+  "eurehf/j02/hafnarfjor-ur/limoges": {
+   "id": "eurehf/j02/hafnarfjor-ur/limoges",
+   "journee": "J02",
+   "match": "HAFNARFJÖRÐUR – LIMOGES",
+   "horaire": "mar. 6 oct. 20h45",
+   "diffuseur": "Handball TV",
+   "statut": "",
+   "_miss": 0,
+   "_pend": null,
+   "_annule": false
+  },
+  "eurehf/j02/saint-raphael/elverum": {
+   "id": "eurehf/j02/saint-raphael/elverum",
+   "journee": "J02",
+   "match": "SAINT-RAPHAËL – ELVERUM",
+   "horaire": "mar. 6 oct. 20h45",
+   "diffuseur": "Handball TV",
+   "statut": "",
+   "_miss": 0,
+   "_pend": null,
+   "_annule": false
+  },
+  "eurehf/j03/chambery/schaffhausen": {
+   "id": "eurehf/j03/chambery/schaffhausen",
+   "journee": "J03",
+   "match": "CHAMBÉRY – SCHAFFHAUSEN",
+   "horaire": "mar. 13 oct. 18h45",
+   "diffuseur": "Handball TV",
+   "statut": "",
+   "_miss": 0,
+   "_pend": null,
+   "_annule": false
+  },
+  "eurehf/j03/stockholm/saint-raphael": {
+   "id": "eurehf/j03/stockholm/saint-raphael",
+   "journee": "J03",
+   "match": "STOCKHOLM HAMMARBY – SAINT-RAPHAËL",
+   "horaire": "mar. 13 oct. 18h45",
+   "diffuseur": "Handball TV",
+   "statut": "",
+   "_miss": 0,
+   "_pend": null,
+   "_annule": false
+  },
+  "eurehf/j01/limoges/irun": {
+   "id": "eurehf/j01/limoges/irun",
+   "journee": "J01",
+   "match": "LIMOGES – IRUN",
+   "horaire": "mar. 13 oct. 20h45",
+   "diffuseur": "Handball TV",
+   "statut": "",
+   "_miss": 0,
+   "_pend": null,
+   "_annule": false
+  },
+  "eurehf/j04/saint-raphael/stockholm-hammarby": {
+   "id": "eurehf/j04/saint-raphael/stockholm-hammarby",
+   "journee": "J04",
+   "match": "SAINT-RAPHAËL – STOCKHOLM HAMMARBY",
+   "horaire": "mar. 17 nov. 18h45",
+   "diffuseur": "Handball TV",
+   "statut": "",
+   "_miss": 0,
+   "_pend": null,
+   "_annule": false
+  },
+  "eurehf/j04/chambery/csm-bucarest": {
+   "id": "eurehf/j04/chambery/csm-bucarest",
+   "journee": "J04",
+   "match": "CHAMBÉRY – CSM BUCAREST",
+   "horaire": "mar. 17 nov. 20h45",
+   "diffuseur": "Handball TV",
+   "statut": "",
+   "_miss": 0,
+   "_pend": null,
+   "_annule": false
+  },
+  "eurehf/j04/irun/limoges": {
+   "id": "eurehf/j04/irun/limoges",
+   "journee": "J04",
+   "match": "IRUN – LIMOGES",
+   "horaire": "mar. 17 nov. 20h45",
+   "diffuseur": "Handball TV",
+   "statut": "",
+   "_miss": 0,
+   "_pend": null,
+   "_annule": false
+  },
+  "eurehf/j05/schaffhausen/chambery": {
+   "id": "eurehf/j05/schaffhausen/chambery",
+   "journee": "J05",
+   "match": "SCHAFFHAUSEN – CHAMBÉRY",
+   "horaire": "mar. 24 nov. 18h45",
+   "diffuseur": "Handball TV",
+   "statut": "",
+   "_miss": 0,
+   "_pend": null,
+   "_annule": false
+  },
+  "eurehf/j01/madeira/limoges": {
+   "id": "eurehf/j01/madeira/limoges",
+   "journee": "J01",
+   "match": "MADEIRA – LIMOGES",
+   "horaire": "mar. 24 nov. 20h45",
+   "diffuseur": "Handball TV",
+   "statut": "",
+   "_miss": 0,
+   "_pend": null,
+   "_annule": false
+  },
+  "eurehf/j05/saint-raphael/na-ice": {
+   "id": "eurehf/j05/saint-raphael/na-ice",
+   "journee": "J05",
+   "match": "SAINT-RAPHAËL – NAŠICE",
+   "horaire": "mar. 24 nov. 20h45",
+   "diffuseur": "Handball TV",
+   "statut": "",
+   "_miss": 0,
+   "_pend": null,
+   "_annule": false
+  },
+  "eurehf/j06/chambery/ljubu-ki": {
+   "id": "eurehf/j06/chambery/ljubu-ki",
+   "journee": "J06",
+   "match": "CHAMBÉRY – LJUBUŠKI",
+   "horaire": "mar. 1 déc. 18h45",
+   "diffuseur": "Handball TV",
+   "statut": "",
+   "_miss": 0,
+   "_pend": null,
+   "_annule": false
+  },
+  "eurehf/j06/elverum/saint-raphael": {
+   "id": "eurehf/j06/elverum/saint-raphael",
+   "journee": "J06",
+   "match": "ELVERUM – SAINT-RAPHAËL",
+   "horaire": "mar. 1 déc. 18h45",
+   "diffuseur": "Handball TV",
+   "statut": "",
+   "_miss": 0,
+   "_pend": null,
+   "_annule": false
+  },
+  "eurehf/j06/limoges/hafnarfjor-ur": {
+   "id": "eurehf/j06/limoges/hafnarfjor-ur",
+   "journee": "J06",
+   "match": "LIMOGES – HAFNARFJÖRÐUR",
+   "horaire": "mar. 1 déc. 20h45",
+   "diffuseur": "Handball TV",
+   "statut": "",
+   "_miss": 0,
+   "_pend": null,
+   "_annule": false
   }
  }
 }
