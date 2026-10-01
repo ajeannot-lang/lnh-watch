@@ -225,9 +225,19 @@ def generer_html(competitions, maj_horodatage=None, changements7=None):
     maj = maj_horodatage or datetime.now().strftime("%d/%m/%Y à %H:%M")
     changements7 = changements7 or []
 
-    # --- Rubrique « Changements » : groupée par type, sur 7 jours glissants ---
-    buckets = {"nouveau": [], "reporte": [], "horaire": [], "annule": [], "retire": []}
+    # --- Rubrique « Changements » ---
+    # Reportés : TOUS les matchs actuellement reportés (toujours listés, en
+    # permanence, pour que ça se voie). Les autres types : événements 7 jours.
+    reportes = []
+    for c in competitions:
+        for m in c["matchs"]:
+            if "report" in (m.get("statut", "") or "").lower():
+                reportes.append((c["nom"], m))
+
+    buckets = {"nouveau": [], "horaire": [], "annule": [], "retire": []}
     for e in sorted(changements7, key=lambda x: x.get("ts", ""), reverse=True):
+        if e.get("type") == "reporte":
+            continue   # géré par la liste persistante ci-dessus
         quand = _fmt_dt(e.get("ts", ""))
         comp = _esc(e.get("comp", "")); jr = _esc(e.get("journee", ""))
         match = _esc(e.get("match", "")); apres = _esc(e.get("apres", ""))
@@ -240,13 +250,20 @@ def generer_html(competitions, maj_horodatage=None, changements7=None):
             li = f'<li><span class="qd">{quand}</span> <b>{comp}</b> — {jr} — {match} ({apres})</li>'
         buckets.get(typ, buckets["retire"]).append(li)
 
-    if not any(buckets.values()):
+    if not reportes and not any(buckets.values()):
         alerte = ('<div class="rien">✓ Aucun changement sur les 7 derniers jours. '
                   'Tous les horaires sont stables.</div>')
     else:
         blocs = ""
+        if reportes:
+            rep_items = []
+            for comp_nom, m in reportes:
+                quand = _esc(m.get("horaire", "")) or "à reprogrammer"
+                rep_items.append(f'<li><b>{_esc(comp_nom)}</b> — {_esc(m.get("journee",""))} — '
+                                 f'{_esc(m.get("match",""))} <i>({quand})</i></li>')
+            blocs += (f'<h2 style="color:#e08a00">⏸ {len(reportes)} match(s) reporté(s)</h2>'
+                      f'<ul>{"".join(rep_items)}</ul>')
         ordre = [("nouveau", "#3ddc84", "🆕 {n} nouveau(x) match(s)"),
-                 ("reporte", "#e08a00", "⏸ {n} match(s) reporté(s)"),
                  ("horaire", "var(--rouge)", "⚠ {n} horaire(s) décalé(s)"),
                  ("annule",  "var(--rouge)", "❌ {n} match(s) annulé(s)"),
                  ("retire",  "var(--muted)", "{n} match(s) retiré(s)")]

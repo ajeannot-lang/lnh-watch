@@ -28,7 +28,7 @@ STATE = os.path.join(ICI, "data", "state.json")
 HISTO = os.path.join(ICI, "data", "historique.txt")
 CHANGES = os.path.join(ICI, "data", "changements.json")
 RETENTION_JOURS = 7
-SEUIL_ABSENCE = 2          # nb de passages consécutifs absent avant « annulé ? »
+SEUIL_OUBLI = 4            # nb de passages consécutifs absent avant d'oublier un match (fantôme)
 SITE = os.path.join(ICI, "docs", "index.html")
 
 COMPETITIONS = [
@@ -407,8 +407,9 @@ def traiter_comp(nom, connus, captures, premiere, ts):
       - mémoire qui n'oublie jamais un match (pas de flapping) ;
       - changement d'horaire signalé seulement après DOUBLE confirmation
         (vu 2 passages de suite), lecture vide ignorée (anti-bug de lecture) ;
-      - annulé / reporté détectés via la mention du site, plus annulation
-        probable si un match futur disparaît SEUIL_ABSENCE passages de suite."""
+      - annulé / reporté détectés uniquement via la mention du site ;
+      - un match absent du site SEUIL_OUBLI passages de suite est oublié
+        silencieusement (nettoyage des fantômes), sans aucune alerte."""
     evs = []
 
     def _ev(typ, mid, m, avant="", apres=""):
@@ -456,13 +457,19 @@ def traiter_comp(nom, connus, captures, premiere, ts):
             rec["horaire"] = h; rec["_pend"] = None
         else:
             rec["_pend"] = h
-    # 2) Matchs connus absents de cette capture : on ne fait RIEN (mémoire
-    # collante). On ne devine plus d'annulation par disparition — trop de faux
-    # positifs (un match qui se joue disparaît brièvement le jour même). Les
-    # annulations viennent uniquement de la mention « annulé » du site.
-    for mid, rec in connus.items():
-        if mid not in caps:
-            rec["_pend"] = None
+    # 2) Matchs connus absents de cette capture : on les OUBLIE silencieusement
+    # après SEUIL_OUBLI passages consécutifs (sans alerte). Ça nettoie les
+    # « fantômes » (matchs dont l'identifiant a changé côté site, ex. EHF qui
+    # renumérote ses journées) sans jamais crier à l'annulation. Une absence
+    # courte (site qui rame le jour d'un match) ne supprime rien.
+    for mid in list(connus.keys()):
+        if mid in caps:
+            continue
+        rec = connus[mid]
+        rec["_pend"] = None
+        rec["_miss"] = rec.get("_miss", 0) + 1
+        if rec["_miss"] >= SEUIL_OUBLI:
+            del connus[mid]
     return evs
 
 
