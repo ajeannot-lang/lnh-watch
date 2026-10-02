@@ -2566,39 +2566,6 @@
    "_pend": null,
    "_annule": false
   },
-  "pl/j05/draguignan/saintes": {
-   "id": "pl/j05/draguignan/saintes",
-   "journee": "J05",
-   "match": "DRAGUIGNAN – SAINTES",
-   "horaire": "ven. 2 oct. 20h30",
-   "diffuseur": "Handball TV",
-   "statut": "",
-   "_miss": 3,
-   "_pend": null,
-   "_annule": false
-  },
-  "pl/j05/frontignan/pau-billere": {
-   "id": "pl/j05/frontignan/pau-billere",
-   "journee": "J05",
-   "match": "FRONTIGNAN – PAU BILLÈRE",
-   "horaire": "ven. 2 oct. 20h30",
-   "diffuseur": "Handball TV",
-   "statut": "",
-   "_miss": 3,
-   "_pend": null,
-   "_annule": false
-  },
-  "pl/j05/ivry/cournon": {
-   "id": "pl/j05/ivry/cournon",
-   "journee": "J05",
-   "match": "IVRY – COURNON",
-   "horaire": "ven. 2 oct. 20h30",
-   "diffuseur": "Handball TV",
-   "statut": "",
-   "_miss": 3,
-   "_pend": null,
-   "_annule": false
-  },
   "pl/j05/sarrebourg/massy": {
    "id": "pl/j05/sarrebourg/massy",
    "journee": "J05",
@@ -4948,6 +4915,17 @@
    "match": "Vainqueur Demi Finale Mieux Classe – Vainqueur Demi Finale Moins Bien Classe",
    "horaire": "dim. 6 juin. 17h00",
    "diffuseur": "",
+   "statut": "",
+   "_miss": 0,
+   "_pend": null,
+   "_annule": false
+  },
+  "pl/j05/valence/besancon": {
+   "id": "pl/j05/valence/besancon",
+   "journee": "J05",
+   "match": "Valence – Besancon",
+   "horaire": "ven. 2 oct. 20h00",
+   "diffuseur": "Handball TV + beIN SPORTS",
    "statut": "",
    "_miss": 0,
    "_pend": null,

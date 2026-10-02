@@ -185,5 +185,16 @@
   "avant": "",
   "apres": "mar. 6 oct. 20h00",
   "diffuseur": "Handball TV"
+ },
+ {
+  "ts": "2026-10-02T19:54",
+  "comp": "ProLigue",
+  "type": "nouveau",
+  "id": "pl/j05/valence/besancon",
+  "journee": "J05",
+  "match": "Valence – Besancon",
+  "avant": "",
+  "apres": "ven. 2 oct. 20h00",
+  "diffuseur": "Handball TV + beIN SPORTS"
  }
 ]
