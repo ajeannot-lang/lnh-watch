@@ -2646,7 +2646,7 @@
   "pl/j06/elite-val-d-oise/frontignan": {
    "id": "pl/j06/elite-val-d-oise/frontignan",
    "journee": "J06",
-   "match": "ELITE VAL D'OISE – FRONTIGNAN",
+   "match": "ELITE VAL D OISE – FRONTIGNAN",
    "horaire": "ven. 9 oct. 20h30",
    "diffuseur": "Handball TV",
    "statut": "",
@@ -2745,7 +2745,7 @@
   "pl/j07/ivry/elite-val-d-oise": {
    "id": "pl/j07/ivry/elite-val-d-oise",
    "journee": "J07",
-   "match": "IVRY – ELITE VAL D'OISE",
+   "match": "IVRY – ELITE VAL D OISE",
    "horaire": "ven. 16 oct. 20h30",
    "diffuseur": "Handball TV",
    "statut": "",
@@ -2811,7 +2811,7 @@
   "pl/j08/elite-val-d-oise/dijon": {
    "id": "pl/j08/elite-val-d-oise/dijon",
    "journee": "J08",
-   "match": "ELITE VAL D'OISE – DIJON",
+   "match": "ELITE VAL D OISE – DIJON",
    "horaire": "ven. 23 oct. 20h30",
    "diffuseur": "Handball TV",
    "statut": "",
@@ -2899,7 +2899,7 @@
   "pl/j09/cherbourg/elite-val-d-oise": {
    "id": "pl/j09/cherbourg/elite-val-d-oise",
    "journee": "J09",
-   "match": "CHERBOURG – ELITE VAL D'OISE",
+   "match": "CHERBOURG – ELITE VAL D OISE",
    "horaire": "ven. 30 oct. 20h30",
    "diffuseur": "Handball TV",
    "statut": "",
@@ -3031,7 +3031,7 @@
   "pl/j10/elite-val-d-oise/istres": {
    "id": "pl/j10/elite-val-d-oise/istres",
    "journee": "J10",
-   "match": "ELITE VAL D'OISE – ISTRES",
+   "match": "ELITE VAL D OISE – ISTRES",
    "horaire": "sam. 14 nov. 20h45",
    "diffuseur": "Handball TV",
    "statut": "",
@@ -3097,7 +3097,7 @@
   "pl/j11/elite-val-d-oise/creteil": {
    "id": "pl/j11/elite-val-d-oise/creteil",
    "journee": "J11",
-   "match": "ELITE VAL D'OISE – CRÉTEIL",
+   "match": "ELITE VAL D OISE – CRÉTEIL",
    "horaire": "ven. 20 nov. 20h30",
    "diffuseur": "Handball TV",
    "statut": "",
@@ -3196,7 +3196,7 @@
   "pl/j12/saintes/elite-val-d-oise": {
    "id": "pl/j12/saintes/elite-val-d-oise",
    "journee": "J12",
-   "match": "SAINTES – ELITE VAL D'OISE",
+   "match": "SAINTES – ELITE VAL D OISE",
    "horaire": "ven. 27 nov. 20h30",
    "diffuseur": "Handball TV",
    "statut": "",
@@ -3273,7 +3273,7 @@
   "pl/j13/elite-val-d-oise/pau-billere": {
    "id": "pl/j13/elite-val-d-oise/pau-billere",
    "journee": "J13",
-   "match": "ELITE VAL D'OISE – PAU BILLÈRE",
+   "match": "ELITE VAL D OISE – PAU BILLÈRE",
    "horaire": "ven. 4 déc. 20h30",
    "diffuseur": "Handball TV",
    "statut": "",
@@ -3383,7 +3383,7 @@
   "pl/j14/massy/elite-val-d-oise": {
    "id": "pl/j14/massy/elite-val-d-oise",
    "journee": "J14",
-   "match": "MASSY – ELITE VAL D'OISE",
+   "match": "MASSY – ELITE VAL D OISE",
    "horaire": "dim. 13 déc. 16h00",
    "diffuseur": "Handball TV",
    "statut": "",
@@ -3427,7 +3427,7 @@
   "pl/j15/elite-val-d-oise/cournon": {
    "id": "pl/j15/elite-val-d-oise/cournon",
    "journee": "J15",
-   "match": "ELITE VAL D'OISE – COURNON",
+   "match": "ELITE VAL D OISE – COURNON",
    "horaire": "ven. 18 déc. 20h30",
    "diffuseur": "Handball TV",
    "statut": "",
@@ -3559,7 +3559,7 @@
   "pl/j16/valence/elite-val-d-oise": {
    "id": "pl/j16/valence/elite-val-d-oise",
    "journee": "J16",
-   "match": "VALENCE – ELITE VAL D'OISE",
+   "match": "VALENCE – ELITE VAL D OISE",
    "horaire": "mar. 22 déc. 20h30",
    "diffuseur": "Handball TV + beIN SPORTS",
    "statut": "",
@@ -3581,7 +3581,7 @@
   "pl/j17/elite-val-d-oise/cherbourg": {
    "id": "pl/j17/elite-val-d-oise/cherbourg",
    "journee": "J17",
-   "match": "ELITE VAL D'OISE – CHERBOURG",
+   "match": "ELITE VAL D OISE – CHERBOURG",
    "horaire": "ven. 5 févr. 20h30",
    "diffuseur": "Handball TV",
    "statut": "",
@@ -3713,7 +3713,7 @@
   "pl/j18/istres/elite-val-d-oise": {
    "id": "pl/j18/istres/elite-val-d-oise",
    "journee": "J18",
-   "match": "ISTRES – ELITE VAL D'OISE",
+   "match": "ISTRES – ELITE VAL D OISE",
    "horaire": "ven. 12 févr. 20h30",
    "diffuseur": "Handball TV",
    "statut": "",
@@ -3757,7 +3757,7 @@
   "pl/j19/elite-val-d-oise/draguignan": {
    "id": "pl/j19/elite-val-d-oise/draguignan",
    "journee": "J19",
-   "match": "ELITE VAL D'OISE – DRAGUIGNAN",
+   "match": "ELITE VAL D OISE – DRAGUIGNAN",
    "horaire": "ven. 19 févr. 20h30",
    "diffuseur": "Handball TV",
    "statut": "",
@@ -3834,7 +3834,7 @@
   "pl/j20/besancon/elite-val-d-oise": {
    "id": "pl/j20/besancon/elite-val-d-oise",
    "journee": "J20",
-   "match": "BESANÇON – ELITE VAL D'OISE",
+   "match": "BESANÇON – ELITE VAL D OISE",
    "horaire": "ven. 26 févr. 20h30",
    "diffuseur": "Handball TV",
    "statut": "",
@@ -3955,7 +3955,7 @@
   "pl/j21/elite-val-d-oise/massy": {
    "id": "pl/j21/elite-val-d-oise/massy",
    "journee": "J21",
-   "match": "ELITE VAL D'OISE – MASSY",
+   "match": "ELITE VAL D OISE – MASSY",
    "horaire": "ven. 5 mars. 20h30",
    "diffuseur": "Handball TV",
    "statut": "",
@@ -4021,7 +4021,7 @@
   "pl/j22/creteil/elite-val-d-oise": {
    "id": "pl/j22/creteil/elite-val-d-oise",
    "journee": "J22",
-   "match": "CRÉTEIL – ELITE VAL D'OISE",
+   "match": "CRÉTEIL – ELITE VAL D OISE",
    "horaire": "ven. 19 mars. 20h30",
    "diffuseur": "Handball TV",
    "statut": "",
@@ -4142,7 +4142,7 @@
   "pl/j23/frontignan/elite-val-d-oise": {
    "id": "pl/j23/frontignan/elite-val-d-oise",
    "journee": "J23",
-   "match": "FRONTIGNAN – ELITE VAL D'OISE",
+   "match": "FRONTIGNAN – ELITE VAL D OISE",
    "horaire": "ven. 26 mars. 20h30",
    "diffuseur": "Handball TV",
    "statut": "",
@@ -4219,7 +4219,7 @@
   "pl/j24/elite-val-d-oise/pontault": {
    "id": "pl/j24/elite-val-d-oise/pontault",
    "journee": "J24",
-   "match": "ELITE VAL D'OISE – PONTAULT",
+   "match": "ELITE VAL D OISE – PONTAULT",
    "horaire": "mar. 30 mars. 20h30",
    "diffuseur": "Handball TV",
    "statut": "",
@@ -4318,7 +4318,7 @@
   "pl/j25/pau-billere/elite-val-d-oise": {
    "id": "pl/j25/pau-billere/elite-val-d-oise",
    "journee": "J25",
-   "match": "PAU BILLÈRE – ELITE VAL D'OISE",
+   "match": "PAU BILLÈRE – ELITE VAL D OISE",
    "horaire": "ven. 2 avr. 20h30",
    "diffuseur": "Handball TV",
    "statut": "",
@@ -4406,7 +4406,7 @@
   "pl/j26/elite-val-d-oise/sarrebourg": {
    "id": "pl/j26/elite-val-d-oise/sarrebourg",
    "journee": "J26",
-   "match": "ELITE VAL D'OISE – SARREBOURG",
+   "match": "ELITE VAL D OISE – SARREBOURG",
    "horaire": "ven. 9 avr. 20h30",
    "diffuseur": "Handball TV",
    "statut": "",
@@ -4472,7 +4472,7 @@
   "pl/j27/elite-val-d-oise/ivry": {
    "id": "pl/j27/elite-val-d-oise/ivry",
    "journee": "J27",
-   "match": "ELITE VAL D'OISE – IVRY",
+   "match": "ELITE VAL D OISE – IVRY",
    "horaire": "ven. 16 avr. 20h30",
    "diffuseur": "Handball TV",
    "statut": "",
@@ -4549,7 +4549,7 @@
   "pl/j28/cournon/elite-val-d-oise": {
    "id": "pl/j28/cournon/elite-val-d-oise",
    "journee": "J28",
-   "match": "COURNON – ELITE VAL D'OISE",
+   "match": "COURNON – ELITE VAL D OISE",
    "horaire": "ven. 23 avr. 20h30",
    "diffuseur": "Handball TV",
    "statut": "",
@@ -4659,7 +4659,7 @@
   "pl/j29/elite-val-d-oise/saintes": {
    "id": "pl/j29/elite-val-d-oise/saintes",
    "journee": "J29",
-   "match": "ELITE VAL D'OISE – SAINTES",
+   "match": "ELITE VAL D OISE – SAINTES",
    "horaire": "ven. 30 avr. 20h30",
    "diffuseur": "Handball TV",
    "statut": "",
@@ -4736,7 +4736,7 @@
   "pl/j30/dijon/elite-val-d-oise": {
    "id": "pl/j30/dijon/elite-val-d-oise",
    "journee": "J30",
-   "match": "DIJON – ELITE VAL D'OISE",
+   "match": "DIJON – ELITE VAL D OISE",
    "horaire": "ven. 14 mai. 20h30",
    "diffuseur": "Handball TV",
    "statut": "",
