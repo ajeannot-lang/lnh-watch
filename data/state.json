@@ -496,17 +496,6 @@
    "_pend": null,
    "_annule": false
   },
-  "dsl/j10/aix/paris": {
-   "id": "dsl/j10/aix/paris",
-   "journee": "J10",
-   "match": "AIX – PARIS",
-   "horaire": "ven. 13 nov. 20h00",
-   "diffuseur": "Handball TV",
-   "statut": "",
-   "_miss": 3,
-   "_pend": null,
-   "_annule": false
-  },
   "dsl/j10/cesson-rennes/toulouse": {
    "id": "dsl/j10/cesson-rennes/toulouse",
    "journee": "J10",
@@ -515,17 +504,6 @@
    "diffuseur": "Handball TV",
    "statut": "",
    "_miss": 0,
-   "_pend": null,
-   "_annule": false
-  },
-  "dsl/j10/chambery/nimes": {
-   "id": "dsl/j10/chambery/nimes",
-   "journee": "J10",
-   "match": "CHAMBÉRY – NÎMES",
-   "horaire": "ven. 13 nov. 20h00",
-   "diffuseur": "Handball TV",
-   "statut": "",
-   "_miss": 3,
    "_pend": null,
    "_annule": false
   },
@@ -548,17 +526,6 @@
    "diffuseur": "Handball TV",
    "statut": "",
    "_miss": 0,
-   "_pend": null,
-   "_annule": false
-  },
-  "dsl/j10/nantes/saint-raphael": {
-   "id": "dsl/j10/nantes/saint-raphael",
-   "journee": "J10",
-   "match": "NANTES – SAINT-RAPHAËL",
-   "horaire": "ven. 13 nov. 20h00",
-   "diffuseur": "Handball TV",
-   "statut": "",
-   "_miss": 3,
    "_pend": null,
    "_annule": false
   },
@@ -639,39 +606,6 @@
    "_pend": null,
    "_annule": false
   },
-  "dsl/j11/saint-raphael/chartres": {
-   "id": "dsl/j11/saint-raphael/chartres",
-   "journee": "J11",
-   "match": "SAINT-RAPHAËL – CHARTRES",
-   "horaire": "ven. 20 nov. 20h00",
-   "diffuseur": "Handball TV",
-   "statut": "",
-   "_miss": 3,
-   "_pend": null,
-   "_annule": false
-  },
-  "dsl/j11/saran/chambery": {
-   "id": "dsl/j11/saran/chambery",
-   "journee": "J11",
-   "match": "SARAN – CHAMBÉRY",
-   "horaire": "ven. 20 nov. 20h00",
-   "diffuseur": "Handball TV",
-   "statut": "",
-   "_miss": 3,
-   "_pend": null,
-   "_annule": false
-  },
-  "dsl/j11/toulouse/montpellier": {
-   "id": "dsl/j11/toulouse/montpellier",
-   "journee": "J11",
-   "match": "TOULOUSE – MONTPELLIER",
-   "horaire": "ven. 20 nov. 20h00",
-   "diffuseur": "Handball TV",
-   "statut": "",
-   "_miss": 3,
-   "_pend": null,
-   "_annule": false
-  },
   "dsl/j12/chambery/limoges": {
    "id": "dsl/j12/chambery/limoges",
    "journee": "J12",
@@ -679,7 +613,7 @@
    "horaire": "ven. 27 nov. 20h00",
    "diffuseur": "Handball TV",
    "statut": "",
-   "_miss": 2,
+   "_miss": 3,
    "_pend": null,
    "_annule": false
   },
@@ -767,7 +701,7 @@
    "horaire": "ven. 4 déc. 20h00",
    "diffuseur": "Handball TV",
    "statut": "",
-   "_miss": 2,
+   "_miss": 3,
    "_pend": null,
    "_annule": false
   },
@@ -811,7 +745,7 @@
    "horaire": "ven. 4 déc. 20h00",
    "diffuseur": "Handball TV",
    "statut": "",
-   "_miss": 2,
+   "_miss": 3,
    "_pend": null,
    "_annule": false
   },
@@ -833,7 +767,7 @@
    "horaire": "ven. 4 déc. 20h00",
    "diffuseur": "Handball TV",
    "statut": "",
-   "_miss": 2,
+   "_miss": 3,
    "_pend": null,
    "_annule": false
   },
@@ -899,7 +833,7 @@
    "horaire": "ven. 11 déc. 20h00",
    "diffuseur": "Handball TV",
    "statut": "",
-   "_miss": 2,
+   "_miss": 3,
    "_pend": null,
    "_annule": false
   },
@@ -910,7 +844,7 @@
    "horaire": "ven. 11 déc. 20h00",
    "diffuseur": "Handball TV",
    "statut": "",
-   "_miss": 2,
+   "_miss": 3,
    "_pend": null,
    "_annule": false
   },
@@ -921,7 +855,7 @@
    "horaire": "ven. 11 déc. 20h00",
    "diffuseur": "Handball TV",
    "statut": "",
-   "_miss": 2,
+   "_miss": 3,
    "_pend": null,
    "_annule": false
   },
@@ -976,7 +910,7 @@
    "horaire": "mar. 22 déc. 20h00",
    "diffuseur": "Handball TV",
    "statut": "",
-   "_miss": 2,
+   "_miss": 3,
    "_pend": null,
    "_annule": false
   },
@@ -987,7 +921,7 @@
    "horaire": "mar. 22 déc. 20h00",
    "diffuseur": "Handball TV",
    "statut": "",
-   "_miss": 2,
+   "_miss": 3,
    "_pend": null,
    "_annule": false
   },
