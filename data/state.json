@@ -2404,12 +2404,12 @@
   "pl/j04/istres/pontault": {
    "id": "pl/j04/istres/pontault",
    "journee": "J04",
-   "match": "Istres – Pontault",
+   "match": "ISTRES – PONTAULT",
    "horaire": "",
    "diffuseur": "Handball TV",
-   "statut": "reporté",
+   "statut": "",
    "_miss": 0,
-   "_pend": null,
+   "_pend": "mar. 13 oct. 19h00",
    "_annule": false
   },
   "pl/j04/cherbourg/frontignan": {
