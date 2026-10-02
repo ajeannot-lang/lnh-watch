@@ -196,5 +196,82 @@
   "avant": "",
   "apres": "ven. 2 oct. 20h00",
   "diffuseur": "Handball TV + beIN SPORTS"
+ },
+ {
+  "ts": "2026-10-02T20:37",
+  "comp": "Daikin StarLigue",
+  "type": "nouveau",
+  "id": "dsl/j05/caen/saint-raphael",
+  "journee": "J05",
+  "match": "Caen – Saint Raphael",
+  "avant": "",
+  "apres": "ven. 2 oct. 20h30",
+  "diffuseur": "Handball TV"
+ },
+ {
+  "ts": "2026-10-02T20:37",
+  "comp": "Daikin StarLigue",
+  "type": "nouveau",
+  "id": "dsl/j05/tremblay/selestat",
+  "journee": "J05",
+  "match": "Tremblay – Selestat",
+  "avant": "",
+  "apres": "ven. 2 oct. 20h30",
+  "diffuseur": "Handball TV"
+ },
+ {
+  "ts": "2026-10-02T20:37",
+  "comp": "ProLigue",
+  "type": "nouveau",
+  "id": "pl/j05/cherbourg/istres",
+  "journee": "J05",
+  "match": "Cherbourg – Istres",
+  "avant": "",
+  "apres": "ven. 2 oct. 20h30",
+  "diffuseur": "Handball TV"
+ },
+ {
+  "ts": "2026-10-02T20:37",
+  "comp": "ProLigue",
+  "type": "nouveau",
+  "id": "pl/j05/dijon/creteil",
+  "journee": "J05",
+  "match": "Dijon – Creteil",
+  "avant": "",
+  "apres": "ven. 2 oct. 20h30",
+  "diffuseur": "Handball TV"
+ },
+ {
+  "ts": "2026-10-02T20:37",
+  "comp": "ProLigue",
+  "type": "nouveau",
+  "id": "pl/j05/frontignan/pau-billere",
+  "journee": "J05",
+  "match": "Frontignan – Pau Billere",
+  "avant": "",
+  "apres": "ven. 2 oct. 20h30",
+  "diffuseur": "Handball TV"
+ },
+ {
+  "ts": "2026-10-02T20:37",
+  "comp": "ProLigue",
+  "type": "nouveau",
+  "id": "pl/j05/ivry/cournon",
+  "journee": "J05",
+  "match": "Ivry – Cournon",
+  "avant": "",
+  "apres": "ven. 2 oct. 20h30",
+  "diffuseur": "Handball TV"
+ },
+ {
+  "ts": "2026-10-02T20:37",
+  "comp": "ProLigue",
+  "type": "nouveau",
+  "id": "pl/j05/pontault/elite-val-d-oise",
+  "journee": "J05",
+  "match": "Pontault – Elite Val D Oise",
+  "avant": "",
+  "apres": "ven. 2 oct. 20h30",
+  "diffuseur": "Handball TV"
  }
 ]

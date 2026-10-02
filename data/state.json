@@ -2211,6 +2211,28 @@
    "_miss": 0,
    "_pend": null,
    "_annule": false
+  },
+  "dsl/j05/caen/saint-raphael": {
+   "id": "dsl/j05/caen/saint-raphael",
+   "journee": "J05",
+   "match": "Caen – Saint Raphael",
+   "horaire": "ven. 2 oct. 20h30",
+   "diffuseur": "Handball TV",
+   "statut": "",
+   "_miss": 0,
+   "_pend": null,
+   "_annule": false
+  },
+  "dsl/j05/tremblay/selestat": {
+   "id": "dsl/j05/tremblay/selestat",
+   "journee": "J05",
+   "match": "Tremblay – Selestat",
+   "horaire": "ven. 2 oct. 20h30",
+   "diffuseur": "Handball TV",
+   "statut": "",
+   "_miss": 0,
+   "_pend": null,
+   "_annule": false
   }
  },
  "ProLigue": {
@@ -4926,6 +4948,61 @@
    "match": "Valence – Besancon",
    "horaire": "ven. 2 oct. 20h00",
    "diffuseur": "Handball TV + beIN SPORTS",
+   "statut": "",
+   "_miss": 0,
+   "_pend": null,
+   "_annule": false
+  },
+  "pl/j05/cherbourg/istres": {
+   "id": "pl/j05/cherbourg/istres",
+   "journee": "J05",
+   "match": "Cherbourg – Istres",
+   "horaire": "ven. 2 oct. 20h30",
+   "diffuseur": "Handball TV",
+   "statut": "",
+   "_miss": 0,
+   "_pend": null,
+   "_annule": false
+  },
+  "pl/j05/dijon/creteil": {
+   "id": "pl/j05/dijon/creteil",
+   "journee": "J05",
+   "match": "Dijon – Creteil",
+   "horaire": "ven. 2 oct. 20h30",
+   "diffuseur": "Handball TV",
+   "statut": "",
+   "_miss": 0,
+   "_pend": null,
+   "_annule": false
+  },
+  "pl/j05/frontignan/pau-billere": {
+   "id": "pl/j05/frontignan/pau-billere",
+   "journee": "J05",
+   "match": "Frontignan – Pau Billere",
+   "horaire": "ven. 2 oct. 20h30",
+   "diffuseur": "Handball TV",
+   "statut": "",
+   "_miss": 0,
+   "_pend": null,
+   "_annule": false
+  },
+  "pl/j05/ivry/cournon": {
+   "id": "pl/j05/ivry/cournon",
+   "journee": "J05",
+   "match": "Ivry – Cournon",
+   "horaire": "ven. 2 oct. 20h30",
+   "diffuseur": "Handball TV",
+   "statut": "",
+   "_miss": 0,
+   "_pend": null,
+   "_annule": false
+  },
+  "pl/j05/pontault/elite-val-d-oise": {
+   "id": "pl/j05/pontault/elite-val-d-oise",
+   "journee": "J05",
+   "match": "Pontault – Elite Val D Oise",
+   "horaire": "ven. 2 oct. 20h30",
+   "diffuseur": "Handball TV",
    "statut": "",
    "_miss": 0,
    "_pend": null,
