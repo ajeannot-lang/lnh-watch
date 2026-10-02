@@ -5007,6 +5007,17 @@
    "_miss": 0,
    "_pend": null,
    "_annule": false
+  },
+  "pl/j05/draguignan/saintes": {
+   "id": "pl/j05/draguignan/saintes",
+   "journee": "J05",
+   "match": "Draguignan – Saintes",
+   "horaire": "ven. 2 oct. 20h30",
+   "diffuseur": "Handball TV",
+   "statut": "",
+   "_miss": 0,
+   "_pend": null,
+   "_annule": false
   }
  },
  "Coupe de France": {
