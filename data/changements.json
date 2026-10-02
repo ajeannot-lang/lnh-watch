@@ -163,5 +163,16 @@
   "avant": "",
   "apres": "mar. 1 déc. 20h45",
   "diffuseur": "Handball TV"
+ },
+ {
+  "ts": "2026-10-02T08:54",
+  "comp": "ProLigue",
+  "type": "horaire",
+  "id": "pl/j04/istres/pontault",
+  "journee": "J04",
+  "match": "ISTRES – PONTAULT",
+  "avant": "",
+  "apres": "mar. 13 oct. 19h00",
+  "diffuseur": "Handball TV"
  }
 ]
