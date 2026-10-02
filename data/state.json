@@ -5212,11 +5212,11 @@
    "id": "cdf/2eme-tour/pontault/cesson-rennes",
    "journee": "2e tour",
    "match": "PONTAULT – CESSON-RENNES",
-   "horaire": "",
+   "horaire": "mar. 6 oct. 20h00",
    "diffuseur": "Handball TV",
    "statut": "",
    "_miss": 0,
-   "_pend": "mar. 6 oct. 20h00",
+   "_pend": null,
    "_annule": false
   },
   "cdf/2eme-tour/valence/dunkerque": {
