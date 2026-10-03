@@ -224,7 +224,7 @@
   "dsl/j05/dunkerque/nantes": {
    "id": "dsl/j05/dunkerque/nantes",
    "journee": "J05",
-   "match": "DUNKERQUE – NANTES",
+   "match": "Dunkerque – Nantes",
    "horaire": "sam. 3 oct. 19h00",
    "diffuseur": "Handball TV",
    "statut": "",
@@ -239,7 +239,7 @@
    "horaire": "sam. 3 oct. 20h30",
    "diffuseur": "Handball TV",
    "statut": "",
-   "_miss": 0,
+   "_miss": 1,
    "_pend": null,
    "_annule": false
   },
@@ -2595,7 +2595,7 @@
    "horaire": "sam. 3 oct. 20h30",
    "diffuseur": "Handball TV + beIN SPORTS",
    "statut": "",
-   "_miss": 0,
+   "_miss": 1,
    "_pend": null,
    "_annule": false
   },
