@@ -235,11 +235,11 @@
   "dsl/j05/cesson-rennes/limoges": {
    "id": "dsl/j05/cesson-rennes/limoges",
    "journee": "J05",
-   "match": "CESSON-RENNES – LIMOGES",
+   "match": "Cesson Rennes – Limoges",
    "horaire": "sam. 3 oct. 20h30",
    "diffuseur": "Handball TV",
    "statut": "",
-   "_miss": 1,
+   "_miss": 0,
    "_pend": null,
    "_annule": false
   },
@@ -2591,11 +2591,11 @@
   "pl/j05/sarrebourg/massy": {
    "id": "pl/j05/sarrebourg/massy",
    "journee": "J05",
-   "match": "SARREBOURG – MASSY",
+   "match": "Sarrebourg – Massy",
    "horaire": "sam. 3 oct. 20h30",
    "diffuseur": "Handball TV + beIN SPORTS",
    "statut": "",
-   "_miss": 1,
+   "_miss": 0,
    "_pend": null,
    "_annule": false
   },
