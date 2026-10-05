@@ -478,11 +478,11 @@
    "id": "dsl/j10/cesson-rennes/toulouse",
    "journee": "J10",
    "match": "CESSON-RENNES – TOULOUSE",
-   "horaire": "ven. 13 nov. 20h00",
+   "horaire": "ven. 13 nov. 20h30",
    "diffuseur": "Handball TV",
    "statut": "",
    "_miss": 0,
-   "_pend": "ven. 13 nov. 20h30",
+   "_pend": null,
    "_annule": false
   },
   "dsl/j10/chartres/limoges": {

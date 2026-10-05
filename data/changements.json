@@ -306,5 +306,16 @@
   "avant": "ven. 13 nov. 20h00",
   "apres": "ven. 13 nov. 20h30",
   "diffuseur": "Handball TV"
+ },
+ {
+  "ts": "2026-10-05T13:58",
+  "comp": "Daikin StarLigue",
+  "type": "horaire",
+  "id": "dsl/j10/cesson-rennes/toulouse",
+  "journee": "J10",
+  "match": "CESSON-RENNES – TOULOUSE",
+  "avant": "ven. 13 nov. 20h00",
+  "apres": "ven. 13 nov. 20h30",
+  "diffuseur": "Handball TV"
  }
 ]
