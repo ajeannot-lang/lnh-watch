@@ -224,6 +224,7 @@ def generer_html(competitions, maj_horodatage=None, changements7=None):
     """
     maj = maj_horodatage or datetime.now().strftime("%d/%m/%Y à %H:%M")
     changements7 = changements7 or []
+    maintenant = _maintenant()
 
     # --- Rubrique « Changements » ---
     # Reportés : TOUS les matchs actuellement reportés (toujours listés, en
@@ -238,6 +239,8 @@ def generer_html(competitions, maj_horodatage=None, changements7=None):
     for e in sorted(changements7, key=lambda x: x.get("ts", ""), reverse=True):
         if e.get("type") == "reporte":
             continue   # géré par la liste persistante ci-dessus
+        if _est_passe(e.get("apres", ""), maintenant):
+            continue   # match déjà joué → inutile dans l'encadré (booking)
         quand = _fmt_dt(e.get("ts", ""))
         comp = _esc(e.get("comp", "")); jr = _esc(e.get("journee", ""))
         match = _esc(e.get("match", "")); apres = _esc(e.get("apres", ""))
@@ -293,7 +296,6 @@ def generer_html(competitions, maj_horodatage=None, changements7=None):
         removed = [e for i, e in suppr.items() if i not in cur_ids]
 
         lignes = []
-        maintenant = _maintenant()
 
         def _tri(m):
             reporte = "report" in (m.get("statut", "") or "").lower()
@@ -303,22 +305,20 @@ def generer_html(competitions, maj_horodatage=None, changements7=None):
             classe, tag = "", ""
             passe = _est_passe(m.get("horaire", ""), maintenant)
             statut = (m.get("statut", "") or "").lower()
-            if m["id"] in ids_chg:
+            horaire_cell = _horaire_html(m.get("horaire", ""))
+            # Priorité d'affichage : annulé > reporté > terminé (passé) > décalé > nouveau
+            if "annul" in statut:
+                classe = "annule"; tag = '<span class="tag annule">ANNULÉ</span>'
+            elif "report" in statut:
+                tag = '<span class="tag reporte">REPORTÉ</span>'
+            elif passe:
+                classe = "passe"; tag = '<span class="tag passe">terminé</span>'
+            elif m["id"] in ids_chg:
                 classe = "chg"; tag = '<span class="tag chg">HORAIRE MODIFIÉ</span>'
                 horaire_cell = (f'<span class="avant">{_horaire_html(ids_chg[m["id"]]["avant"])}</span>'
                                 f'<span class="flch">→</span>{_horaire_html(ids_chg[m["id"]]["apres"])}')
             elif m["id"] in ids_new:
                 classe = "new"; tag = '<span class="tag new">NOUVEAU</span>'
-                horaire_cell = _horaire_html(m.get("horaire",""))
-            else:
-                horaire_cell = _horaire_html(m.get("horaire",""))
-                if passe:
-                    classe = "passe"; tag = '<span class="tag passe">terminé</span>'
-            # Statut annulé/reporté : prioritaire sur l'affichage
-            if "annul" in statut:
-                classe = "annule"; tag = '<span class="tag annule">ANNULÉ</span>'
-            elif "report" in statut:
-                tag = '<span class="tag reporte">REPORTÉ</span>' + tag
             lignes.append(f'<tr class="{classe}"><td class="jr">{_esc(m.get("journee",""))}</td>'
                           f'<td>{_esc(m.get("match",""))}{tag}</td>'
                           f'<td class="horaire">{horaire_cell}</td>'
