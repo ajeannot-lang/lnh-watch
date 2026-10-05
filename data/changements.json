@@ -284,5 +284,27 @@
   "avant": "",
   "apres": "ven. 2 oct. 20h30",
   "diffuseur": "Handball TV"
+ },
+ {
+  "ts": "2026-10-05T11:28",
+  "comp": "Daikin StarLigue",
+  "type": "horaire",
+  "id": "dsl/j10/selestat/saran",
+  "journee": "J10",
+  "match": "SÉLESTAT – SARAN",
+  "avant": "ven. 13 nov. 20h00",
+  "apres": "ven. 13 nov. 20h30",
+  "diffuseur": "Handball TV"
+ },
+ {
+  "ts": "2026-10-05T11:28",
+  "comp": "Daikin StarLigue",
+  "type": "horaire",
+  "id": "dsl/j10/tremblay/caen",
+  "journee": "J10",
+  "match": "TREMBLAY – CAEN",
+  "avant": "ven. 13 nov. 20h00",
+  "apres": "ven. 13 nov. 20h30",
+  "diffuseur": "Handball TV"
  }
 ]
