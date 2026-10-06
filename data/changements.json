@@ -372,5 +372,16 @@
   "avant": "",
   "apres": "mar. 27 oct. 20h00",
   "diffuseur": ""
+ },
+ {
+  "ts": "2026-10-06T13:30",
+  "comp": "Coupe de France",
+  "type": "nouveau",
+  "id": "cdf/3eme-tour/saint-raphael/nimes",
+  "journee": "3e tour",
+  "match": "SAINT-RAPHAËL – NÎMES",
+  "avant": "",
+  "apres": "mar. 27 oct. 20h00",
+  "diffuseur": "Handball TV"
  }
 ]
