@@ -317,5 +317,16 @@
   "avant": "ven. 13 nov. 20h00",
   "apres": "ven. 13 nov. 20h30",
   "diffuseur": "Handball TV"
+ },
+ {
+  "ts": "2026-10-06T07:55",
+  "comp": "Ligue des Champions",
+  "type": "nouveau",
+  "id": "ehfcl/j06/gudme/sporting-lisbonne",
+  "journee": "J06",
+  "match": "GUDME – SPORTING LISBONNE",
+  "avant": "",
+  "apres": "jeu. 29 oct. 18h45",
+  "diffuseur": "Handball TV"
  }
 ]
