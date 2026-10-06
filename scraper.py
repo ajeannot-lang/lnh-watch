@@ -163,12 +163,28 @@ def _est_futur(horaire):
     return bool(dt) and dt.date() >= datetime.now().date()
 
 
+def _provisoire(texte, dom, ext):
+    """Vrai si le match est encore PROVISOIRE (tirage non finalisé) :
+    la carte porte la mention « provisoire », ou un adversaire « à définir »."""
+    t = (texte or "").lower()
+    if "provisoire" in t:
+        return True
+    slugs = (dom + " " + ext).lower()
+    if "definir" in slugs or "a-definir" in slugs:
+        return True
+    if "à définir" in t or "a definir" in t or "a définir" in t:
+        return True
+    return False
+
+
 def normaliser(bruts):
     return [{"id": b["id"], "journee": _journee(b.get("tour", "")),
              "match": _nom_match(b.get("texte", ""), b.get("dom", ""), b.get("ext", "")),
              "horaire": _horaire(b.get("texte", "")),
              "diffuseur": b.get("diffuseur", ""),
-             "statut": _statut(b.get("texte", ""))} for b in bruts]
+             "statut": _statut(b.get("texte", "")),
+             "provisoire": _provisoire(b.get("texte", ""), b.get("dom", ""), b.get("ext", ""))}
+            for b in bruts]
 
 
 def garder_handball_tv(matchs):
@@ -178,6 +194,8 @@ def garder_handball_tv(matchs):
     (mieux vaut un match en trop qu'une page vidée par erreur de lecture)."""
     gardes = []
     for m in matchs:
+        if m.get("provisoire"):       # tirage non finalisé → pas affiché tant que provisoire
+            continue
         d = (m.get("diffuseur") or "").lower()
         if d == "bein sports":        # uniquement beIN → écarté
             continue

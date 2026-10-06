@@ -235,7 +235,7 @@ def generer_html(competitions, maj_horodatage=None, changements7=None):
             if "report" in (m.get("statut", "") or "").lower():
                 reportes.append((c["nom"], m))
 
-    buckets = {"nouveau": [], "horaire": [], "annule": [], "retire": []}
+    buckets = {"nouveau": [], "reprogramme": [], "horaire": [], "annule": [], "retire": []}
     for e in sorted(changements7, key=lambda x: x.get("ts", ""), reverse=True):
         if e.get("type") == "reporte":
             continue   # géré par la liste persistante ci-dessus
@@ -245,10 +245,17 @@ def generer_html(competitions, maj_horodatage=None, changements7=None):
         comp = _esc(e.get("comp", "")); jr = _esc(e.get("journee", ""))
         match = _esc(e.get("match", "")); apres = _esc(e.get("apres", ""))
         typ = e.get("type", "")
+        # Un décalage SANS horaire précédent = le match était reporté/à définir
+        # et vient de recevoir une date → c'est une REPROGRAMMATION, pas un décalage.
+        if typ == "horaire" and not (e.get("avant") or "").strip():
+            typ = "reprogramme"
         if typ == "horaire":
             li = (f'<li><span class="qd">{quand}</span> <b>{comp}</b> — {jr} — {match} : '
                   f'<span class="avant">{_esc(e.get("avant",""))}</span>'
                   f'<span class="flch"> → </span><b>{apres}</b></li>')
+        elif typ == "reprogramme":
+            li = (f'<li><span class="qd">{quand}</span> <b>{comp}</b> — {jr} — {match} : '
+                  f'<b>{apres}</b></li>')
         else:
             li = f'<li><span class="qd">{quand}</span> <b>{comp}</b> — {jr} — {match} ({apres})</li>'
         buckets.get(typ, buckets["retire"]).append(li)
@@ -267,6 +274,7 @@ def generer_html(competitions, maj_horodatage=None, changements7=None):
             blocs += (f'<h2 style="color:#e08a00">⏸ {len(reportes)} match(s) reporté(s)</h2>'
                       f'<ul>{"".join(rep_items)}</ul>')
         ordre = [("nouveau", "#3ddc84", "🆕 {n} nouveau(x) match(s)"),
+                 ("reprogramme", "#e08a00", "🔄 {n} match(s) reprogrammé(s)"),
                  ("horaire", "var(--rouge)", "⚠ {n} horaire(s) décalé(s)"),
                  ("annule",  "var(--rouge)", "❌ {n} match(s) annulé(s)"),
                  ("retire",  "var(--muted)", "{n} match(s) retiré(s)")]
@@ -314,9 +322,14 @@ def generer_html(competitions, maj_horodatage=None, changements7=None):
             elif passe:
                 classe = "passe"; tag = '<span class="tag passe">terminé</span>'
             elif m["id"] in ids_chg:
-                classe = "chg"; tag = '<span class="tag chg">HORAIRE MODIFIÉ</span>'
-                horaire_cell = (f'<span class="avant">{_horaire_html(ids_chg[m["id"]]["avant"])}</span>'
-                                f'<span class="flch">→</span>{_horaire_html(ids_chg[m["id"]]["apres"])}')
+                avant = (ids_chg[m["id"]].get("avant") or "").strip()
+                if not avant:   # pas d'horaire avant = match reprogrammé (ex-reporté/à définir)
+                    classe = "chg"; tag = '<span class="tag reporte">REPROGRAMMÉ</span>'
+                    horaire_cell = _horaire_html(ids_chg[m["id"]]["apres"])
+                else:
+                    classe = "chg"; tag = '<span class="tag chg">HORAIRE MODIFIÉ</span>'
+                    horaire_cell = (f'<span class="avant">{_horaire_html(avant)}</span>'
+                                    f'<span class="flch">→</span>{_horaire_html(ids_chg[m["id"]]["apres"])}')
             elif m["id"] in ids_new:
                 classe = "new"; tag = '<span class="tag new">NOUVEAU</span>'
             lignes.append(f'<tr class="{classe}"><td class="jr">{_esc(m.get("journee",""))}</td>'
