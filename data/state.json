@@ -5474,17 +5474,6 @@
    "_pend": null,
    "_annule": false
   },
-  "ehfcl/j06/paris/aalborg": {
-   "id": "ehfcl/j06/paris/aalborg",
-   "journee": "J06",
-   "match": "PARIS – AALBORG",
-   "horaire": "mer. 28 oct. 20h45",
-   "diffuseur": "",
-   "statut": "",
-   "_miss": 3,
-   "_pend": null,
-   "_annule": false
-  },
   "ehfcl/j06/montpellier/bucarest": {
    "id": "ehfcl/j06/montpellier/bucarest",
    "journee": "J06",
