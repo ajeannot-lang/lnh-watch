@@ -5229,6 +5229,50 @@
    "_miss": 0,
    "_pend": null,
    "_annule": false
+  },
+  "cdf/3eme-tour/pau-billere/limoges": {
+   "id": "cdf/3eme-tour/pau-billere/limoges",
+   "journee": "3e tour",
+   "match": "PAU BILLÈRE – LIMOGES",
+   "horaire": "mar. 27 oct. 20h00",
+   "diffuseur": "",
+   "statut": "",
+   "_miss": 0,
+   "_pend": null,
+   "_annule": false
+  },
+  "cdf/3eme-tour/toulouse/chambery": {
+   "id": "cdf/3eme-tour/toulouse/chambery",
+   "journee": "3e tour",
+   "match": "TOULOUSE – CHAMBÉRY",
+   "horaire": "mar. 27 oct. 20h00",
+   "diffuseur": "",
+   "statut": "",
+   "_miss": 0,
+   "_pend": null,
+   "_annule": false
+  },
+  "cdf/3eme-tour/tremblay/a-definir": {
+   "id": "cdf/3eme-tour/tremblay/a-definir",
+   "journee": "3e tour",
+   "match": "TREMBLAY – A DÉFINIR",
+   "horaire": "mar. 27 oct. 20h00",
+   "diffuseur": "",
+   "statut": "",
+   "_miss": 0,
+   "_pend": null,
+   "_annule": false
+  },
+  "cdf/3eme-tour/valence/chartres": {
+   "id": "cdf/3eme-tour/valence/chartres",
+   "journee": "3e tour",
+   "match": "VALENCE – CHARTRES",
+   "horaire": "mar. 27 oct. 20h00",
+   "diffuseur": "",
+   "statut": "",
+   "_miss": 0,
+   "_pend": null,
+   "_annule": false
   }
  },
  "Ligue des Champions": {
