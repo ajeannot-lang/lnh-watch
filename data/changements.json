@@ -383,5 +383,16 @@
   "avant": "",
   "apres": "mar. 27 oct. 20h00",
   "diffuseur": "Handball TV"
+ },
+ {
+  "ts": "2026-10-06T19:53",
+  "comp": "Coupe de France",
+  "type": "nouveau",
+  "id": "cdf/2eme-tour/pontault/cesson-rennes",
+  "journee": "2e tour",
+  "match": "Pontault – Cesson Rennes",
+  "avant": "",
+  "apres": "mar. 6 oct. 20h00",
+  "diffuseur": "Handball TV"
  }
 ]

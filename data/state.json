@@ -2248,6 +2248,18 @@
    "_miss": 0,
    "_pend": null,
    "_annule": false
+  },
+  "cdf/2eme-tour/pontault/cesson-rennes": {
+   "id": "cdf/2eme-tour/pontault/cesson-rennes",
+   "journee": "2e tour",
+   "match": "Pontault – Cesson Rennes",
+   "horaire": "mar. 6 oct. 20h00",
+   "diffuseur": "Handball TV",
+   "statut": "",
+   "provisoire": false,
+   "_miss": 0,
+   "_pend": null,
+   "_annule": false
   }
  },
  "Ligue des Champions": {
