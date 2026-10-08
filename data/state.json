@@ -594,6 +594,18 @@
    "_miss": 0,
    "_pend": null,
    "_annule": false
+  },
+  "dsl/j06/aix/saran": {
+   "id": "dsl/j06/aix/saran",
+   "journee": "J06",
+   "match": "Aix – Saran",
+   "horaire": "jeu. 8 oct. 20h00",
+   "diffuseur": "Handball TV",
+   "statut": "",
+   "provisoire": false,
+   "_miss": 0,
+   "_pend": null,
+   "_annule": false
   }
  },
  "ProLigue": {
@@ -2391,7 +2403,7 @@
    "horaire": "jeu. 8 oct. 20h45",
    "diffuseur": "Handball TV",
    "statut": "",
-   "_miss": 2,
+   "_miss": 3,
    "_pend": null,
    "_annule": false
   },

@@ -229,5 +229,16 @@
   "avant": "",
   "apres": "mar. 6 oct. 20h00",
   "diffuseur": "Handball TV"
+ },
+ {
+  "ts": "2026-10-08T19:55",
+  "comp": "Daikin StarLigue",
+  "type": "nouveau",
+  "id": "dsl/j06/aix/saran",
+  "journee": "J06",
+  "match": "Aix – Saran",
+  "avant": "",
+  "apres": "jeu. 8 oct. 20h00",
+  "diffuseur": "Handball TV"
  }
 ]
