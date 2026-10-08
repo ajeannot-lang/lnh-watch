@@ -2377,7 +2377,7 @@
   "ehfcl/j03/berlin/porto": {
    "id": "ehfcl/j03/berlin/porto",
    "journee": "J03",
-   "match": "BERLIN – PORTO",
+   "match": "Berlin – Porto",
    "horaire": "jeu. 8 oct. 18h45",
    "diffuseur": "Handball TV",
    "statut": "",
@@ -2399,11 +2399,11 @@
   "ehfcl/j03/sah-aarhus/montpellier": {
    "id": "ehfcl/j03/sah-aarhus/montpellier",
    "journee": "J03",
-   "match": "SAH AARHUS – MONTPELLIER",
+   "match": "Sah Aarhus – Montpellier",
    "horaire": "jeu. 8 oct. 20h45",
    "diffuseur": "Handball TV",
    "statut": "",
-   "_miss": 3,
+   "_miss": 0,
    "_pend": null,
    "_annule": false
   },
