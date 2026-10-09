@@ -525,7 +525,7 @@
    "horaire": "mer. 26 mai. 20h00",
    "diffuseur": "",
    "statut": "",
-   "_miss": 0,
+   "_miss": 1,
    "_pend": null,
    "_annule": false
   },
@@ -536,7 +536,7 @@
    "horaire": "mer. 26 mai. 20h00",
    "diffuseur": "",
    "statut": "",
-   "_miss": 0,
+   "_miss": 1,
    "_pend": null,
    "_annule": false
   },
@@ -547,7 +547,7 @@
    "horaire": "sam. 29 mai. 20h00",
    "diffuseur": "",
    "statut": "",
-   "_miss": 0,
+   "_miss": 1,
    "_pend": null,
    "_annule": false
   },
@@ -558,7 +558,7 @@
    "horaire": "sam. 29 mai. 20h00",
    "diffuseur": "",
    "statut": "",
-   "_miss": 0,
+   "_miss": 1,
    "_pend": null,
    "_annule": false
   },
@@ -569,7 +569,7 @@
    "horaire": "sam. 5 juin. 21h00",
    "diffuseur": "",
    "statut": "",
-   "_miss": 0,
+   "_miss": 1,
    "_pend": null,
    "_annule": false
   },
