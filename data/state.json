@@ -1974,6 +1974,90 @@
    "_miss": 0,
    "_pend": null,
    "_annule": false
+  },
+  "pl/j06/besancon/dijon": {
+   "id": "pl/j06/besancon/dijon",
+   "journee": "J06",
+   "match": "Besancon – Dijon",
+   "horaire": "ven. 9 oct. 20h30",
+   "diffuseur": "Handball TV",
+   "statut": "",
+   "provisoire": false,
+   "_miss": 0,
+   "_pend": null,
+   "_annule": false
+  },
+  "pl/j06/cournon/valence": {
+   "id": "pl/j06/cournon/valence",
+   "journee": "J06",
+   "match": "Cournon – Valence",
+   "horaire": "ven. 9 oct. 20h30",
+   "diffuseur": "Handball TV",
+   "statut": "",
+   "provisoire": false,
+   "_miss": 0,
+   "_pend": null,
+   "_annule": false
+  },
+  "pl/j06/creteil/cherbourg": {
+   "id": "pl/j06/creteil/cherbourg",
+   "journee": "J06",
+   "match": "Creteil – Cherbourg",
+   "horaire": "ven. 9 oct. 20h30",
+   "diffuseur": "Handball TV",
+   "statut": "",
+   "provisoire": false,
+   "_miss": 0,
+   "_pend": null,
+   "_annule": false
+  },
+  "pl/j06/elite-val-d-oise/frontignan": {
+   "id": "pl/j06/elite-val-d-oise/frontignan",
+   "journee": "J06",
+   "match": "Elite Val D Oise – Frontignan",
+   "horaire": "ven. 9 oct. 20h30",
+   "diffuseur": "Handball TV",
+   "statut": "",
+   "provisoire": false,
+   "_miss": 0,
+   "_pend": null,
+   "_annule": false
+  },
+  "pl/j06/massy/pontault": {
+   "id": "pl/j06/massy/pontault",
+   "journee": "J06",
+   "match": "Massy – Pontault",
+   "horaire": "ven. 9 oct. 20h30",
+   "diffuseur": "Handball TV",
+   "statut": "",
+   "provisoire": false,
+   "_miss": 0,
+   "_pend": null,
+   "_annule": false
+  },
+  "pl/j06/pau-billere/draguignan": {
+   "id": "pl/j06/pau-billere/draguignan",
+   "journee": "J06",
+   "match": "Pau Billere – Draguignan",
+   "horaire": "ven. 9 oct. 20h30",
+   "diffuseur": "Handball TV",
+   "statut": "",
+   "provisoire": false,
+   "_miss": 0,
+   "_pend": null,
+   "_annule": false
+  },
+  "pl/j06/saintes/sarrebourg": {
+   "id": "pl/j06/saintes/sarrebourg",
+   "journee": "J06",
+   "match": "Saintes – Sarrebourg",
+   "horaire": "ven. 9 oct. 20h30",
+   "diffuseur": "Handball TV",
+   "statut": "",
+   "provisoire": false,
+   "_miss": 0,
+   "_pend": null,
+   "_annule": false
   }
  },
  "Coupe de France": {

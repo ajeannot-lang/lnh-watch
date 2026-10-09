@@ -1,16 +1,5 @@
 [
  {
-  "ts": "2026-10-02T19:54",
-  "comp": "ProLigue",
-  "type": "nouveau",
-  "id": "pl/j05/valence/besancon",
-  "journee": "J05",
-  "match": "Valence – Besancon",
-  "avant": "",
-  "apres": "ven. 2 oct. 20h00",
-  "diffuseur": "Handball TV + beIN SPORTS"
- },
- {
   "ts": "2026-10-02T20:37",
   "comp": "Daikin StarLigue",
   "type": "nouveau",
@@ -239,6 +228,83 @@
   "match": "Istres – Ivry",
   "avant": "",
   "apres": "ven. 9 oct. 20h00",
+  "diffuseur": "Handball TV"
+ },
+ {
+  "ts": "2026-10-09T20:26",
+  "comp": "ProLigue",
+  "type": "nouveau",
+  "id": "pl/j06/besancon/dijon",
+  "journee": "J06",
+  "match": "Besancon – Dijon",
+  "avant": "",
+  "apres": "ven. 9 oct. 20h30",
+  "diffuseur": "Handball TV"
+ },
+ {
+  "ts": "2026-10-09T20:26",
+  "comp": "ProLigue",
+  "type": "nouveau",
+  "id": "pl/j06/cournon/valence",
+  "journee": "J06",
+  "match": "Cournon – Valence",
+  "avant": "",
+  "apres": "ven. 9 oct. 20h30",
+  "diffuseur": "Handball TV"
+ },
+ {
+  "ts": "2026-10-09T20:26",
+  "comp": "ProLigue",
+  "type": "nouveau",
+  "id": "pl/j06/creteil/cherbourg",
+  "journee": "J06",
+  "match": "Creteil – Cherbourg",
+  "avant": "",
+  "apres": "ven. 9 oct. 20h30",
+  "diffuseur": "Handball TV"
+ },
+ {
+  "ts": "2026-10-09T20:26",
+  "comp": "ProLigue",
+  "type": "nouveau",
+  "id": "pl/j06/elite-val-d-oise/frontignan",
+  "journee": "J06",
+  "match": "Elite Val D Oise – Frontignan",
+  "avant": "",
+  "apres": "ven. 9 oct. 20h30",
+  "diffuseur": "Handball TV"
+ },
+ {
+  "ts": "2026-10-09T20:26",
+  "comp": "ProLigue",
+  "type": "nouveau",
+  "id": "pl/j06/massy/pontault",
+  "journee": "J06",
+  "match": "Massy – Pontault",
+  "avant": "",
+  "apres": "ven. 9 oct. 20h30",
+  "diffuseur": "Handball TV"
+ },
+ {
+  "ts": "2026-10-09T20:26",
+  "comp": "ProLigue",
+  "type": "nouveau",
+  "id": "pl/j06/pau-billere/draguignan",
+  "journee": "J06",
+  "match": "Pau Billere – Draguignan",
+  "avant": "",
+  "apres": "ven. 9 oct. 20h30",
+  "diffuseur": "Handball TV"
+ },
+ {
+  "ts": "2026-10-09T20:26",
+  "comp": "ProLigue",
+  "type": "nouveau",
+  "id": "pl/j06/saintes/sarrebourg",
+  "journee": "J06",
+  "match": "Saintes – Sarrebourg",
+  "avant": "",
+  "apres": "ven. 9 oct. 20h30",
   "diffuseur": "Handball TV"
  }
 ]
