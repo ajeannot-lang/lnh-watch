@@ -229,5 +229,16 @@
   "avant": "",
   "apres": "ven. 9 oct. 19h30",
   "diffuseur": "Handball TV"
+ },
+ {
+  "ts": "2026-10-09T19:53",
+  "comp": "ProLigue",
+  "type": "nouveau",
+  "id": "pl/j06/istres/ivry",
+  "journee": "J06",
+  "match": "Istres – Ivry",
+  "avant": "",
+  "apres": "ven. 9 oct. 20h00",
+  "diffuseur": "Handball TV"
  }
 ]

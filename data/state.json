@@ -973,39 +973,6 @@
    "_pend": null,
    "_annule": false
   },
-  "pl/j06/cournon/valence": {
-   "id": "pl/j06/cournon/valence",
-   "journee": "J06",
-   "match": "COURNON – VALENCE",
-   "horaire": "ven. 9 oct. 20h30",
-   "diffuseur": "Handball TV",
-   "statut": "",
-   "_miss": 3,
-   "_pend": null,
-   "_annule": false
-  },
-  "pl/j06/creteil/cherbourg": {
-   "id": "pl/j06/creteil/cherbourg",
-   "journee": "J06",
-   "match": "CRÉTEIL – CHERBOURG",
-   "horaire": "ven. 9 oct. 20h30",
-   "diffuseur": "Handball TV",
-   "statut": "",
-   "_miss": 3,
-   "_pend": null,
-   "_annule": false
-  },
-  "pl/j06/saintes/sarrebourg": {
-   "id": "pl/j06/saintes/sarrebourg",
-   "journee": "J06",
-   "match": "SAINTES – SARREBOURG",
-   "horaire": "ven. 9 oct. 20h30",
-   "diffuseur": "Handball TV",
-   "statut": "",
-   "_miss": 3,
-   "_pend": null,
-   "_annule": false
-  },
   "pl/j07/valence/pau-billere": {
    "id": "pl/j07/valence/pau-billere",
    "journee": "J07",
@@ -1992,6 +1959,18 @@
    "horaire": "ven. 2 oct. 20h30",
    "diffuseur": "Handball TV",
    "statut": "",
+   "_miss": 0,
+   "_pend": null,
+   "_annule": false
+  },
+  "pl/j06/istres/ivry": {
+   "id": "pl/j06/istres/ivry",
+   "journee": "J06",
+   "match": "Istres – Ivry",
+   "horaire": "ven. 9 oct. 20h00",
+   "diffuseur": "Handball TV",
+   "statut": "",
+   "provisoire": false,
    "_miss": 0,
    "_pend": null,
    "_annule": false
