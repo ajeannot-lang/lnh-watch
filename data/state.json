@@ -595,6 +595,18 @@
    "_miss": 0,
    "_pend": null,
    "_annule": false
+  },
+  "dsl/j06/saint-raphael/cesson-rennes": {
+   "id": "dsl/j06/saint-raphael/cesson-rennes",
+   "journee": "J06",
+   "match": "Saint Raphael – Cesson Rennes",
+   "horaire": "ven. 9 oct. 19h30",
+   "diffuseur": "Handball TV",
+   "statut": "",
+   "provisoire": false,
+   "_miss": 0,
+   "_pend": null,
+   "_annule": false
   }
  },
  "ProLigue": {
@@ -961,17 +973,6 @@
    "_pend": null,
    "_annule": false
   },
-  "pl/j06/besancon/dijon": {
-   "id": "pl/j06/besancon/dijon",
-   "journee": "J06",
-   "match": "BESANÇON – DIJON",
-   "horaire": "ven. 9 oct. 20h30",
-   "diffuseur": "Handball TV",
-   "statut": "",
-   "_miss": 3,
-   "_pend": null,
-   "_annule": false
-  },
   "pl/j06/cournon/valence": {
    "id": "pl/j06/cournon/valence",
    "journee": "J06",
@@ -979,7 +980,7 @@
    "horaire": "ven. 9 oct. 20h30",
    "diffuseur": "Handball TV",
    "statut": "",
-   "_miss": 2,
+   "_miss": 3,
    "_pend": null,
    "_annule": false
   },
@@ -987,39 +988,6 @@
    "id": "pl/j06/creteil/cherbourg",
    "journee": "J06",
    "match": "CRÉTEIL – CHERBOURG",
-   "horaire": "ven. 9 oct. 20h30",
-   "diffuseur": "Handball TV",
-   "statut": "",
-   "_miss": 2,
-   "_pend": null,
-   "_annule": false
-  },
-  "pl/j06/elite-val-d-oise/frontignan": {
-   "id": "pl/j06/elite-val-d-oise/frontignan",
-   "journee": "J06",
-   "match": "ELITE VAL D OISE – FRONTIGNAN",
-   "horaire": "ven. 9 oct. 20h30",
-   "diffuseur": "Handball TV",
-   "statut": "",
-   "_miss": 3,
-   "_pend": null,
-   "_annule": false
-  },
-  "pl/j06/massy/pontault": {
-   "id": "pl/j06/massy/pontault",
-   "journee": "J06",
-   "match": "MASSY – PONTAULT",
-   "horaire": "ven. 9 oct. 20h30",
-   "diffuseur": "Handball TV",
-   "statut": "",
-   "_miss": 3,
-   "_pend": null,
-   "_annule": false
-  },
-  "pl/j06/pau-billere/draguignan": {
-   "id": "pl/j06/pau-billere/draguignan",
-   "journee": "J06",
-   "match": "PAU BILLÈRE – DRAGUIGNAN",
    "horaire": "ven. 9 oct. 20h30",
    "diffuseur": "Handball TV",
    "statut": "",
@@ -1034,7 +1002,7 @@
    "horaire": "ven. 9 oct. 20h30",
    "diffuseur": "Handball TV",
    "statut": "",
-   "_miss": 2,
+   "_miss": 3,
    "_pend": null,
    "_annule": false
   },

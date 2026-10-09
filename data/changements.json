@@ -218,5 +218,16 @@
   "avant": "",
   "apres": "jeu. 8 oct. 20h00",
   "diffuseur": "Handball TV"
+ },
+ {
+  "ts": "2026-10-09T19:27",
+  "comp": "Daikin StarLigue",
+  "type": "nouveau",
+  "id": "dsl/j06/saint-raphael/cesson-rennes",
+  "journee": "J06",
+  "match": "Saint Raphael – Cesson Rennes",
+  "avant": "",
+  "apres": "ven. 9 oct. 19h30",
+  "diffuseur": "Handball TV"
  }
 ]
