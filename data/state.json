@@ -254,17 +254,6 @@
    "_pend": null,
    "_annule": false
   },
-  "dsl/j06/saint-raphael/cesson-rennes": {
-   "id": "dsl/j06/saint-raphael/cesson-rennes",
-   "journee": "J06",
-   "match": "SAINT-RAPHAËL – CESSON-RENNES",
-   "horaire": "ven. 9 oct. 19h30",
-   "diffuseur": "Handball TV",
-   "statut": "",
-   "_miss": 3,
-   "_pend": null,
-   "_annule": false
-  },
   "dsl/j06/limoges/nimes": {
    "id": "dsl/j06/limoges/nimes",
    "journee": "J06",
@@ -972,17 +961,6 @@
    "_pend": null,
    "_annule": false
   },
-  "pl/j06/istres/ivry": {
-   "id": "pl/j06/istres/ivry",
-   "journee": "J06",
-   "match": "ISTRES – IVRY",
-   "horaire": "ven. 9 oct. 20h00",
-   "diffuseur": "Handball TV",
-   "statut": "",
-   "_miss": 3,
-   "_pend": null,
-   "_annule": false
-  },
   "pl/j06/besancon/dijon": {
    "id": "pl/j06/besancon/dijon",
    "journee": "J06",
@@ -990,7 +968,7 @@
    "horaire": "ven. 9 oct. 20h30",
    "diffuseur": "Handball TV",
    "statut": "",
-   "_miss": 2,
+   "_miss": 3,
    "_pend": null,
    "_annule": false
   },
@@ -1001,7 +979,7 @@
    "horaire": "ven. 9 oct. 20h30",
    "diffuseur": "Handball TV",
    "statut": "",
-   "_miss": 1,
+   "_miss": 2,
    "_pend": null,
    "_annule": false
   },
@@ -1012,7 +990,7 @@
    "horaire": "ven. 9 oct. 20h30",
    "diffuseur": "Handball TV",
    "statut": "",
-   "_miss": 1,
+   "_miss": 2,
    "_pend": null,
    "_annule": false
   },
@@ -1023,7 +1001,7 @@
    "horaire": "ven. 9 oct. 20h30",
    "diffuseur": "Handball TV",
    "statut": "",
-   "_miss": 2,
+   "_miss": 3,
    "_pend": null,
    "_annule": false
   },
@@ -1034,7 +1012,7 @@
    "horaire": "ven. 9 oct. 20h30",
    "diffuseur": "Handball TV",
    "statut": "",
-   "_miss": 2,
+   "_miss": 3,
    "_pend": null,
    "_annule": false
   },
@@ -1045,7 +1023,7 @@
    "horaire": "ven. 9 oct. 20h30",
    "diffuseur": "Handball TV",
    "statut": "",
-   "_miss": 2,
+   "_miss": 3,
    "_pend": null,
    "_annule": false
   },
@@ -1056,7 +1034,7 @@
    "horaire": "ven. 9 oct. 20h30",
    "diffuseur": "Handball TV",
    "statut": "",
-   "_miss": 1,
+   "_miss": 2,
    "_pend": null,
    "_annule": false
   },
