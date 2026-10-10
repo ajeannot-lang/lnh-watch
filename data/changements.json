@@ -218,5 +218,16 @@
   "avant": "",
   "apres": "ven. 9 oct. 20h30",
   "diffuseur": "Handball TV"
+ },
+ {
+  "ts": "2026-10-10T18:55",
+  "comp": "Daikin StarLigue",
+  "type": "nouveau",
+  "id": "dsl/j06/limoges/nimes",
+  "journee": "J06",
+  "match": "Limoges – Nimes",
+  "avant": "",
+  "apres": "sam. 10 oct. 19h00",
+  "diffuseur": "Handball TV"
  }
 ]
