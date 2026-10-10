@@ -254,17 +254,6 @@
    "_pend": null,
    "_annule": false
   },
-  "dsl/j06/limoges/nimes": {
-   "id": "dsl/j06/limoges/nimes",
-   "journee": "J06",
-   "match": "LIMOGES – NÎMES",
-   "horaire": "sam. 10 oct. 19h00",
-   "diffuseur": "Handball TV",
-   "statut": "",
-   "_miss": 3,
-   "_pend": null,
-   "_annule": false
-  },
   "dsl/j06/tremblay/montpellier": {
    "id": "dsl/j06/tremblay/montpellier",
    "journee": "J06",
