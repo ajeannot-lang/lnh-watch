@@ -240,5 +240,16 @@
   "avant": "",
   "apres": "dim. 11 oct. 16h00",
   "diffuseur": "Handball TV"
+ },
+ {
+  "ts": "2026-10-11T16:55",
+  "comp": "Daikin StarLigue",
+  "type": "nouveau",
+  "id": "dsl/j06/nantes/caen",
+  "journee": "J06",
+  "match": "Nantes – Caen",
+  "avant": "",
+  "apres": "dim. 11 oct. 17h00",
+  "diffuseur": "Handball TV"
  }
 ]

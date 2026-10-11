@@ -598,6 +598,18 @@
    "_miss": 0,
    "_pend": null,
    "_annule": false
+  },
+  "dsl/j06/nantes/caen": {
+   "id": "dsl/j06/nantes/caen",
+   "journee": "J06",
+   "match": "Nantes – Caen",
+   "horaire": "dim. 11 oct. 17h00",
+   "diffuseur": "Handball TV",
+   "statut": "",
+   "provisoire": false,
+   "_miss": 0,
+   "_pend": null,
+   "_annule": false
   }
  },
  "ProLigue": {
