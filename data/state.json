@@ -254,17 +254,6 @@
    "_pend": null,
    "_annule": false
   },
-  "dsl/j06/tremblay/montpellier": {
-   "id": "dsl/j06/tremblay/montpellier",
-   "journee": "J06",
-   "match": "TREMBLAY – MONTPELLIER",
-   "horaire": "dim. 11 oct. 16h00",
-   "diffuseur": "Handball TV",
-   "statut": "",
-   "_miss": 3,
-   "_pend": null,
-   "_annule": false
-  },
   "dsl/j06/nantes/caen": {
    "id": "dsl/j06/nantes/caen",
    "journee": "J06",
@@ -272,7 +261,7 @@
    "horaire": "dim. 11 oct. 17h00",
    "diffuseur": "Handball TV",
    "statut": "",
-   "_miss": 1,
+   "_miss": 2,
    "_pend": null,
    "_annule": false
   },
