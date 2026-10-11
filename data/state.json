@@ -254,17 +254,6 @@
    "_pend": null,
    "_annule": false
   },
-  "dsl/j06/nantes/caen": {
-   "id": "dsl/j06/nantes/caen",
-   "journee": "J06",
-   "match": "NANTES – CAEN",
-   "horaire": "dim. 11 oct. 17h00",
-   "diffuseur": "Handball TV",
-   "statut": "",
-   "_miss": 3,
-   "_pend": null,
-   "_annule": false
-  },
   "dsl/j07/nimes/tremblay": {
    "id": "dsl/j07/nimes/tremblay",
    "journee": "J07",
@@ -591,6 +580,18 @@
    "journee": "J06",
    "match": "Limoges – Nimes",
    "horaire": "sam. 10 oct. 19h00",
+   "diffuseur": "Handball TV",
+   "statut": "",
+   "provisoire": false,
+   "_miss": 0,
+   "_pend": null,
+   "_annule": false
+  },
+  "dsl/j06/tremblay/montpellier": {
+   "id": "dsl/j06/tremblay/montpellier",
+   "journee": "J06",
+   "match": "Tremblay – Montpellier",
+   "horaire": "dim. 11 oct. 16h00",
    "diffuseur": "Handball TV",
    "statut": "",
    "provisoire": false,
