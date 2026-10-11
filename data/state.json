@@ -261,7 +261,7 @@
    "horaire": "dim. 11 oct. 16h00",
    "diffuseur": "Handball TV",
    "statut": "",
-   "_miss": 2,
+   "_miss": 3,
    "_pend": null,
    "_annule": false
   },
@@ -272,7 +272,7 @@
    "horaire": "dim. 11 oct. 17h00",
    "diffuseur": "Handball TV",
    "statut": "",
-   "_miss": 0,
+   "_miss": 1,
    "_pend": null,
    "_annule": false
   },
