@@ -284,5 +284,38 @@
   "avant": "",
   "apres": "ven. 20 nov. 18h00",
   "diffuseur": "Handball TV"
+ },
+ {
+  "ts": "2026-10-12T10:58",
+  "comp": "Coupe de France",
+  "type": "nouveau",
+  "id": "cdf/3eme-tour/pau-billere/limoges",
+  "journee": "3e tour",
+  "match": "PAU BILLÈRE – LIMOGES",
+  "avant": "",
+  "apres": "mar. 27 oct. 20h00",
+  "diffuseur": ""
+ },
+ {
+  "ts": "2026-10-12T10:58",
+  "comp": "Coupe de France",
+  "type": "nouveau",
+  "id": "cdf/3eme-tour/valence/chartres",
+  "journee": "3e tour",
+  "match": "VALENCE – CHARTRES",
+  "avant": "",
+  "apres": "mar. 27 oct. 20h00",
+  "diffuseur": "Handball TV"
+ },
+ {
+  "ts": "2026-10-12T10:58",
+  "comp": "Coupe de France",
+  "type": "nouveau",
+  "id": "cdf/3eme-tour/toulouse/chambery",
+  "journee": "3e tour",
+  "match": "TOULOUSE – CHAMBÉRY",
+  "avant": "",
+  "apres": "mar. 27 oct. 20h30",
+  "diffuseur": "Handball TV"
  }
 ]
