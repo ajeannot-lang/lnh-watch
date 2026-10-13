@@ -646,6 +646,54 @@
    "_miss": 0,
    "_pend": null,
    "_annule": false
+  },
+  "dsl/j12/tremblay/toulouse": {
+   "id": "dsl/j12/tremblay/toulouse",
+   "journee": "J12",
+   "match": "TREMBLAY – TOULOUSE",
+   "horaire": "sam. 28 nov. 19h00",
+   "diffuseur": "Handball TV",
+   "statut": "",
+   "provisoire": false,
+   "_miss": 0,
+   "_pend": null,
+   "_annule": false
+  },
+  "dsl/j12/saran/caen": {
+   "id": "dsl/j12/saran/caen",
+   "journee": "J12",
+   "match": "SARAN – CAEN",
+   "horaire": "dim. 29 nov. 17h00",
+   "diffuseur": "Handball TV",
+   "statut": "",
+   "provisoire": false,
+   "_miss": 0,
+   "_pend": null,
+   "_annule": false
+  },
+  "dsl/j15/saint-raphael/montpellier": {
+   "id": "dsl/j15/saint-raphael/montpellier",
+   "journee": "J15",
+   "match": "SAINT-RAPHAËL – MONTPELLIER",
+   "horaire": "mar. 22 déc. 20h00",
+   "diffuseur": "Handball TV",
+   "statut": "",
+   "provisoire": false,
+   "_miss": 0,
+   "_pend": null,
+   "_annule": false
+  },
+  "dsl/j15/toulouse/chambery": {
+   "id": "dsl/j15/toulouse/chambery",
+   "journee": "J15",
+   "match": "TOULOUSE – CHAMBÉRY",
+   "horaire": "mar. 22 déc. 20h00",
+   "diffuseur": "Handball TV",
+   "statut": "",
+   "provisoire": false,
+   "_miss": 0,
+   "_pend": null,
+   "_annule": false
   }
  },
  "ProLigue": {
