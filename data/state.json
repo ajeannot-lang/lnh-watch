@@ -704,7 +704,7 @@
    "horaire": "mar. 13 oct. 19h00",
    "diffuseur": "Handball TV",
    "statut": "",
-   "_miss": 2,
+   "_miss": 3,
    "_pend": null,
    "_annule": false
   },
@@ -2725,17 +2725,6 @@
    "diffuseur": "Handball TV",
    "statut": "",
    "_miss": 0,
-   "_pend": null,
-   "_annule": false
-  },
-  "eurehf/j03/chambery/schaffhausen": {
-   "id": "eurehf/j03/chambery/schaffhausen",
-   "journee": "J03",
-   "match": "CHAMBÉRY – SCHAFFHAUSEN",
-   "horaire": "mar. 13 oct. 18h45",
-   "diffuseur": "Handball TV",
-   "statut": "",
-   "_miss": 3,
    "_pend": null,
    "_annule": false
   },
