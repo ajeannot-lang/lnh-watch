@@ -2742,11 +2742,11 @@
   "eurehf/j01/limoges/irun": {
    "id": "eurehf/j01/limoges/irun",
    "journee": "J01",
-   "match": "LIMOGES – IRUN",
+   "match": "Limoges – Irun",
    "horaire": "mar. 13 oct. 20h45",
    "diffuseur": "Handball TV",
    "statut": "",
-   "_miss": 3,
+   "_miss": 0,
    "_pend": null,
    "_annule": false
   },
