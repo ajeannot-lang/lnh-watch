@@ -700,11 +700,11 @@
   "pl/j04/istres/pontault": {
    "id": "pl/j04/istres/pontault",
    "journee": "J04",
-   "match": "ISTRES – PONTAULT",
+   "match": "Istres – Pontault",
    "horaire": "mar. 13 oct. 19h00",
    "diffuseur": "Handball TV",
    "statut": "",
-   "_miss": 3,
+   "_miss": 0,
    "_pend": null,
    "_annule": false
   },
@@ -2731,7 +2731,7 @@
   "eurehf/j03/stockholm/saint-raphael": {
    "id": "eurehf/j03/stockholm/saint-raphael",
    "journee": "J03",
-   "match": "STOCKHOLM HAMMARBY – SAINT-RAPHAËL",
+   "match": "Stockholm – Saint Raphael",
    "horaire": "mar. 13 oct. 18h45",
    "diffuseur": "Handball TV",
    "statut": "",
@@ -2746,7 +2746,7 @@
    "horaire": "mar. 13 oct. 20h45",
    "diffuseur": "Handball TV",
    "statut": "",
-   "_miss": 0,
+   "_miss": 1,
    "_pend": null,
    "_annule": false
   },
@@ -2845,6 +2845,18 @@
    "horaire": "mar. 1 déc. 20h45",
    "diffuseur": "Handball TV",
    "statut": "",
+   "_miss": 0,
+   "_pend": null,
+   "_annule": false
+  },
+  "eurehf/j03/chambery/schaffhausen": {
+   "id": "eurehf/j03/chambery/schaffhausen",
+   "journee": "J03",
+   "match": "Chambery – Schaffhausen",
+   "horaire": "mar. 13 oct. 18h45",
+   "diffuseur": "Handball TV",
+   "statut": "",
+   "provisoire": false,
    "_miss": 0,
    "_pend": null,
    "_annule": false
