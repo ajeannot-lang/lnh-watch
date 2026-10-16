@@ -684,6 +684,18 @@
    "_miss": 0,
    "_pend": null,
    "_annule": false
+  },
+  "dsl/j07/cesson-rennes/selestat": {
+   "id": "dsl/j07/cesson-rennes/selestat",
+   "journee": "J07",
+   "match": "Cesson Rennes – Selestat",
+   "horaire": "ven. 16 oct. 20h30",
+   "diffuseur": "Handball TV",
+   "statut": "",
+   "provisoire": false,
+   "_miss": 0,
+   "_pend": null,
+   "_annule": false
   }
  },
  "ProLigue": {
@@ -1053,11 +1065,11 @@
   "pl/j07/ivry/elite-val-d-oise": {
    "id": "pl/j07/ivry/elite-val-d-oise",
    "journee": "J07",
-   "match": "IVRY – ELITE VAL D OISE",
+   "match": "Ivry – Elite Val D Oise",
    "horaire": "ven. 16 oct. 20h30",
    "diffuseur": "Handball TV",
    "statut": "",
-   "_miss": 3,
+   "_miss": 0,
    "_pend": null,
    "_annule": false
   },
@@ -2073,7 +2085,67 @@
   "pl/j07/dijon/istres": {
    "id": "pl/j07/dijon/istres",
    "journee": "J07",
-   "match": "DIJON – ISTRES",
+   "match": "Dijon – Istres",
+   "horaire": "ven. 16 oct. 20h30",
+   "diffuseur": "Handball TV",
+   "statut": "",
+   "provisoire": false,
+   "_miss": 0,
+   "_pend": null,
+   "_annule": false
+  },
+  "pl/j07/valence/pau-billere": {
+   "id": "pl/j07/valence/pau-billere",
+   "journee": "J07",
+   "match": "Valence – Pau Billere",
+   "horaire": "ven. 16 oct. 20h00",
+   "diffuseur": "Handball TV + beIN SPORTS",
+   "statut": "",
+   "provisoire": false,
+   "_miss": 0,
+   "_pend": null,
+   "_annule": false
+  },
+  "pl/j07/cherbourg/cournon": {
+   "id": "pl/j07/cherbourg/cournon",
+   "journee": "J07",
+   "match": "Cherbourg – Cournon",
+   "horaire": "ven. 16 oct. 20h30",
+   "diffuseur": "Handball TV",
+   "statut": "",
+   "provisoire": false,
+   "_miss": 0,
+   "_pend": null,
+   "_annule": false
+  },
+  "pl/j07/draguignan/creteil": {
+   "id": "pl/j07/draguignan/creteil",
+   "journee": "J07",
+   "match": "Draguignan – Creteil",
+   "horaire": "ven. 16 oct. 20h30",
+   "diffuseur": "Handball TV",
+   "statut": "",
+   "provisoire": false,
+   "_miss": 0,
+   "_pend": null,
+   "_annule": false
+  },
+  "pl/j07/frontignan/massy": {
+   "id": "pl/j07/frontignan/massy",
+   "journee": "J07",
+   "match": "Frontignan – Massy",
+   "horaire": "ven. 16 oct. 20h30",
+   "diffuseur": "Handball TV",
+   "statut": "",
+   "provisoire": false,
+   "_miss": 0,
+   "_pend": null,
+   "_annule": false
+  },
+  "pl/j07/pontault/saintes": {
+   "id": "pl/j07/pontault/saintes",
+   "journee": "J07",
+   "match": "Pontault – Saintes",
    "horaire": "ven. 16 oct. 20h30",
    "diffuseur": "Handball TV",
    "statut": "",
