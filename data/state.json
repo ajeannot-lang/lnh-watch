@@ -1051,17 +1051,6 @@
    "_pend": null,
    "_annule": false
   },
-  "pl/j07/sarrebourg/besancon": {
-   "id": "pl/j07/sarrebourg/besancon",
-   "journee": "J07",
-   "match": "SARREBOURG – BESANÇON",
-   "horaire": "sam. 17 oct. 20h30",
-   "diffuseur": "Handball TV + beIN SPORTS",
-   "statut": "",
-   "_miss": 3,
-   "_pend": null,
-   "_annule": false
-  },
   "pl/j08/besancon/pontault": {
    "id": "pl/j08/besancon/pontault",
    "journee": "J08",
