@@ -254,28 +254,6 @@
    "_pend": null,
    "_annule": false
   },
-  "dsl/j07/dunkerque/chartres": {
-   "id": "dsl/j07/dunkerque/chartres",
-   "journee": "J07",
-   "match": "DUNKERQUE – CHARTRES",
-   "horaire": "sam. 17 oct. 20h00",
-   "diffuseur": "Handball TV",
-   "statut": "",
-   "_miss": 3,
-   "_pend": null,
-   "_annule": false
-  },
-  "dsl/j07/saran/nantes": {
-   "id": "dsl/j07/saran/nantes",
-   "journee": "J07",
-   "match": "SARAN – NANTES",
-   "horaire": "sam. 17 oct. 20h00",
-   "diffuseur": "Handball TV",
-   "statut": "",
-   "_miss": 3,
-   "_pend": null,
-   "_annule": false
-  },
   "dsl/j07/chambery/aix": {
    "id": "dsl/j07/chambery/aix",
    "journee": "J07",
@@ -1080,7 +1058,7 @@
    "horaire": "sam. 17 oct. 20h30",
    "diffuseur": "Handball TV + beIN SPORTS",
    "statut": "",
-   "_miss": 2,
+   "_miss": 3,
    "_pend": null,
    "_annule": false
   },
