@@ -674,6 +674,30 @@
    "_miss": 0,
    "_pend": null,
    "_annule": false
+  },
+  "dsl/j07/dunkerque/chartres": {
+   "id": "dsl/j07/dunkerque/chartres",
+   "journee": "J07",
+   "match": "Dunkerque – Chartres",
+   "horaire": "sam. 17 oct. 20h00",
+   "diffuseur": "Handball TV",
+   "statut": "",
+   "provisoire": false,
+   "_miss": 0,
+   "_pend": null,
+   "_annule": false
+  },
+  "dsl/j07/saran/nantes": {
+   "id": "dsl/j07/saran/nantes",
+   "journee": "J07",
+   "match": "Saran – Nantes",
+   "horaire": "sam. 17 oct. 20h00",
+   "diffuseur": "Handball TV",
+   "statut": "",
+   "provisoire": false,
+   "_miss": 0,
+   "_pend": null,
+   "_annule": false
   }
  },
  "ProLigue": {
@@ -2115,6 +2139,18 @@
    "match": "Pontault – Saintes",
    "horaire": "ven. 16 oct. 20h30",
    "diffuseur": "Handball TV",
+   "statut": "",
+   "provisoire": false,
+   "_miss": 0,
+   "_pend": null,
+   "_annule": false
+  },
+  "pl/j07/sarrebourg/besancon": {
+   "id": "pl/j07/sarrebourg/besancon",
+   "journee": "J07",
+   "match": "Sarrebourg – Besancon",
+   "horaire": "sam. 17 oct. 20h30",
+   "diffuseur": "Handball TV + beIN SPORTS",
    "statut": "",
    "provisoire": false,
    "_miss": 0,

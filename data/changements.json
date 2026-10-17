@@ -229,5 +229,38 @@
   "avant": "",
   "apres": "ven. 16 oct. 20h30",
   "diffuseur": "Handball TV"
+ },
+ {
+  "ts": "2026-10-17T19:58",
+  "comp": "Daikin StarLigue",
+  "type": "nouveau",
+  "id": "dsl/j07/dunkerque/chartres",
+  "journee": "J07",
+  "match": "Dunkerque – Chartres",
+  "avant": "",
+  "apres": "sam. 17 oct. 20h00",
+  "diffuseur": "Handball TV"
+ },
+ {
+  "ts": "2026-10-17T19:58",
+  "comp": "Daikin StarLigue",
+  "type": "nouveau",
+  "id": "dsl/j07/saran/nantes",
+  "journee": "J07",
+  "match": "Saran – Nantes",
+  "avant": "",
+  "apres": "sam. 17 oct. 20h00",
+  "diffuseur": "Handball TV"
+ },
+ {
+  "ts": "2026-10-17T19:58",
+  "comp": "ProLigue",
+  "type": "nouveau",
+  "id": "pl/j07/sarrebourg/besancon",
+  "journee": "J07",
+  "match": "Sarrebourg – Besancon",
+  "avant": "",
+  "apres": "sam. 17 oct. 20h30",
+  "diffuseur": "Handball TV + beIN SPORTS"
  }
 ]
