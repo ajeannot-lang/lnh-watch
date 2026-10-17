@@ -261,7 +261,7 @@
    "horaire": "sam. 17 oct. 20h00",
    "diffuseur": "Handball TV",
    "statut": "",
-   "_miss": 2,
+   "_miss": 3,
    "_pend": null,
    "_annule": false
   },
@@ -272,7 +272,7 @@
    "horaire": "sam. 17 oct. 20h00",
    "diffuseur": "Handball TV",
    "statut": "",
-   "_miss": 2,
+   "_miss": 3,
    "_pend": null,
    "_annule": false
   },
@@ -1080,7 +1080,7 @@
    "horaire": "sam. 17 oct. 20h30",
    "diffuseur": "Handball TV + beIN SPORTS",
    "statut": "",
-   "_miss": 1,
+   "_miss": 2,
    "_pend": null,
    "_annule": false
   },
