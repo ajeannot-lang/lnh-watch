@@ -254,17 +254,6 @@
    "_pend": null,
    "_annule": false
   },
-  "dsl/j07/chambery/aix": {
-   "id": "dsl/j07/chambery/aix",
-   "journee": "J07",
-   "match": "CHAMBÉRY – AIX",
-   "horaire": "dim. 18 oct. 17h00",
-   "diffuseur": "Handball TV",
-   "statut": "",
-   "_miss": 3,
-   "_pend": null,
-   "_annule": false
-  },
   "dsl/j08/chartres/nimes": {
    "id": "dsl/j08/chartres/nimes",
    "journee": "J08",
