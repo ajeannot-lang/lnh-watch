@@ -1,16 +1,5 @@
 [
  {
-  "ts": "2026-10-11T16:55",
-  "comp": "Daikin StarLigue",
-  "type": "nouveau",
-  "id": "dsl/j06/nantes/caen",
-  "journee": "J06",
-  "match": "Nantes – Caen",
-  "avant": "",
-  "apres": "dim. 11 oct. 17h00",
-  "diffuseur": "Handball TV"
- },
- {
   "ts": "2026-10-12T09:59",
   "comp": "Daikin StarLigue",
   "type": "nouveau",
@@ -251,5 +240,16 @@
   "avant": "",
   "apres": "sam. 17 oct. 20h30",
   "diffuseur": "Handball TV + beIN SPORTS"
+ },
+ {
+  "ts": "2026-10-18T17:04",
+  "comp": "Daikin StarLigue",
+  "type": "nouveau",
+  "id": "dsl/j07/chambery/aix",
+  "journee": "J07",
+  "match": "Chambery – Aix",
+  "avant": "",
+  "apres": "dim. 18 oct. 17h00",
+  "diffuseur": "Handball TV"
  }
 ]
