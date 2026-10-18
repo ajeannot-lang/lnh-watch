@@ -2681,7 +2681,7 @@
    "horaire": "mar. 29 sept. 18h45",
    "diffuseur": "Handball TV",
    "statut": "",
-   "_miss": 0,
+   "_miss": 1,
    "_pend": null,
    "_annule": false
   },
@@ -2692,7 +2692,7 @@
    "horaire": "mar. 29 sept. 20h45",
    "diffuseur": "Handball TV",
    "statut": "",
-   "_miss": 0,
+   "_miss": 1,
    "_pend": null,
    "_annule": false
   },
@@ -2703,7 +2703,7 @@
    "horaire": "mer. 30 sept. 20h45",
    "diffuseur": "Handball TV",
    "statut": "",
-   "_miss": 0,
+   "_miss": 1,
    "_pend": null,
    "_annule": false
   },
