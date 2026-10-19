@@ -475,18 +475,22 @@ def traiter_comp(nom, connus, captures, premiere, ts):
             rec["horaire"] = h; rec["_pend"] = None
         else:
             rec["_pend"] = h
-    # 2) Matchs connus absents de cette capture : on les OUBLIE silencieusement
-    # après SEUIL_OUBLI passages consécutifs (sans alerte). Ça nettoie les
-    # « fantômes » (matchs dont l'identifiant a changé côté site, ex. EHF qui
-    # renumérote ses journées) sans jamais crier à l'annulation. Une absence
-    # courte (site qui rame le jour d'un match) ne supprime rien.
+    # 2) Matchs connus absents de cette capture.
+    # IMPORTANT : un match À VENIR n'est JAMAIS oublié. Une absence = presque
+    # toujours un scrape partiel (le site n'a pas chargé tous les mois à ce
+    # passage), pas une vraie disparition. Oublier un match futur casserait la
+    # détection des décalés (il reviendrait ensuite comme « nouveau » au lieu de
+    # « décalé »). On ne nettoie donc QUE les vieux matchs déjà passés depuis
+    # plus d'un jour et absents longtemps (ghosts de renumérotation, ex. EHF).
     for mid in list(connus.keys()):
         if mid in caps:
             continue
         rec = connus[mid]
         rec["_pend"] = None
         rec["_miss"] = rec.get("_miss", 0) + 1
-        if rec["_miss"] >= SEUIL_OUBLI:
+        dt = core.parse_horaire(rec.get("horaire", ""))
+        deja_passe = bool(dt) and dt.date() < (datetime.now().date() - timedelta(days=1))
+        if rec["_miss"] >= SEUIL_OUBLI and deja_passe:
             del connus[mid]
     return evs
 
@@ -526,16 +530,25 @@ def main():
     # Schéma d'état : on repart d'une base propre quand la lecture change en
     # profondeur (sinon les lectures corrigées seraient vues comme des
     # « changements »). On incrémente SCHEMA à chaque correction majeure.
-    SCHEMA = 3
+    SCHEMA = 4
     comps_state = {k: v for k, v in state.items() if not k.startswith("__")}
     migration = (state.get("__schema__") != SCHEMA) \
         or any(not isinstance(v, dict) for v in comps_state.values())
     if migration:
-        state = {"__schema__": SCHEMA}
+        # Après une remise à zéro, le calendrier complet se reconstruit sur
+        # plusieurs passages (le site ne charge pas tous les mois d'un coup).
+        # Pendant cette fenêtre de stabilisation, les matchs ajoutés le sont en
+        # SILENCE (pas d'alerte « nouveau », pas de mail) : sinon la reconstruction
+        # enverrait des centaines de faux « nouveaux ».
+        state = {"__schema__": SCHEMA, "__stabilize__": 8}
         changements = []
-        print("  (base de référence réinitialisée — lecture fiabilisée, sans alerte)")
+        print("  (base de référence réinitialisée — stabilisation en cours, sans alerte)")
     else:
         changements = charger_changements()
+
+    # Pendant la stabilisation, on ajoute les matchs sans crier « nouveau ».
+    stabilise = int(state.get("__stabilize__", 0) or 0)
+    silence_nouveaux = stabilise > 0
 
     resultats = []
     nouveaux_evenements = []   # changements de CE passage (pour l'e-mail)
@@ -551,7 +564,7 @@ def main():
             connus = state.get(nom)
             if not isinstance(connus, dict):
                 connus = {}
-            premiere = (len(connus) == 0)
+            premiere = (len(connus) == 0) or silence_nouveaux
             captures = recuperer(page, comp)
 
             evs = traiter_comp(nom, connus, captures, premiere, ts)
@@ -580,6 +593,11 @@ def main():
                     presents_ok.add(mid)
     changements = [e for e in changements
                    if not (e.get("type") == "annule" and e.get("id") in presents_ok)]
+
+    # Décompte de la fenêtre de stabilisation (ajout silencieux des matchs)
+    if stabilise > 0:
+        state["__stabilize__"] = stabilise - 1
+        print(f"  (stabilisation : encore {stabilise - 1} passage(s) silencieux)")
 
     # Historique : on ne garde que les 7 derniers jours
     changements = purger_7j(changements, maintenant)
