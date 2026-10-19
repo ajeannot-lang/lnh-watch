@@ -1,38 +1,5 @@
 [
  {
-  "ts": "2026-10-12T09:59",
-  "comp": "Daikin StarLigue",
-  "type": "nouveau",
-  "id": "dsl/j11/dunkerque/cesson-rennes",
-  "journee": "J11",
-  "match": "DUNKERQUE – CESSON-RENNES",
-  "avant": "",
-  "apres": "jeu. 19 nov. 20h00",
-  "diffuseur": "Handball TV"
- },
- {
-  "ts": "2026-10-12T09:59",
-  "comp": "Daikin StarLigue",
-  "type": "nouveau",
-  "id": "dsl/j11/caen/nimes",
-  "journee": "J11",
-  "match": "CAEN – NÎMES",
-  "avant": "",
-  "apres": "jeu. 19 nov. 20h30",
-  "diffuseur": "Handball TV"
- },
- {
-  "ts": "2026-10-12T09:59",
-  "comp": "Daikin StarLigue",
-  "type": "nouveau",
-  "id": "dsl/j11/limoges/aix",
-  "journee": "J11",
-  "match": "LIMOGES – AIX",
-  "avant": "",
-  "apres": "ven. 20 nov. 18h00",
-  "diffuseur": "Handball TV"
- },
- {
   "ts": "2026-10-12T10:58",
   "comp": "Coupe de France",
   "type": "nouveau",
