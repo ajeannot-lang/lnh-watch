@@ -255,13 +255,44 @@ def _labels_options(sel):
     return labels
 
 
+def _attendre_chargement(page, timeout_ms=9000):
+    """Attend la FIN du rechargement de la liste après un changement de filtre :
+    le site affiche un loader (loader-v3.gif) pendant l'AJAX. On attend qu'il
+    disparaisse (jusqu'à timeout_ms) au lieu d'un délai fixe trop court — c'est
+    ce qui faisait rater les mois lointains (chargement plus lent)."""
+    import time
+    page.wait_for_timeout(300)          # laisser le loader apparaître
+    deadline = time.time() + timeout_ms / 1000.0
+    while time.time() < deadline:
+        try:
+            loaders = page.locator('img[src*="loader"]')
+            visible = False
+            for i in range(min(loaders.count(), 5)):
+                try:
+                    if loaders.nth(i).is_visible():
+                        visible = True
+                        break
+                except Exception:
+                    pass
+            if not visible:
+                break
+        except Exception:
+            break
+        page.wait_for_timeout(250)
+    page.wait_for_timeout(500)          # petit temps de rendu
+
+
 def _choisir(page, sel, index):
-    try:
-        sel.select_option(index=index, timeout=1500)
-        page.wait_for_timeout(1600)     # laisser le site recharger la liste
-        return True
-    except Exception:
-        return False
+    """Sélectionne une option et attend la fin du rechargement. Un réessai si
+    la sélection échoue (site lent)."""
+    for essai in range(2):
+        try:
+            sel.select_option(index=index, timeout=3000)
+            _attendre_chargement(page, 9000)
+            return True
+        except Exception:
+            page.wait_for_timeout(600)
+    return False
 
 
 def recuperer(page, comp):
@@ -530,7 +561,7 @@ def main():
     # Schéma d'état : on repart d'une base propre quand la lecture change en
     # profondeur (sinon les lectures corrigées seraient vues comme des
     # « changements »). On incrémente SCHEMA à chaque correction majeure.
-    SCHEMA = 4
+    SCHEMA = 5
     comps_state = {k: v for k, v in state.items() if not k.startswith("__")}
     migration = (state.get("__schema__") != SCHEMA) \
         or any(not isinstance(v, dict) for v in comps_state.values())
@@ -540,7 +571,7 @@ def main():
         # Pendant cette fenêtre de stabilisation, les matchs ajoutés le sont en
         # SILENCE (pas d'alerte « nouveau », pas de mail) : sinon la reconstruction
         # enverrait des centaines de faux « nouveaux ».
-        state = {"__schema__": SCHEMA, "__stabilize__": 8}
+        state = {"__schema__": SCHEMA, "__stabilize__": 12}
         changements = []
         print("  (base de référence réinitialisée — stabilisation en cours, sans alerte)")
     else:
