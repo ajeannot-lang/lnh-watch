@@ -2621,6 +2621,18 @@
    "_miss": 0,
    "_pend": null,
    "_annule": false
+  },
+  "cdf/3eme-tour/saint-raphael/nimes": {
+   "id": "cdf/3eme-tour/saint-raphael/nimes",
+   "journee": "3e tour",
+   "match": "SAINT-RAPHAËL – NÎMES",
+   "horaire": "mar. 10 nov. 20h00",
+   "diffuseur": "Handball TV",
+   "statut": "",
+   "provisoire": false,
+   "_miss": 0,
+   "_pend": null,
+   "_annule": false
   }
  },
  "Ligue des Champions": {
