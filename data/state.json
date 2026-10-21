@@ -2759,12 +2759,12 @@
   "ehfcl/j05/nantes/vardar": {
    "id": "ehfcl/j05/nantes/vardar",
    "journee": "J05",
-   "match": "NANTES – VARDAR",
+   "match": "Nantes – Vardar",
    "horaire": "mer. 21 oct. 20h45",
    "diffuseur": "Handball TV",
    "statut": "",
    "provisoire": false,
-   "_miss": 1,
+   "_miss": 0,
    "_pend": null,
    "_annule": false
   },
