@@ -630,12 +630,12 @@
    "id": "dsl/j11/limoges/aix",
    "journee": "J11",
    "match": "LIMOGES – AIX",
-   "horaire": "ven. 20 nov. 18h00",
+   "horaire": "sam. 21 nov. 18h00",
    "diffuseur": "Handball TV",
    "statut": "",
    "provisoire": false,
    "_miss": 0,
-   "_pend": "sam. 21 nov. 18h00",
+   "_pend": null,
    "_annule": false
   },
   "dsl/j12/selestat/saint-raphael": {
@@ -3078,7 +3078,7 @@
    "diffuseur": "Handball TV",
    "statut": "",
    "provisoire": false,
-   "_miss": 1,
+   "_miss": 2,
    "_pend": null,
    "_annule": false
   },

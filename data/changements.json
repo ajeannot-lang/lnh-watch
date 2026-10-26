@@ -97,5 +97,16 @@
   "avant": "",
   "apres": "mar. 13 oct. 18h45",
   "diffuseur": "Handball TV"
+ },
+ {
+  "ts": "2026-10-26T20:09",
+  "comp": "Daikin StarLigue",
+  "type": "horaire",
+  "id": "dsl/j11/limoges/aix",
+  "journee": "J11",
+  "match": "LIMOGES – AIX",
+  "avant": "ven. 20 nov. 18h00",
+  "apres": "sam. 21 nov. 18h00",
+  "diffuseur": "Handball TV"
  }
 ]
