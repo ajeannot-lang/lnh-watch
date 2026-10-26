@@ -9,5 +9,93 @@
   "avant": "",
   "apres": "mer. 28 oct. 18h45",
   "diffuseur": "Handball TV"
+ },
+ {
+  "ts": "2026-10-26T14:14",
+  "comp": "Daikin StarLigue",
+  "type": "nouveau",
+  "id": "dsl/j12/chartres/aix",
+  "journee": "J12",
+  "match": "CHARTRES – AIX",
+  "avant": "",
+  "apres": "ven. 27 nov. 20h00",
+  "diffuseur": "Handball TV"
+ },
+ {
+  "ts": "2026-10-26T14:14",
+  "comp": "Daikin StarLigue",
+  "type": "nouveau",
+  "id": "dsl/j12/montpellier/cesson-rennes",
+  "journee": "J12",
+  "match": "MONTPELLIER – CESSON-RENNES",
+  "avant": "",
+  "apres": "ven. 27 nov. 20h00",
+  "diffuseur": "Handball TV"
+ },
+ {
+  "ts": "2026-10-26T14:14",
+  "comp": "Daikin StarLigue",
+  "type": "nouveau",
+  "id": "dsl/j13/cesson-rennes/saran",
+  "journee": "J13",
+  "match": "CESSON-RENNES – SARAN",
+  "avant": "",
+  "apres": "jeu. 3 déc. 20h30",
+  "diffuseur": "Handball TV"
+ },
+ {
+  "ts": "2026-10-26T14:14",
+  "comp": "Daikin StarLigue",
+  "type": "nouveau",
+  "id": "dsl/j13/toulouse/dunkerque",
+  "journee": "J13",
+  "match": "TOULOUSE – DUNKERQUE",
+  "avant": "",
+  "apres": "jeu. 3 déc. 20h30",
+  "diffuseur": "Handball TV"
+ },
+ {
+  "ts": "2026-10-26T14:14",
+  "comp": "Daikin StarLigue",
+  "type": "nouveau",
+  "id": "dsl/j13/caen/chambery",
+  "journee": "J13",
+  "match": "CAEN – CHAMBÉRY",
+  "avant": "",
+  "apres": "ven. 4 déc. 20h30",
+  "diffuseur": "Handball TV"
+ },
+ {
+  "ts": "2026-10-26T14:14",
+  "comp": "Daikin StarLigue",
+  "type": "nouveau",
+  "id": "dsl/j13/chartres/nantes",
+  "journee": "J13",
+  "match": "CHARTRES – NANTES",
+  "avant": "",
+  "apres": "dim. 6 déc. 16h00",
+  "diffuseur": "Handball TV"
+ },
+ {
+  "ts": "2026-10-26T14:14",
+  "comp": "ProLigue",
+  "type": "nouveau",
+  "id": "pl/j13/ivry/pontault",
+  "journee": "J13",
+  "match": "IVRY – PONTAULT",
+  "avant": "",
+  "apres": "ven. 4 déc. 20h30",
+  "diffuseur": "Handball TV"
+ },
+ {
+  "ts": "2026-10-26T14:14",
+  "comp": "Ligue Européenne EHF",
+  "type": "nouveau",
+  "id": "eurehf/j03/stockholm-hammarby/saint-raphael",
+  "journee": "J03",
+  "match": "Stockholm Hammarby – Saint Raphael",
+  "avant": "",
+  "apres": "mar. 13 oct. 18h45",
+  "diffuseur": "Handball TV"
  }
 ]

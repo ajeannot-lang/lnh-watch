@@ -635,7 +635,7 @@
    "statut": "",
    "provisoire": false,
    "_miss": 0,
-   "_pend": null,
+   "_pend": "sam. 21 nov. 18h00",
    "_annule": false
   },
   "dsl/j12/selestat/saint-raphael": {
@@ -752,6 +752,78 @@
    "match": "Vainqueur Demi Finale Mieux Classe – Vainqueur Demi Finale Moins Bien Classe",
    "horaire": "sam. 5 juin. 21h00",
    "diffuseur": "",
+   "statut": "",
+   "provisoire": false,
+   "_miss": 0,
+   "_pend": null,
+   "_annule": false
+  },
+  "dsl/j12/chartres/aix": {
+   "id": "dsl/j12/chartres/aix",
+   "journee": "J12",
+   "match": "CHARTRES – AIX",
+   "horaire": "ven. 27 nov. 20h00",
+   "diffuseur": "Handball TV",
+   "statut": "",
+   "provisoire": false,
+   "_miss": 0,
+   "_pend": null,
+   "_annule": false
+  },
+  "dsl/j12/montpellier/cesson-rennes": {
+   "id": "dsl/j12/montpellier/cesson-rennes",
+   "journee": "J12",
+   "match": "MONTPELLIER – CESSON-RENNES",
+   "horaire": "ven. 27 nov. 20h00",
+   "diffuseur": "Handball TV",
+   "statut": "",
+   "provisoire": false,
+   "_miss": 0,
+   "_pend": null,
+   "_annule": false
+  },
+  "dsl/j13/cesson-rennes/saran": {
+   "id": "dsl/j13/cesson-rennes/saran",
+   "journee": "J13",
+   "match": "CESSON-RENNES – SARAN",
+   "horaire": "jeu. 3 déc. 20h30",
+   "diffuseur": "Handball TV",
+   "statut": "",
+   "provisoire": false,
+   "_miss": 0,
+   "_pend": null,
+   "_annule": false
+  },
+  "dsl/j13/toulouse/dunkerque": {
+   "id": "dsl/j13/toulouse/dunkerque",
+   "journee": "J13",
+   "match": "TOULOUSE – DUNKERQUE",
+   "horaire": "jeu. 3 déc. 20h30",
+   "diffuseur": "Handball TV",
+   "statut": "",
+   "provisoire": false,
+   "_miss": 0,
+   "_pend": null,
+   "_annule": false
+  },
+  "dsl/j13/caen/chambery": {
+   "id": "dsl/j13/caen/chambery",
+   "journee": "J13",
+   "match": "CAEN – CHAMBÉRY",
+   "horaire": "ven. 4 déc. 20h30",
+   "diffuseur": "Handball TV",
+   "statut": "",
+   "provisoire": false,
+   "_miss": 0,
+   "_pend": null,
+   "_annule": false
+  },
+  "dsl/j13/chartres/nantes": {
+   "id": "dsl/j13/chartres/nantes",
+   "journee": "J13",
+   "match": "CHARTRES – NANTES",
+   "horaire": "dim. 6 déc. 16h00",
+   "diffuseur": "Handball TV",
    "statut": "",
    "provisoire": false,
    "_miss": 0,
@@ -2343,6 +2415,18 @@
    "_miss": 0,
    "_pend": null,
    "_annule": false
+  },
+  "pl/j13/ivry/pontault": {
+   "id": "pl/j13/ivry/pontault",
+   "journee": "J13",
+   "match": "IVRY – PONTAULT",
+   "horaire": "ven. 4 déc. 20h30",
+   "diffuseur": "Handball TV",
+   "statut": "",
+   "provisoire": false,
+   "_miss": 0,
+   "_pend": null,
+   "_annule": false
   }
  },
  "Coupe de France": {
@@ -2994,7 +3078,7 @@
    "diffuseur": "Handball TV",
    "statut": "",
    "provisoire": false,
-   "_miss": 0,
+   "_miss": 1,
    "_pend": null,
    "_annule": false
   },
@@ -3147,6 +3231,18 @@
    "journee": "J06",
    "match": "LIMOGES – HAFNARFJÖRÐUR",
    "horaire": "mar. 1 déc. 20h45",
+   "diffuseur": "Handball TV",
+   "statut": "",
+   "provisoire": false,
+   "_miss": 0,
+   "_pend": null,
+   "_annule": false
+  },
+  "eurehf/j03/stockholm-hammarby/saint-raphael": {
+   "id": "eurehf/j03/stockholm-hammarby/saint-raphael",
+   "journee": "J03",
+   "match": "Stockholm Hammarby – Saint Raphael",
+   "horaire": "mar. 13 oct. 18h45",
    "diffuseur": "Handball TV",
    "statut": "",
    "provisoire": false,
