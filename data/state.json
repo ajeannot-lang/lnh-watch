@@ -2445,7 +2445,7 @@
   "cdf/3eme-tour/pau-billere/limoges": {
    "id": "cdf/3eme-tour/pau-billere/limoges",
    "journee": "3e tour",
-   "match": "PAU BILLÈRE – LIMOGES",
+   "match": "Pau Billere – Limoges",
    "horaire": "mar. 27 oct. 20h00",
    "diffuseur": "Handball TV",
    "statut": "",
@@ -2457,7 +2457,7 @@
   "cdf/3eme-tour/valence/chartres": {
    "id": "cdf/3eme-tour/valence/chartres",
    "journee": "3e tour",
-   "match": "VALENCE – CHARTRES",
+   "match": "Valence – Chartres",
    "horaire": "mar. 27 oct. 20h00",
    "diffuseur": "Handball TV",
    "statut": "",
@@ -2474,7 +2474,7 @@
    "diffuseur": "Handball TV",
    "statut": "",
    "provisoire": false,
-   "_miss": 0,
+   "_miss": 1,
    "_pend": null,
    "_annule": false
   },
@@ -2486,7 +2486,7 @@
    "diffuseur": "Handball TV",
    "statut": "",
    "provisoire": false,
-   "_miss": 0,
+   "_miss": 1,
    "_pend": null,
    "_annule": false
   },
