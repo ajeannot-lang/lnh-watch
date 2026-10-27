@@ -3070,18 +3070,6 @@
    "_pend": null,
    "_annule": false
   },
-  "eurehf/j03/stockholm/saint-raphael": {
-   "id": "eurehf/j03/stockholm/saint-raphael",
-   "journee": "J03",
-   "match": "Stockholm – Saint Raphael",
-   "horaire": "mar. 13 oct. 18h45",
-   "diffuseur": "Handball TV",
-   "statut": "",
-   "provisoire": false,
-   "_miss": 3,
-   "_pend": null,
-   "_annule": false
-  },
   "eurehf/j01/limoges/irun": {
    "id": "eurehf/j01/limoges/irun",
    "journee": "J01",
