@@ -2903,7 +2903,7 @@
   "ehfcl/j06/plock/nantes": {
    "id": "ehfcl/j06/plock/nantes",
    "journee": "J06",
-   "match": "PLOCK – NANTES",
+   "match": "Plock – Nantes",
    "horaire": "mer. 28 oct. 18h45",
    "diffuseur": "Handball TV + beIN SPORTS",
    "statut": "",
@@ -3035,7 +3035,7 @@
   "ehfcl/j06/vardar/melsungen": {
    "id": "ehfcl/j06/vardar/melsungen",
    "journee": "J06",
-   "match": "VARDAR – MELSUNGEN",
+   "match": "Vardar – Melsungen",
    "horaire": "mer. 28 oct. 18h45",
    "diffuseur": "Handball TV",
    "statut": "",
@@ -3198,7 +3198,7 @@
    "diffuseur": "Handball TV",
    "statut": "",
    "provisoire": false,
-   "_miss": 3,
+   "_miss": 4,
    "_pend": null,
    "_annule": false
   },
