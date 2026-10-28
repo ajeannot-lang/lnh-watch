@@ -2427,6 +2427,30 @@
    "_miss": 0,
    "_pend": null,
    "_annule": false
+  },
+  "pl/j15/ivry/cherbourg": {
+   "id": "pl/j15/ivry/cherbourg",
+   "journee": "J15",
+   "match": "IVRY – CHERBOURG",
+   "horaire": "ven. 18 déc. 20h30",
+   "diffuseur": "Handball TV",
+   "statut": "",
+   "provisoire": false,
+   "_miss": 0,
+   "_pend": null,
+   "_annule": false
+  },
+  "pl/j15/sarrebourg/pau-billere": {
+   "id": "pl/j15/sarrebourg/pau-billere",
+   "journee": "J15",
+   "match": "SARREBOURG – PAU BILLÈRE",
+   "horaire": "sam. 19 déc. 18h00",
+   "diffuseur": "Handball TV",
+   "statut": "",
+   "provisoire": false,
+   "_miss": 0,
+   "_pend": null,
+   "_annule": false
   }
  },
  "Coupe de France": {
@@ -2469,24 +2493,24 @@
   "cdf/3eme-tour/toulouse/chambery": {
    "id": "cdf/3eme-tour/toulouse/chambery",
    "journee": "3e tour",
-   "match": "TOULOUSE – CHAMBÉRY",
+   "match": "Toulouse – Chambery",
    "horaire": "mar. 27 oct. 20h30",
    "diffuseur": "Handball TV",
    "statut": "",
    "provisoire": false,
-   "_miss": 1,
+   "_miss": 0,
    "_pend": null,
    "_annule": false
   },
   "cdf/3eme-tour/tremblay/cesson-rennes": {
    "id": "cdf/3eme-tour/tremblay/cesson-rennes",
    "journee": "3e tour",
-   "match": "TREMBLAY – CESSON-RENNES",
+   "match": "Tremblay – Cesson Rennes",
    "horaire": "mar. 27 oct. 20h30",
    "diffuseur": "Handball TV",
    "statut": "",
    "provisoire": false,
-   "_miss": 1,
+   "_miss": 0,
    "_pend": null,
    "_annule": false
   },

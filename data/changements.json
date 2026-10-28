@@ -108,5 +108,27 @@
   "avant": "ven. 20 nov. 18h00",
   "apres": "sam. 21 nov. 18h00",
   "diffuseur": "Handball TV"
+ },
+ {
+  "ts": "2026-10-28T00:02",
+  "comp": "ProLigue",
+  "type": "nouveau",
+  "id": "pl/j15/ivry/cherbourg",
+  "journee": "J15",
+  "match": "IVRY – CHERBOURG",
+  "avant": "",
+  "apres": "ven. 18 déc. 20h30",
+  "diffuseur": "Handball TV"
+ },
+ {
+  "ts": "2026-10-28T00:02",
+  "comp": "ProLigue",
+  "type": "nouveau",
+  "id": "pl/j15/sarrebourg/pau-billere",
+  "journee": "J15",
+  "match": "SARREBOURG – PAU BILLÈRE",
+  "avant": "",
+  "apres": "sam. 19 déc. 18h00",
+  "diffuseur": "Handball TV"
  }
 ]
