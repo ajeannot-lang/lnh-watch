@@ -490,7 +490,7 @@
    "diffuseur": "Handball TV",
    "statut": "",
    "provisoire": false,
-   "_miss": 0,
+   "_miss": 1,
    "_pend": null,
    "_annule": false
   },
@@ -502,7 +502,7 @@
    "diffuseur": "Handball TV",
    "statut": "",
    "provisoire": false,
-   "_miss": 0,
+   "_miss": 1,
    "_pend": null,
    "_annule": false
   },
@@ -514,7 +514,7 @@
    "diffuseur": "Handball TV",
    "statut": "",
    "provisoire": false,
-   "_miss": 0,
+   "_miss": 1,
    "_pend": null,
    "_annule": false
   },
@@ -526,7 +526,7 @@
    "diffuseur": "Handball TV",
    "statut": "",
    "provisoire": false,
-   "_miss": 0,
+   "_miss": 1,
    "_pend": null,
    "_annule": false
   },
@@ -538,7 +538,7 @@
    "diffuseur": "Handball TV",
    "statut": "",
    "provisoire": false,
-   "_miss": 0,
+   "_miss": 1,
    "_pend": null,
    "_annule": false
   },
@@ -670,7 +670,7 @@
    "diffuseur": "Handball TV",
    "statut": "",
    "provisoire": false,
-   "_miss": 4,
+   "_miss": 5,
    "_pend": null,
    "_annule": false
   },
@@ -836,6 +836,18 @@
    "match": "NANTES – SÉLESTAT",
    "horaire": "sam. 21 nov. 20h30",
    "diffuseur": "Handball TV",
+   "statut": "",
+   "provisoire": false,
+   "_miss": 0,
+   "_pend": null,
+   "_annule": false
+  },
+  "dsl/j09/cesson-rennes/nantes": {
+   "id": "dsl/j09/cesson-rennes/nantes",
+   "journee": "J09",
+   "match": "CESSON-RENNES – NANTES",
+   "horaire": "sam. 31 oct. 19h00",
+   "diffuseur": "Handball TV + beIN SPORTS",
    "statut": "",
    "provisoire": false,
    "_miss": 0,
@@ -1632,7 +1644,7 @@
    "diffuseur": "Handball TV",
    "statut": "",
    "provisoire": false,
-   "_miss": 0,
+   "_miss": 1,
    "_pend": null,
    "_annule": false
   },
@@ -1644,7 +1656,7 @@
    "diffuseur": "Handball TV + beIN SPORTS",
    "statut": "",
    "provisoire": false,
-   "_miss": 0,
+   "_miss": 1,
    "_pend": null,
    "_annule": false
   },
@@ -1656,7 +1668,7 @@
    "diffuseur": "Handball TV",
    "statut": "",
    "provisoire": false,
-   "_miss": 0,
+   "_miss": 1,
    "_pend": null,
    "_annule": false
   },
@@ -1668,7 +1680,7 @@
    "diffuseur": "Handball TV",
    "statut": "",
    "provisoire": false,
-   "_miss": 0,
+   "_miss": 1,
    "_pend": null,
    "_annule": false
   },
@@ -1704,7 +1716,7 @@
    "diffuseur": "Handball TV",
    "statut": "",
    "provisoire": false,
-   "_miss": 0,
+   "_miss": 1,
    "_pend": null,
    "_annule": false
   },
@@ -3210,7 +3222,7 @@
    "diffuseur": "Handball TV",
    "statut": "",
    "provisoire": false,
-   "_miss": 11,
+   "_miss": 12,
    "_pend": null,
    "_annule": false
   },

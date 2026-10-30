@@ -1,16 +1,5 @@
 [
  {
-  "ts": "2026-10-23T15:02",
-  "comp": "Ligue des Champions",
-  "type": "nouveau",
-  "id": "ehfcl/j06/vardar/melsungen",
-  "journee": "J06",
-  "match": "VARDAR – MELSUNGEN",
-  "avant": "",
-  "apres": "mer. 28 oct. 18h45",
-  "diffuseur": "Handball TV"
- },
- {
   "ts": "2026-10-26T14:14",
   "comp": "Daikin StarLigue",
   "type": "nouveau",
@@ -152,5 +141,16 @@
   "avant": "",
   "apres": "sam. 21 nov. 20h30",
   "diffuseur": "Handball TV"
+ },
+ {
+  "ts": "2026-10-30T18:51",
+  "comp": "Daikin StarLigue",
+  "type": "nouveau",
+  "id": "dsl/j09/cesson-rennes/nantes",
+  "journee": "J09",
+  "match": "CESSON-RENNES – NANTES",
+  "avant": "",
+  "apres": "sam. 31 oct. 19h00",
+  "diffuseur": "Handball TV + beIN SPORTS"
  }
 ]
