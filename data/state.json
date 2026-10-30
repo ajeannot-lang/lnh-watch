@@ -670,7 +670,7 @@
    "diffuseur": "Handball TV",
    "statut": "",
    "provisoire": false,
-   "_miss": 1,
+   "_miss": 2,
    "_pend": null,
    "_annule": false
   },
@@ -1603,12 +1603,12 @@
   "pl/j09/dijon/saintes": {
    "id": "pl/j09/dijon/saintes",
    "journee": "J09",
-   "match": "DIJON – SAINTES",
+   "match": "Dijon – Saintes",
    "horaire": "jeu. 29 oct. 20h30",
    "diffuseur": "Handball TV",
    "statut": "",
    "provisoire": false,
-   "_miss": 1,
+   "_miss": 0,
    "_pend": null,
    "_annule": false
   },
@@ -2927,12 +2927,12 @@
   "ehfcl/j06/montpellier/bucarest": {
    "id": "ehfcl/j06/montpellier/bucarest",
    "journee": "J06",
-   "match": "MONTPELLIER – BUCAREST",
+   "match": "Montpellier – Bucarest",
    "horaire": "jeu. 29 oct. 20h45",
    "diffuseur": "Handball TV",
    "statut": "",
    "provisoire": false,
-   "_miss": 1,
+   "_miss": 0,
    "_pend": null,
    "_annule": false
   },
@@ -3198,7 +3198,7 @@
    "diffuseur": "Handball TV",
    "statut": "",
    "provisoire": false,
-   "_miss": 8,
+   "_miss": 9,
    "_pend": null,
    "_annule": false
   },
