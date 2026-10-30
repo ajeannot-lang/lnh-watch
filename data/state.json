@@ -670,7 +670,7 @@
    "diffuseur": "Handball TV",
    "statut": "",
    "provisoire": false,
-   "_miss": 3,
+   "_miss": 4,
    "_pend": null,
    "_annule": false
   },
@@ -823,6 +823,18 @@
    "journee": "J13",
    "match": "CHARTRES – NANTES",
    "horaire": "dim. 6 déc. 16h00",
+   "diffuseur": "Handball TV",
+   "statut": "",
+   "provisoire": false,
+   "_miss": 0,
+   "_pend": null,
+   "_annule": false
+  },
+  "dsl/j11/nantes/selestat": {
+   "id": "dsl/j11/nantes/selestat",
+   "journee": "J11",
+   "match": "NANTES – SÉLESTAT",
+   "horaire": "sam. 21 nov. 20h30",
    "diffuseur": "Handball TV",
    "statut": "",
    "provisoire": false,
@@ -3198,7 +3210,7 @@
    "diffuseur": "Handball TV",
    "statut": "",
    "provisoire": false,
-   "_miss": 10,
+   "_miss": 11,
    "_pend": null,
    "_annule": false
   },

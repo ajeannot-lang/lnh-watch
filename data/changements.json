@@ -141,5 +141,16 @@
   "avant": "",
   "apres": "mar. 24 nov. 20h45",
   "diffuseur": "Handball TV"
+ },
+ {
+  "ts": "2026-10-30T13:36",
+  "comp": "Daikin StarLigue",
+  "type": "nouveau",
+  "id": "dsl/j11/nantes/selestat",
+  "journee": "J11",
+  "match": "NANTES – SÉLESTAT",
+  "avant": "",
+  "apres": "sam. 21 nov. 20h30",
+  "diffuseur": "Handball TV"
  }
 ]
