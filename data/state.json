@@ -670,7 +670,7 @@
    "diffuseur": "Handball TV",
    "statut": "",
    "provisoire": false,
-   "_miss": 7,
+   "_miss": 8,
    "_pend": null,
    "_annule": false
   },
@@ -850,7 +850,7 @@
    "diffuseur": "Handball TV + beIN SPORTS",
    "statut": "",
    "provisoire": false,
-   "_miss": 2,
+   "_miss": 3,
    "_pend": null,
    "_annule": false
   }
@@ -3222,7 +3222,7 @@
    "diffuseur": "Handball TV",
    "statut": "",
    "provisoire": false,
-   "_miss": 14,
+   "_miss": 15,
    "_pend": null,
    "_annule": false
   },
