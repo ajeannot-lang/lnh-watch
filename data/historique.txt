@@ -366,3 +366,17 @@
 1 changement(s) sur les calendriers LNH :
 
 - Daikin StarLigue J09 — nouveau : CESSON-RENNES – NANTES (sam. 31 oct. 19h00)
+
+===== 01/11/2026 à 16:23 =====
+10 changement(s) sur les calendriers LNH :
+
+- Daikin StarLigue J11 — nouveau : PARIS – TREMBLAY (dim. 22 nov. 17h00)
+- Daikin StarLigue J12 — nouveau : DUNKERQUE – PARIS (dim. 29 nov. 17h00)
+- Daikin StarLigue J13 — nouveau : PARIS – SÉLESTAT (dim. 6 déc. 17h00)
+- Ligue des Champions Mr j1 — nouveau : MELSUNGEN – PARIS (jeu. 19 nov. 20h45)
+- Ligue des Champions Mr j2 — nouveau : PARIS – PLOCK (jeu. 26 nov. 20h45)
+- Ligue des Champions Mr j3 — nouveau : BERLIN – PARIS (jeu. 3 déc. 18h45)
+- Ligue des Champions Mr j4 — nouveau : PARIS – VESZPREM (jeu. 10 déc. 20h45)
+- Ligue des Champions Mr j5 — nouveau : PARIS – MELSUNGEN (jeu. 11 févr. 20h45)
+- Ligue des Champions Mr j6 — nouveau : PLOCK – PARIS (mer. 17 févr. 20h45)
+- Ligue des Champions Mr j7 — nouveau : VESZPREM – PARIS (mer. 24 févr. 18h45)

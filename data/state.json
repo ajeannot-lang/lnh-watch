@@ -670,7 +670,7 @@
    "diffuseur": "Handball TV",
    "statut": "",
    "provisoire": false,
-   "_miss": 13,
+   "_miss": 14,
    "_pend": null,
    "_annule": false
   },
@@ -850,7 +850,43 @@
    "diffuseur": "Handball TV + beIN SPORTS",
    "statut": "",
    "provisoire": false,
-   "_miss": 8,
+   "_miss": 9,
+   "_pend": null,
+   "_annule": false
+  },
+  "dsl/j11/paris/tremblay": {
+   "id": "dsl/j11/paris/tremblay",
+   "journee": "J11",
+   "match": "PARIS – TREMBLAY",
+   "horaire": "dim. 22 nov. 17h00",
+   "diffuseur": "Handball TV",
+   "statut": "",
+   "provisoire": false,
+   "_miss": 0,
+   "_pend": null,
+   "_annule": false
+  },
+  "dsl/j12/dunkerque/paris": {
+   "id": "dsl/j12/dunkerque/paris",
+   "journee": "J12",
+   "match": "DUNKERQUE – PARIS",
+   "horaire": "dim. 29 nov. 17h00",
+   "diffuseur": "Handball TV",
+   "statut": "",
+   "provisoire": false,
+   "_miss": 0,
+   "_pend": null,
+   "_annule": false
+  },
+  "dsl/j13/paris/selestat": {
+   "id": "dsl/j13/paris/selestat",
+   "journee": "J13",
+   "match": "PARIS – SÉLESTAT",
+   "horaire": "dim. 6 déc. 17h00",
+   "diffuseur": "Handball TV",
+   "statut": "",
+   "provisoire": false,
+   "_miss": 0,
    "_pend": null,
    "_annule": false
   }
@@ -3067,6 +3103,90 @@
    "_miss": 0,
    "_pend": null,
    "_annule": false
+  },
+  "ehfcl/mr-j1/melsungen/paris": {
+   "id": "ehfcl/mr-j1/melsungen/paris",
+   "journee": "Mr j1",
+   "match": "MELSUNGEN – PARIS",
+   "horaire": "jeu. 19 nov. 20h45",
+   "diffuseur": "",
+   "statut": "",
+   "provisoire": false,
+   "_miss": 0,
+   "_pend": null,
+   "_annule": false
+  },
+  "ehfcl/mr-j2/paris/plock": {
+   "id": "ehfcl/mr-j2/paris/plock",
+   "journee": "Mr j2",
+   "match": "PARIS – PLOCK",
+   "horaire": "jeu. 26 nov. 20h45",
+   "diffuseur": "",
+   "statut": "",
+   "provisoire": false,
+   "_miss": 0,
+   "_pend": null,
+   "_annule": false
+  },
+  "ehfcl/mr-j3/berlin/paris": {
+   "id": "ehfcl/mr-j3/berlin/paris",
+   "journee": "Mr j3",
+   "match": "BERLIN – PARIS",
+   "horaire": "jeu. 3 déc. 18h45",
+   "diffuseur": "",
+   "statut": "",
+   "provisoire": false,
+   "_miss": 0,
+   "_pend": null,
+   "_annule": false
+  },
+  "ehfcl/mr-j4/paris/veszprem": {
+   "id": "ehfcl/mr-j4/paris/veszprem",
+   "journee": "Mr j4",
+   "match": "PARIS – VESZPREM",
+   "horaire": "jeu. 10 déc. 20h45",
+   "diffuseur": "",
+   "statut": "",
+   "provisoire": false,
+   "_miss": 0,
+   "_pend": null,
+   "_annule": false
+  },
+  "ehfcl/mr-j5/paris/melsungen": {
+   "id": "ehfcl/mr-j5/paris/melsungen",
+   "journee": "Mr j5",
+   "match": "PARIS – MELSUNGEN",
+   "horaire": "jeu. 11 févr. 20h45",
+   "diffuseur": "",
+   "statut": "",
+   "provisoire": false,
+   "_miss": 0,
+   "_pend": null,
+   "_annule": false
+  },
+  "ehfcl/mr-j6/plock/paris": {
+   "id": "ehfcl/mr-j6/plock/paris",
+   "journee": "Mr j6",
+   "match": "PLOCK – PARIS",
+   "horaire": "mer. 17 févr. 20h45",
+   "diffuseur": "",
+   "statut": "",
+   "provisoire": false,
+   "_miss": 0,
+   "_pend": null,
+   "_annule": false
+  },
+  "ehfcl/mr-j7/veszprem/paris": {
+   "id": "ehfcl/mr-j7/veszprem/paris",
+   "journee": "Mr j7",
+   "match": "VESZPREM – PARIS",
+   "horaire": "mer. 24 févr. 18h45",
+   "diffuseur": "",
+   "statut": "",
+   "provisoire": false,
+   "_miss": 0,
+   "_pend": null,
+   "_annule": false
   }
  },
  "Ligue Européenne EHF": {
@@ -3222,7 +3342,7 @@
    "diffuseur": "Handball TV",
    "statut": "",
    "provisoire": false,
-   "_miss": 20,
+   "_miss": 21,
    "_pend": null,
    "_annule": false
   },

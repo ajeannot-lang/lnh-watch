@@ -152,5 +152,115 @@
   "avant": "",
   "apres": "sam. 31 oct. 19h00",
   "diffuseur": "Handball TV + beIN SPORTS"
+ },
+ {
+  "ts": "2026-11-01T16:23",
+  "comp": "Daikin StarLigue",
+  "type": "nouveau",
+  "id": "dsl/j11/paris/tremblay",
+  "journee": "J11",
+  "match": "PARIS – TREMBLAY",
+  "avant": "",
+  "apres": "dim. 22 nov. 17h00",
+  "diffuseur": "Handball TV"
+ },
+ {
+  "ts": "2026-11-01T16:23",
+  "comp": "Daikin StarLigue",
+  "type": "nouveau",
+  "id": "dsl/j12/dunkerque/paris",
+  "journee": "J12",
+  "match": "DUNKERQUE – PARIS",
+  "avant": "",
+  "apres": "dim. 29 nov. 17h00",
+  "diffuseur": "Handball TV"
+ },
+ {
+  "ts": "2026-11-01T16:23",
+  "comp": "Daikin StarLigue",
+  "type": "nouveau",
+  "id": "dsl/j13/paris/selestat",
+  "journee": "J13",
+  "match": "PARIS – SÉLESTAT",
+  "avant": "",
+  "apres": "dim. 6 déc. 17h00",
+  "diffuseur": "Handball TV"
+ },
+ {
+  "ts": "2026-11-01T16:23",
+  "comp": "Ligue des Champions",
+  "type": "nouveau",
+  "id": "ehfcl/mr-j1/melsungen/paris",
+  "journee": "Mr j1",
+  "match": "MELSUNGEN – PARIS",
+  "avant": "",
+  "apres": "jeu. 19 nov. 20h45",
+  "diffuseur": ""
+ },
+ {
+  "ts": "2026-11-01T16:23",
+  "comp": "Ligue des Champions",
+  "type": "nouveau",
+  "id": "ehfcl/mr-j2/paris/plock",
+  "journee": "Mr j2",
+  "match": "PARIS – PLOCK",
+  "avant": "",
+  "apres": "jeu. 26 nov. 20h45",
+  "diffuseur": ""
+ },
+ {
+  "ts": "2026-11-01T16:23",
+  "comp": "Ligue des Champions",
+  "type": "nouveau",
+  "id": "ehfcl/mr-j3/berlin/paris",
+  "journee": "Mr j3",
+  "match": "BERLIN – PARIS",
+  "avant": "",
+  "apres": "jeu. 3 déc. 18h45",
+  "diffuseur": ""
+ },
+ {
+  "ts": "2026-11-01T16:23",
+  "comp": "Ligue des Champions",
+  "type": "nouveau",
+  "id": "ehfcl/mr-j4/paris/veszprem",
+  "journee": "Mr j4",
+  "match": "PARIS – VESZPREM",
+  "avant": "",
+  "apres": "jeu. 10 déc. 20h45",
+  "diffuseur": ""
+ },
+ {
+  "ts": "2026-11-01T16:23",
+  "comp": "Ligue des Champions",
+  "type": "nouveau",
+  "id": "ehfcl/mr-j5/paris/melsungen",
+  "journee": "Mr j5",
+  "match": "PARIS – MELSUNGEN",
+  "avant": "",
+  "apres": "jeu. 11 févr. 20h45",
+  "diffuseur": ""
+ },
+ {
+  "ts": "2026-11-01T16:23",
+  "comp": "Ligue des Champions",
+  "type": "nouveau",
+  "id": "ehfcl/mr-j6/plock/paris",
+  "journee": "Mr j6",
+  "match": "PLOCK – PARIS",
+  "avant": "",
+  "apres": "mer. 17 févr. 20h45",
+  "diffuseur": ""
+ },
+ {
+  "ts": "2026-11-01T16:23",
+  "comp": "Ligue des Champions",
+  "type": "nouveau",
+  "id": "ehfcl/mr-j7/veszprem/paris",
+  "journee": "Mr j7",
+  "match": "VESZPREM – PARIS",
+  "avant": "",
+  "apres": "mer. 24 févr. 18h45",
+  "diffuseur": ""
  }
 ]
