@@ -163,5 +163,159 @@
   "avant": "",
   "apres": "mer. 24 févr. 18h45",
   "diffuseur": ""
+ },
+ {
+  "ts": "2026-11-03T14:41",
+  "comp": "Ligue des Champions",
+  "type": "nouveau",
+  "id": "ehfcl/mr-j1/aalborg/berlin",
+  "journee": "Mr j1",
+  "match": "AALBORG – BERLIN",
+  "avant": "",
+  "apres": "mer. 18 nov. 18h45",
+  "diffuseur": "Handball TV"
+ },
+ {
+  "ts": "2026-11-03T14:41",
+  "comp": "Ligue des Champions",
+  "type": "nouveau",
+  "id": "ehfcl/mr-j1/plock/veszprem",
+  "journee": "Mr j1",
+  "match": "PLOCK – VESZPREM",
+  "avant": "",
+  "apres": "mer. 18 nov. 20h45",
+  "diffuseur": "Handball TV"
+ },
+ {
+  "ts": "2026-11-03T14:41",
+  "comp": "Ligue des Champions",
+  "type": "nouveau",
+  "id": "ehfcl/mr-j1/kielce/barcelone",
+  "journee": "Mr j1",
+  "match": "KIELCE – BARCELONE",
+  "avant": "",
+  "apres": "jeu. 19 nov. 18h45",
+  "diffuseur": "Handball TV"
+ },
+ {
+  "ts": "2026-11-03T14:41",
+  "comp": "Ligue des Champions",
+  "type": "nouveau",
+  "id": "ehfcl/mr-j1/sporting-lisbonne/bucarest",
+  "journee": "Mr j1",
+  "match": "SPORTING LISBONNE – BUCAREST",
+  "avant": "",
+  "apres": "jeu. 19 nov. 20h45",
+  "diffuseur": "Handball TV"
+ },
+ {
+  "ts": "2026-11-03T14:41",
+  "comp": "Ligue des Champions",
+  "type": "nouveau",
+  "id": "ehfcl/mr-j2/bucarest/kielce",
+  "journee": "Mr j2",
+  "match": "BUCAREST – KIELCE",
+  "avant": "",
+  "apres": "mer. 25 nov. 18h45",
+  "diffuseur": "Handball TV"
+ },
+ {
+  "ts": "2026-11-03T14:41",
+  "comp": "Ligue des Champions",
+  "type": "nouveau",
+  "id": "ehfcl/mr-j2/magdebourg/sporting-lisbonne",
+  "journee": "Mr j2",
+  "match": "MAGDEBOURG – SPORTING LISBONNE",
+  "avant": "",
+  "apres": "mer. 25 nov. 20h45",
+  "diffuseur": "Handball TV"
+ },
+ {
+  "ts": "2026-11-03T14:41",
+  "comp": "Ligue des Champions",
+  "type": "nouveau",
+  "id": "ehfcl/mr-j2/veszprem/aalborg",
+  "journee": "Mr j2",
+  "match": "VESZPREM – AALBORG",
+  "avant": "",
+  "apres": "jeu. 26 nov. 18h45",
+  "diffuseur": "Handball TV"
+ },
+ {
+  "ts": "2026-11-03T14:41",
+  "comp": "Ligue des Champions",
+  "type": "nouveau",
+  "id": "ehfcl/mr-j2/berlin/melsungen",
+  "journee": "Mr j2",
+  "match": "BERLIN – MELSUNGEN",
+  "avant": "",
+  "apres": "jeu. 26 nov. 20h45",
+  "diffuseur": "Handball TV"
+ },
+ {
+  "ts": "2026-11-03T14:41",
+  "comp": "Ligue des Champions",
+  "type": "nouveau",
+  "id": "ehfcl/mr-j3/veszprem/melsungen",
+  "journee": "Mr j3",
+  "match": "VESZPREM – MELSUNGEN",
+  "avant": "",
+  "apres": "mer. 2 déc. 18h45",
+  "diffuseur": "Handball TV"
+ },
+ {
+  "ts": "2026-11-03T14:41",
+  "comp": "Ligue des Champions",
+  "type": "nouveau",
+  "id": "ehfcl/mr-j3/aalborg/plock",
+  "journee": "Mr j3",
+  "match": "AALBORG – PLOCK",
+  "avant": "",
+  "apres": "mer. 2 déc. 20h45",
+  "diffuseur": "Handball TV"
+ },
+ {
+  "ts": "2026-11-03T14:41",
+  "comp": "Ligue des Champions",
+  "type": "nouveau",
+  "id": "ehfcl/mr-j3/sporting-lisbonne/barcelone",
+  "journee": "Mr j3",
+  "match": "SPORTING LISBONNE – BARCELONE",
+  "avant": "",
+  "apres": "jeu. 3 déc. 20h45",
+  "diffuseur": "Handball TV"
+ },
+ {
+  "ts": "2026-11-03T14:41",
+  "comp": "Ligue des Champions",
+  "type": "nouveau",
+  "id": "ehfcl/mr-j4/melsungen/aalborg",
+  "journee": "Mr j4",
+  "match": "MELSUNGEN – AALBORG",
+  "avant": "",
+  "apres": "mer. 9 déc. 18h45",
+  "diffuseur": "Handball TV"
+ },
+ {
+  "ts": "2026-11-03T14:41",
+  "comp": "Ligue des Champions",
+  "type": "nouveau",
+  "id": "ehfcl/mr-j4/barcelone/magdebourg",
+  "journee": "Mr j4",
+  "match": "BARCELONE – MAGDEBOURG",
+  "avant": "",
+  "apres": "mer. 9 déc. 20h45",
+  "diffuseur": "Handball TV"
+ },
+ {
+  "ts": "2026-11-03T14:41",
+  "comp": "Ligue des Champions",
+  "type": "nouveau",
+  "id": "ehfcl/mr-j4/plock/berlin",
+  "journee": "Mr j4",
+  "match": "PLOCK – BERLIN",
+  "avant": "",
+  "apres": "jeu. 10 déc. 18h45",
+  "diffuseur": "Handball TV"
  }
 ]
