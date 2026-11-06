@@ -670,7 +670,7 @@
    "diffuseur": "Handball TV",
    "statut": "",
    "provisoire": false,
-   "_miss": 33,
+   "_miss": 34,
    "_pend": null,
    "_annule": false
   },
@@ -1868,12 +1868,12 @@
    "id": "pl/j11/valence/pontault",
    "journee": "J11",
    "match": "VALENCE – PONTAULT",
-   "horaire": "ven. 20 nov. 20h00",
+   "horaire": "ven. 20 nov. 20h30",
    "diffuseur": "Handball TV + beIN SPORTS",
    "statut": "",
    "provisoire": false,
    "_miss": 0,
-   "_pend": "ven. 20 nov. 20h30",
+   "_pend": null,
    "_annule": false
   },
   "pl/j11/cherbourg/massy": {
@@ -2048,12 +2048,12 @@
    "id": "pl/j13/valence/saintes",
    "journee": "J13",
    "match": "VALENCE – SAINTES",
-   "horaire": "ven. 4 déc. 20h00",
+   "horaire": "ven. 4 déc. 20h30",
    "diffuseur": "Handball TV + beIN SPORTS",
    "statut": "",
    "provisoire": false,
    "_miss": 0,
-   "_pend": "ven. 4 déc. 20h30",
+   "_pend": null,
    "_annule": false
   },
   "pl/j13/cherbourg/besancon": {
@@ -2120,12 +2120,12 @@
    "id": "pl/j14/valence/frontignan",
    "journee": "J14",
    "match": "VALENCE – FRONTIGNAN",
-   "horaire": "ven. 11 déc. 20h00",
+   "horaire": "ven. 11 déc. 20h30",
    "diffuseur": "Handball TV + beIN SPORTS",
    "statut": "",
    "provisoire": false,
    "_miss": 0,
-   "_pend": "ven. 11 déc. 20h30",
+   "_pend": null,
    "_annule": false
   },
   "pl/j14/besancon/cournon": {
@@ -2492,12 +2492,12 @@
    "id": "pl/j15/sarrebourg/pau-billere",
    "journee": "J15",
    "match": "SARREBOURG – PAU BILLÈRE",
-   "horaire": "sam. 19 déc. 18h00",
+   "horaire": "sam. 30 janv. 18h00",
    "diffuseur": "Handball TV",
    "statut": "",
    "provisoire": false,
    "_miss": 0,
-   "_pend": "sam. 30 janv. 18h00",
+   "_pend": null,
    "_annule": false
   }
  },
@@ -3100,7 +3100,7 @@
    "diffuseur": "",
    "statut": "",
    "provisoire": false,
-   "_miss": 13,
+   "_miss": 14,
    "_pend": null,
    "_annule": false
   },
@@ -3112,7 +3112,7 @@
    "diffuseur": "",
    "statut": "",
    "provisoire": false,
-   "_miss": 13,
+   "_miss": 14,
    "_pend": null,
    "_annule": false
   },
@@ -3124,7 +3124,7 @@
    "diffuseur": "",
    "statut": "",
    "provisoire": false,
-   "_miss": 13,
+   "_miss": 14,
    "_pend": null,
    "_annule": false
   },
@@ -3136,7 +3136,7 @@
    "diffuseur": "",
    "statut": "",
    "provisoire": false,
-   "_miss": 13,
+   "_miss": 14,
    "_pend": null,
    "_annule": false
   },
@@ -3148,7 +3148,7 @@
    "diffuseur": "",
    "statut": "",
    "provisoire": false,
-   "_miss": 13,
+   "_miss": 14,
    "_pend": null,
    "_annule": false
   },
@@ -3160,7 +3160,7 @@
    "diffuseur": "",
    "statut": "",
    "provisoire": false,
-   "_miss": 13,
+   "_miss": 14,
    "_pend": null,
    "_annule": false
   },
@@ -3172,7 +3172,7 @@
    "diffuseur": "",
    "statut": "",
    "provisoire": false,
-   "_miss": 13,
+   "_miss": 14,
    "_pend": null,
    "_annule": false
   },
@@ -3498,7 +3498,7 @@
    "diffuseur": "Handball TV",
    "statut": "",
    "provisoire": false,
-   "_miss": 40,
+   "_miss": 41,
    "_pend": null,
    "_annule": false
   },

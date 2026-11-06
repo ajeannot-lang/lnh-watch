@@ -1,16 +1,5 @@
 [
  {
-  "ts": "2026-10-30T18:51",
-  "comp": "Daikin StarLigue",
-  "type": "nouveau",
-  "id": "dsl/j09/cesson-rennes/nantes",
-  "journee": "J09",
-  "match": "CESSON-RENNES – NANTES",
-  "avant": "",
-  "apres": "sam. 31 oct. 19h00",
-  "diffuseur": "Handball TV + beIN SPORTS"
- },
- {
   "ts": "2026-11-01T16:23",
   "comp": "Daikin StarLigue",
   "type": "nouveau",
@@ -272,6 +261,50 @@
   "match": "PLOCK – BERLIN",
   "avant": "",
   "apres": "jeu. 10 déc. 18h45",
+  "diffuseur": "Handball TV"
+ },
+ {
+  "ts": "2026-11-06T23:30",
+  "comp": "ProLigue",
+  "type": "horaire",
+  "id": "pl/j11/valence/pontault",
+  "journee": "J11",
+  "match": "VALENCE – PONTAULT",
+  "avant": "ven. 20 nov. 20h00",
+  "apres": "ven. 20 nov. 20h30",
+  "diffuseur": "Handball TV + beIN SPORTS"
+ },
+ {
+  "ts": "2026-11-06T23:30",
+  "comp": "ProLigue",
+  "type": "horaire",
+  "id": "pl/j13/valence/saintes",
+  "journee": "J13",
+  "match": "VALENCE – SAINTES",
+  "avant": "ven. 4 déc. 20h00",
+  "apres": "ven. 4 déc. 20h30",
+  "diffuseur": "Handball TV + beIN SPORTS"
+ },
+ {
+  "ts": "2026-11-06T23:30",
+  "comp": "ProLigue",
+  "type": "horaire",
+  "id": "pl/j14/valence/frontignan",
+  "journee": "J14",
+  "match": "VALENCE – FRONTIGNAN",
+  "avant": "ven. 11 déc. 20h00",
+  "apres": "ven. 11 déc. 20h30",
+  "diffuseur": "Handball TV + beIN SPORTS"
+ },
+ {
+  "ts": "2026-11-06T23:30",
+  "comp": "ProLigue",
+  "type": "horaire",
+  "id": "pl/j15/sarrebourg/pau-billere",
+  "journee": "J15",
+  "match": "SARREBOURG – PAU BILLÈRE",
+  "avant": "sam. 19 déc. 18h00",
+  "apres": "sam. 30 janv. 18h00",
   "diffuseur": "Handball TV"
  }
 ]
