@@ -670,7 +670,7 @@
    "diffuseur": "Handball TV",
    "statut": "",
    "provisoire": false,
-   "_miss": 32,
+   "_miss": 33,
    "_pend": null,
    "_annule": false
   },
@@ -1873,7 +1873,7 @@
    "statut": "",
    "provisoire": false,
    "_miss": 0,
-   "_pend": null,
+   "_pend": "ven. 20 nov. 20h30",
    "_annule": false
   },
   "pl/j11/cherbourg/massy": {
@@ -2053,7 +2053,7 @@
    "statut": "",
    "provisoire": false,
    "_miss": 0,
-   "_pend": null,
+   "_pend": "ven. 4 déc. 20h30",
    "_annule": false
   },
   "pl/j13/cherbourg/besancon": {
@@ -2125,7 +2125,7 @@
    "statut": "",
    "provisoire": false,
    "_miss": 0,
-   "_pend": null,
+   "_pend": "ven. 11 déc. 20h30",
    "_annule": false
   },
   "pl/j14/besancon/cournon": {
@@ -2497,7 +2497,7 @@
    "statut": "",
    "provisoire": false,
    "_miss": 0,
-   "_pend": null,
+   "_pend": "sam. 30 janv. 18h00",
    "_annule": false
   }
  },
@@ -3100,7 +3100,7 @@
    "diffuseur": "",
    "statut": "",
    "provisoire": false,
-   "_miss": 12,
+   "_miss": 13,
    "_pend": null,
    "_annule": false
   },
@@ -3112,7 +3112,7 @@
    "diffuseur": "",
    "statut": "",
    "provisoire": false,
-   "_miss": 12,
+   "_miss": 13,
    "_pend": null,
    "_annule": false
   },
@@ -3124,7 +3124,7 @@
    "diffuseur": "",
    "statut": "",
    "provisoire": false,
-   "_miss": 12,
+   "_miss": 13,
    "_pend": null,
    "_annule": false
   },
@@ -3136,7 +3136,7 @@
    "diffuseur": "",
    "statut": "",
    "provisoire": false,
-   "_miss": 12,
+   "_miss": 13,
    "_pend": null,
    "_annule": false
   },
@@ -3148,7 +3148,7 @@
    "diffuseur": "",
    "statut": "",
    "provisoire": false,
-   "_miss": 12,
+   "_miss": 13,
    "_pend": null,
    "_annule": false
   },
@@ -3160,7 +3160,7 @@
    "diffuseur": "",
    "statut": "",
    "provisoire": false,
-   "_miss": 12,
+   "_miss": 13,
    "_pend": null,
    "_annule": false
   },
@@ -3172,7 +3172,7 @@
    "diffuseur": "",
    "statut": "",
    "provisoire": false,
-   "_miss": 12,
+   "_miss": 13,
    "_pend": null,
    "_annule": false
   },
@@ -3498,7 +3498,7 @@
    "diffuseur": "Handball TV",
    "statut": "",
    "provisoire": false,
-   "_miss": 39,
+   "_miss": 40,
    "_pend": null,
    "_annule": false
   },
