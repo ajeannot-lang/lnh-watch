@@ -406,3 +406,21 @@
 - ProLigue J13 — VALENCE – SAINTES : ven. 4 déc. 20h00 -> ven. 4 déc. 20h30
 - ProLigue J14 — VALENCE – FRONTIGNAN : ven. 11 déc. 20h00 -> ven. 11 déc. 20h30
 - ProLigue J15 — SARREBOURG – PAU BILLÈRE : sam. 19 déc. 18h00 -> sam. 30 janv. 18h00
+
+===== 09/11/2026 à 20:42 =====
+14 changement(s) sur les calendriers LNH :
+
+- Daikin StarLigue J14 — nouveau : AIX – SAINT-RAPHAËL (ven. 11 déc. 20h00)
+- Daikin StarLigue J14 — nouveau : CHAMBÉRY – CESSON-RENNES (ven. 11 déc. 20h00)
+- Daikin StarLigue J14 — nouveau : DUNKERQUE – TREMBLAY (ven. 11 déc. 20h00)
+- Daikin StarLigue J14 — nouveau : MONTPELLIER – CAEN (ven. 11 déc. 20h00)
+- Daikin StarLigue J14 — nouveau : SÉLESTAT – LIMOGES (ven. 11 déc. 20h30)
+- Daikin StarLigue J15 — nouveau : DUNKERQUE – SARAN (mar. 22 déc. 20h00)
+- Daikin StarLigue J15 — nouveau : CHARTRES – SÉLESTAT (mer. 23 déc. 20h00)
+- Daikin StarLigue J15 — nouveau : CAEN – CESSON-RENNES (mer. 23 déc. 20h30)
+- ProLigue J10 — ANNULÉ : Massy – Draguignan (ven. 13 nov. 20h30)
+- ProLigue J11 — ANNULÉ : Frontignan – Draguignan (ven. 20 nov. 20h30)
+- ProLigue J12 — ANNULÉ : Draguignan – Valence (ven. 27 nov. 20h30)
+- ProLigue J13 — ANNULÉ : Dijon – Draguignan (ven. 4 déc. 20h30)
+- ProLigue J14 — ANNULÉ : Draguignan – Ivry (ven. 11 déc. 20h30)
+- ProLigue J15 — ANNULÉ : Draguignan – Pontault (ven. 18 déc. 20h30)

@@ -670,7 +670,7 @@
    "diffuseur": "Handball TV",
    "statut": "",
    "provisoire": false,
-   "_miss": 45,
+   "_miss": 46,
    "_pend": null,
    "_annule": false
   },
@@ -871,6 +871,102 @@
    "journee": "J13",
    "match": "PARIS – SÉLESTAT",
    "horaire": "dim. 6 déc. 17h00",
+   "diffuseur": "Handball TV",
+   "statut": "",
+   "provisoire": false,
+   "_miss": 0,
+   "_pend": null,
+   "_annule": false
+  },
+  "dsl/j14/aix/saint-raphael": {
+   "id": "dsl/j14/aix/saint-raphael",
+   "journee": "J14",
+   "match": "AIX – SAINT-RAPHAËL",
+   "horaire": "ven. 11 déc. 20h00",
+   "diffuseur": "Handball TV",
+   "statut": "",
+   "provisoire": false,
+   "_miss": 0,
+   "_pend": null,
+   "_annule": false
+  },
+  "dsl/j14/chambery/cesson-rennes": {
+   "id": "dsl/j14/chambery/cesson-rennes",
+   "journee": "J14",
+   "match": "CHAMBÉRY – CESSON-RENNES",
+   "horaire": "ven. 11 déc. 20h00",
+   "diffuseur": "Handball TV",
+   "statut": "",
+   "provisoire": false,
+   "_miss": 0,
+   "_pend": null,
+   "_annule": false
+  },
+  "dsl/j14/dunkerque/tremblay": {
+   "id": "dsl/j14/dunkerque/tremblay",
+   "journee": "J14",
+   "match": "DUNKERQUE – TREMBLAY",
+   "horaire": "ven. 11 déc. 20h00",
+   "diffuseur": "Handball TV",
+   "statut": "",
+   "provisoire": false,
+   "_miss": 0,
+   "_pend": null,
+   "_annule": false
+  },
+  "dsl/j14/montpellier/caen": {
+   "id": "dsl/j14/montpellier/caen",
+   "journee": "J14",
+   "match": "MONTPELLIER – CAEN",
+   "horaire": "ven. 11 déc. 20h00",
+   "diffuseur": "Handball TV",
+   "statut": "",
+   "provisoire": false,
+   "_miss": 0,
+   "_pend": null,
+   "_annule": false
+  },
+  "dsl/j14/selestat/limoges": {
+   "id": "dsl/j14/selestat/limoges",
+   "journee": "J14",
+   "match": "SÉLESTAT – LIMOGES",
+   "horaire": "ven. 11 déc. 20h30",
+   "diffuseur": "Handball TV",
+   "statut": "",
+   "provisoire": false,
+   "_miss": 0,
+   "_pend": null,
+   "_annule": false
+  },
+  "dsl/j15/dunkerque/saran": {
+   "id": "dsl/j15/dunkerque/saran",
+   "journee": "J15",
+   "match": "DUNKERQUE – SARAN",
+   "horaire": "mar. 22 déc. 20h00",
+   "diffuseur": "Handball TV",
+   "statut": "",
+   "provisoire": false,
+   "_miss": 0,
+   "_pend": null,
+   "_annule": false
+  },
+  "dsl/j15/chartres/selestat": {
+   "id": "dsl/j15/chartres/selestat",
+   "journee": "J15",
+   "match": "CHARTRES – SÉLESTAT",
+   "horaire": "mer. 23 déc. 20h00",
+   "diffuseur": "Handball TV",
+   "statut": "",
+   "provisoire": false,
+   "_miss": 0,
+   "_pend": null,
+   "_annule": false
+  },
+  "dsl/j15/caen/cesson-rennes": {
+   "id": "dsl/j15/caen/cesson-rennes",
+   "journee": "J15",
+   "match": "CAEN – CESSON-RENNES",
+   "horaire": "mer. 23 déc. 20h30",
    "diffuseur": "Handball TV",
    "statut": "",
    "provisoire": false,
@@ -1783,14 +1879,14 @@
   "pl/j10/massy/draguignan": {
    "id": "pl/j10/massy/draguignan",
    "journee": "J10",
-   "match": "MASSY – DRAGUIGNAN",
+   "match": "Massy – Draguignan",
    "horaire": "ven. 13 nov. 20h30",
    "diffuseur": "Handball TV",
-   "statut": "",
+   "statut": "annulé",
    "provisoire": false,
    "_miss": 0,
    "_pend": null,
-   "_annule": false
+   "_annule": true
   },
   "pl/j10/pau-billere/ivry": {
    "id": "pl/j10/pau-billere/ivry",
@@ -1915,14 +2011,14 @@
   "pl/j11/frontignan/draguignan": {
    "id": "pl/j11/frontignan/draguignan",
    "journee": "J11",
-   "match": "FRONTIGNAN – DRAGUIGNAN",
+   "match": "Frontignan – Draguignan",
    "horaire": "ven. 20 nov. 20h30",
    "diffuseur": "Handball TV",
-   "statut": "",
+   "statut": "annulé",
    "provisoire": false,
    "_miss": 0,
    "_pend": null,
-   "_annule": false
+   "_annule": true
   },
   "pl/j11/ivry/saintes": {
    "id": "pl/j11/ivry/saintes",
@@ -1963,14 +2059,14 @@
   "pl/j12/draguignan/valence": {
    "id": "pl/j12/draguignan/valence",
    "journee": "J12",
-   "match": "DRAGUIGNAN – VALENCE",
+   "match": "Draguignan – Valence",
    "horaire": "ven. 27 nov. 20h30",
    "diffuseur": "Handball TV",
-   "statut": "",
+   "statut": "annulé",
    "provisoire": false,
    "_miss": 0,
    "_pend": null,
-   "_annule": false
+   "_annule": true
   },
   "pl/j12/massy/istres": {
    "id": "pl/j12/massy/istres",
@@ -2083,14 +2179,14 @@
   "pl/j13/dijon/draguignan": {
    "id": "pl/j13/dijon/draguignan",
    "journee": "J13",
-   "match": "DIJON – DRAGUIGNAN",
+   "match": "Dijon – Draguignan",
    "horaire": "ven. 4 déc. 20h30",
    "diffuseur": "Handball TV",
-   "statut": "",
+   "statut": "annulé",
    "provisoire": false,
    "_miss": 0,
    "_pend": null,
-   "_annule": false
+   "_annule": true
   },
   "pl/j13/elite-val-d-oise/pau-billere": {
    "id": "pl/j13/elite-val-d-oise/pau-billere",
@@ -2155,14 +2251,14 @@
   "pl/j14/draguignan/ivry": {
    "id": "pl/j14/draguignan/ivry",
    "journee": "J14",
-   "match": "DRAGUIGNAN – IVRY",
+   "match": "Draguignan – Ivry",
    "horaire": "ven. 11 déc. 20h30",
    "diffuseur": "Handball TV",
-   "statut": "",
+   "statut": "annulé",
    "provisoire": false,
    "_miss": 0,
    "_pend": null,
-   "_annule": false
+   "_annule": true
   },
   "pl/j14/pau-billere/creteil": {
    "id": "pl/j14/pau-billere/creteil",
@@ -2239,14 +2335,14 @@
   "pl/j15/draguignan/pontault": {
    "id": "pl/j15/draguignan/pontault",
    "journee": "J15",
-   "match": "DRAGUIGNAN – PONTAULT",
+   "match": "Draguignan – Pontault",
    "horaire": "ven. 18 déc. 20h30",
    "diffuseur": "Handball TV",
-   "statut": "",
+   "statut": "annulé",
    "provisoire": false,
    "_miss": 0,
    "_pend": null,
-   "_annule": false
+   "_annule": true
   },
   "pl/j15/elite-val-d-oise/cournon": {
    "id": "pl/j15/elite-val-d-oise/cournon",
@@ -3100,7 +3196,7 @@
    "diffuseur": "",
    "statut": "",
    "provisoire": false,
-   "_miss": 24,
+   "_miss": 25,
    "_pend": null,
    "_annule": false
   },
@@ -3112,7 +3208,7 @@
    "diffuseur": "",
    "statut": "",
    "provisoire": false,
-   "_miss": 24,
+   "_miss": 25,
    "_pend": null,
    "_annule": false
   },
@@ -3124,7 +3220,7 @@
    "diffuseur": "",
    "statut": "",
    "provisoire": false,
-   "_miss": 24,
+   "_miss": 25,
    "_pend": null,
    "_annule": false
   },
@@ -3136,7 +3232,7 @@
    "diffuseur": "",
    "statut": "",
    "provisoire": false,
-   "_miss": 24,
+   "_miss": 25,
    "_pend": null,
    "_annule": false
   },
@@ -3148,7 +3244,7 @@
    "diffuseur": "",
    "statut": "",
    "provisoire": false,
-   "_miss": 24,
+   "_miss": 25,
    "_pend": null,
    "_annule": false
   },
@@ -3160,7 +3256,7 @@
    "diffuseur": "",
    "statut": "",
    "provisoire": false,
-   "_miss": 24,
+   "_miss": 25,
    "_pend": null,
    "_annule": false
   },
@@ -3172,7 +3268,7 @@
    "diffuseur": "",
    "statut": "",
    "provisoire": false,
-   "_miss": 24,
+   "_miss": 25,
    "_pend": null,
    "_annule": false
   },
@@ -3498,7 +3594,7 @@
    "diffuseur": "Handball TV",
    "statut": "",
    "provisoire": false,
-   "_miss": 52,
+   "_miss": 53,
    "_pend": null,
    "_annule": false
   },

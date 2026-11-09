@@ -196,5 +196,159 @@
   "avant": "sam. 19 déc. 18h00",
   "apres": "sam. 30 janv. 18h00",
   "diffuseur": "Handball TV"
+ },
+ {
+  "ts": "2026-11-09T20:42",
+  "comp": "Daikin StarLigue",
+  "type": "nouveau",
+  "id": "dsl/j14/aix/saint-raphael",
+  "journee": "J14",
+  "match": "AIX – SAINT-RAPHAËL",
+  "avant": "",
+  "apres": "ven. 11 déc. 20h00",
+  "diffuseur": "Handball TV"
+ },
+ {
+  "ts": "2026-11-09T20:42",
+  "comp": "Daikin StarLigue",
+  "type": "nouveau",
+  "id": "dsl/j14/chambery/cesson-rennes",
+  "journee": "J14",
+  "match": "CHAMBÉRY – CESSON-RENNES",
+  "avant": "",
+  "apres": "ven. 11 déc. 20h00",
+  "diffuseur": "Handball TV"
+ },
+ {
+  "ts": "2026-11-09T20:42",
+  "comp": "Daikin StarLigue",
+  "type": "nouveau",
+  "id": "dsl/j14/dunkerque/tremblay",
+  "journee": "J14",
+  "match": "DUNKERQUE – TREMBLAY",
+  "avant": "",
+  "apres": "ven. 11 déc. 20h00",
+  "diffuseur": "Handball TV"
+ },
+ {
+  "ts": "2026-11-09T20:42",
+  "comp": "Daikin StarLigue",
+  "type": "nouveau",
+  "id": "dsl/j14/montpellier/caen",
+  "journee": "J14",
+  "match": "MONTPELLIER – CAEN",
+  "avant": "",
+  "apres": "ven. 11 déc. 20h00",
+  "diffuseur": "Handball TV"
+ },
+ {
+  "ts": "2026-11-09T20:42",
+  "comp": "Daikin StarLigue",
+  "type": "nouveau",
+  "id": "dsl/j14/selestat/limoges",
+  "journee": "J14",
+  "match": "SÉLESTAT – LIMOGES",
+  "avant": "",
+  "apres": "ven. 11 déc. 20h30",
+  "diffuseur": "Handball TV"
+ },
+ {
+  "ts": "2026-11-09T20:42",
+  "comp": "Daikin StarLigue",
+  "type": "nouveau",
+  "id": "dsl/j15/dunkerque/saran",
+  "journee": "J15",
+  "match": "DUNKERQUE – SARAN",
+  "avant": "",
+  "apres": "mar. 22 déc. 20h00",
+  "diffuseur": "Handball TV"
+ },
+ {
+  "ts": "2026-11-09T20:42",
+  "comp": "Daikin StarLigue",
+  "type": "nouveau",
+  "id": "dsl/j15/chartres/selestat",
+  "journee": "J15",
+  "match": "CHARTRES – SÉLESTAT",
+  "avant": "",
+  "apres": "mer. 23 déc. 20h00",
+  "diffuseur": "Handball TV"
+ },
+ {
+  "ts": "2026-11-09T20:42",
+  "comp": "Daikin StarLigue",
+  "type": "nouveau",
+  "id": "dsl/j15/caen/cesson-rennes",
+  "journee": "J15",
+  "match": "CAEN – CESSON-RENNES",
+  "avant": "",
+  "apres": "mer. 23 déc. 20h30",
+  "diffuseur": "Handball TV"
+ },
+ {
+  "ts": "2026-11-09T20:42",
+  "comp": "ProLigue",
+  "type": "annule",
+  "id": "pl/j10/massy/draguignan",
+  "journee": "J10",
+  "match": "Massy – Draguignan",
+  "avant": "",
+  "apres": "ven. 13 nov. 20h30",
+  "diffuseur": "Handball TV"
+ },
+ {
+  "ts": "2026-11-09T20:42",
+  "comp": "ProLigue",
+  "type": "annule",
+  "id": "pl/j11/frontignan/draguignan",
+  "journee": "J11",
+  "match": "Frontignan – Draguignan",
+  "avant": "",
+  "apres": "ven. 20 nov. 20h30",
+  "diffuseur": "Handball TV"
+ },
+ {
+  "ts": "2026-11-09T20:42",
+  "comp": "ProLigue",
+  "type": "annule",
+  "id": "pl/j12/draguignan/valence",
+  "journee": "J12",
+  "match": "Draguignan – Valence",
+  "avant": "",
+  "apres": "ven. 27 nov. 20h30",
+  "diffuseur": "Handball TV"
+ },
+ {
+  "ts": "2026-11-09T20:42",
+  "comp": "ProLigue",
+  "type": "annule",
+  "id": "pl/j13/dijon/draguignan",
+  "journee": "J13",
+  "match": "Dijon – Draguignan",
+  "avant": "",
+  "apres": "ven. 4 déc. 20h30",
+  "diffuseur": "Handball TV"
+ },
+ {
+  "ts": "2026-11-09T20:42",
+  "comp": "ProLigue",
+  "type": "annule",
+  "id": "pl/j14/draguignan/ivry",
+  "journee": "J14",
+  "match": "Draguignan – Ivry",
+  "avant": "",
+  "apres": "ven. 11 déc. 20h30",
+  "diffuseur": "Handball TV"
+ },
+ {
+  "ts": "2026-11-09T20:42",
+  "comp": "ProLigue",
+  "type": "annule",
+  "id": "pl/j15/draguignan/pontault",
+  "journee": "J15",
+  "match": "Draguignan – Pontault",
+  "avant": "",
+  "apres": "ven. 18 déc. 20h30",
+  "diffuseur": "Handball TV"
  }
 ]
