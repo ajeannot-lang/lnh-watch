@@ -350,5 +350,104 @@
   "avant": "",
   "apres": "ven. 18 déc. 20h30",
   "diffuseur": "Handball TV"
+ },
+ {
+  "ts": "2026-11-10T02:57",
+  "comp": "ProLigue",
+  "type": "nouveau",
+  "id": "pl/j01/exempt/elite-val-d-oise",
+  "journee": "J01",
+  "match": "Exempt – Elite Val D Oise",
+  "avant": "",
+  "apres": "",
+  "diffuseur": "Handball TV"
+ },
+ {
+  "ts": "2026-11-10T02:57",
+  "comp": "ProLigue",
+  "type": "nouveau",
+  "id": "pl/j02/cherbourg/exempt",
+  "journee": "J02",
+  "match": "Cherbourg – Exempt",
+  "avant": "",
+  "apres": "",
+  "diffuseur": "Handball TV"
+ },
+ {
+  "ts": "2026-11-10T02:57",
+  "comp": "ProLigue",
+  "type": "nouveau",
+  "id": "pl/j03/exempt/istres",
+  "journee": "J03",
+  "match": "Exempt – Istres",
+  "avant": "",
+  "apres": "",
+  "diffuseur": "Handball TV"
+ },
+ {
+  "ts": "2026-11-10T02:57",
+  "comp": "ProLigue",
+  "type": "nouveau",
+  "id": "pl/j04/cournon/exempt",
+  "journee": "J04",
+  "match": "Cournon – Exempt",
+  "avant": "",
+  "apres": "",
+  "diffuseur": "Handball TV"
+ },
+ {
+  "ts": "2026-11-10T02:57",
+  "comp": "ProLigue",
+  "type": "nouveau",
+  "id": "pl/j05/exempt/saintes",
+  "journee": "J05",
+  "match": "Exempt – Saintes",
+  "avant": "",
+  "apres": "",
+  "diffuseur": "Handball TV"
+ },
+ {
+  "ts": "2026-11-10T02:57",
+  "comp": "ProLigue",
+  "type": "nouveau",
+  "id": "pl/j06/pau-billere/exempt",
+  "journee": "J06",
+  "match": "Pau Billere – Exempt",
+  "avant": "",
+  "apres": "",
+  "diffuseur": "Handball TV"
+ },
+ {
+  "ts": "2026-11-10T02:57",
+  "comp": "ProLigue",
+  "type": "nouveau",
+  "id": "pl/j07/exempt/creteil",
+  "journee": "J07",
+  "match": "Exempt – Creteil",
+  "avant": "",
+  "apres": "",
+  "diffuseur": "Handball TV"
+ },
+ {
+  "ts": "2026-11-10T02:57",
+  "comp": "ProLigue",
+  "type": "nouveau",
+  "id": "pl/j08/sarrebourg/exempt",
+  "journee": "J08",
+  "match": "Sarrebourg – Exempt",
+  "avant": "",
+  "apres": "",
+  "diffuseur": "Handball TV"
+ },
+ {
+  "ts": "2026-11-10T02:57",
+  "comp": "ProLigue",
+  "type": "nouveau",
+  "id": "pl/j09/exempt/besancon",
+  "journee": "J09",
+  "match": "Exempt – Besancon",
+  "avant": "",
+  "apres": "",
+  "diffuseur": "Handball TV"
  }
 ]
