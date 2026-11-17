@@ -9,5 +9,16 @@
   "avant": "dim. 6 déc. 16h00",
   "apres": "ven. 4 déc. 20h00",
   "diffuseur": "Handball TV"
+ },
+ {
+  "ts": "2026-11-17T18:34",
+  "comp": "Daikin StarLigue",
+  "type": "nouveau",
+  "id": "dsl/j15/tremblay/aix",
+  "journee": "J15",
+  "match": "TREMBLAY – AIX",
+  "avant": "",
+  "apres": "mar. 22 déc. 20h30",
+  "diffuseur": "Handball TV"
  }
 ]
