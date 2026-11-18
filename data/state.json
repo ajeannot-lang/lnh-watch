@@ -670,7 +670,7 @@
    "diffuseur": "Handball TV",
    "statut": "",
    "provisoire": false,
-   "_miss": 74,
+   "_miss": 75,
    "_pend": null,
    "_annule": false
   },
@@ -754,7 +754,7 @@
    "diffuseur": "",
    "statut": "",
    "provisoire": false,
-   "_miss": 26,
+   "_miss": 27,
    "_pend": null,
    "_annule": false
   },
@@ -2016,7 +2016,7 @@
    "diffuseur": "Handball TV",
    "statut": "annulé",
    "provisoire": false,
-   "_miss": 28,
+   "_miss": 29,
    "_pend": null,
    "_annule": true
   },
@@ -2064,7 +2064,7 @@
    "diffuseur": "Handball TV",
    "statut": "annulé",
    "provisoire": false,
-   "_miss": 28,
+   "_miss": 29,
    "_pend": null,
    "_annule": true
   },
@@ -2184,7 +2184,7 @@
    "diffuseur": "Handball TV",
    "statut": "annulé",
    "provisoire": false,
-   "_miss": 28,
+   "_miss": 29,
    "_pend": null,
    "_annule": true
   },
@@ -2256,7 +2256,7 @@
    "diffuseur": "Handball TV",
    "statut": "annulé",
    "provisoire": false,
-   "_miss": 28,
+   "_miss": 29,
    "_pend": null,
    "_annule": true
   },
@@ -2340,7 +2340,7 @@
    "diffuseur": "Handball TV",
    "statut": "annulé",
    "provisoire": false,
-   "_miss": 28,
+   "_miss": 29,
    "_pend": null,
    "_annule": true
   },
@@ -2604,7 +2604,7 @@
    "diffuseur": "Handball TV",
    "statut": "",
    "provisoire": false,
-   "_miss": 27,
+   "_miss": 28,
    "_pend": null,
    "_annule": false
   },
@@ -2616,7 +2616,7 @@
    "diffuseur": "Handball TV",
    "statut": "",
    "provisoire": false,
-   "_miss": 27,
+   "_miss": 28,
    "_pend": null,
    "_annule": false
   },
@@ -2628,7 +2628,7 @@
    "diffuseur": "Handball TV",
    "statut": "",
    "provisoire": false,
-   "_miss": 27,
+   "_miss": 28,
    "_pend": null,
    "_annule": false
   },
@@ -2640,7 +2640,7 @@
    "diffuseur": "Handball TV",
    "statut": "",
    "provisoire": false,
-   "_miss": 27,
+   "_miss": 28,
    "_pend": null,
    "_annule": false
   },
@@ -2652,7 +2652,7 @@
    "diffuseur": "Handball TV",
    "statut": "",
    "provisoire": false,
-   "_miss": 27,
+   "_miss": 28,
    "_pend": null,
    "_annule": false
   },
@@ -2664,7 +2664,7 @@
    "diffuseur": "Handball TV",
    "statut": "",
    "provisoire": false,
-   "_miss": 27,
+   "_miss": 28,
    "_pend": null,
    "_annule": false
   },
@@ -2676,7 +2676,7 @@
    "diffuseur": "Handball TV",
    "statut": "",
    "provisoire": false,
-   "_miss": 27,
+   "_miss": 28,
    "_pend": null,
    "_annule": false
   },
@@ -2688,7 +2688,7 @@
    "diffuseur": "Handball TV",
    "statut": "",
    "provisoire": false,
-   "_miss": 27,
+   "_miss": 28,
    "_pend": null,
    "_annule": false
   },
@@ -2700,7 +2700,7 @@
    "diffuseur": "Handball TV",
    "statut": "",
    "provisoire": false,
-   "_miss": 27,
+   "_miss": 28,
    "_pend": null,
    "_annule": false
   }
@@ -3304,7 +3304,7 @@
    "diffuseur": "",
    "statut": "",
    "provisoire": false,
-   "_miss": 53,
+   "_miss": 54,
    "_pend": null,
    "_annule": false
   },
@@ -3316,7 +3316,7 @@
    "diffuseur": "",
    "statut": "",
    "provisoire": false,
-   "_miss": 53,
+   "_miss": 54,
    "_pend": null,
    "_annule": false
   },
@@ -3328,7 +3328,7 @@
    "diffuseur": "",
    "statut": "",
    "provisoire": false,
-   "_miss": 53,
+   "_miss": 54,
    "_pend": null,
    "_annule": false
   },
@@ -3340,7 +3340,7 @@
    "diffuseur": "",
    "statut": "",
    "provisoire": false,
-   "_miss": 53,
+   "_miss": 54,
    "_pend": null,
    "_annule": false
   },
@@ -3352,7 +3352,7 @@
    "diffuseur": "",
    "statut": "",
    "provisoire": false,
-   "_miss": 53,
+   "_miss": 54,
    "_pend": null,
    "_annule": false
   },
@@ -3364,7 +3364,7 @@
    "diffuseur": "",
    "statut": "",
    "provisoire": false,
-   "_miss": 53,
+   "_miss": 54,
    "_pend": null,
    "_annule": false
   },
@@ -3376,7 +3376,7 @@
    "diffuseur": "",
    "statut": "",
    "provisoire": false,
-   "_miss": 53,
+   "_miss": 54,
    "_pend": null,
    "_annule": false
   },
@@ -3649,7 +3649,7 @@
   "eurehf/j04/saint-raphael/stockholm-hammarby": {
    "id": "eurehf/j04/saint-raphael/stockholm-hammarby",
    "journee": "J04",
-   "match": "SAINT-RAPHAËL – STOCKHOLM HAMMARBY",
+   "match": "Saint Raphael – Stockholm Hammarby",
    "horaire": "mar. 17 nov. 18h45",
    "diffuseur": "Handball TV",
    "statut": "",
@@ -3673,7 +3673,7 @@
   "eurehf/j04/irun/limoges": {
    "id": "eurehf/j04/irun/limoges",
    "journee": "J04",
-   "match": "IRUN – LIMOGES",
+   "match": "Irun – Limoges",
    "horaire": "mar. 17 nov. 20h45",
    "diffuseur": "Handball TV",
    "statut": "",
@@ -3702,7 +3702,7 @@
    "diffuseur": "Handball TV",
    "statut": "",
    "provisoire": false,
-   "_miss": 81,
+   "_miss": 82,
    "_pend": null,
    "_annule": false
   },
