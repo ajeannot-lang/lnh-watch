@@ -670,7 +670,7 @@
    "diffuseur": "Handball TV",
    "statut": "",
    "provisoire": false,
-   "_miss": 82,
+   "_miss": 83,
    "_pend": null,
    "_annule": false
   },
@@ -754,7 +754,7 @@
    "diffuseur": "",
    "statut": "",
    "provisoire": false,
-   "_miss": 34,
+   "_miss": 35,
    "_pend": null,
    "_annule": false
   },
@@ -1951,7 +1951,7 @@
   "pl/j11/istres/besancon": {
    "id": "pl/j11/istres/besancon",
    "journee": "J11",
-   "match": "ISTRES – BESANÇON",
+   "match": "Istres – Besancon",
    "horaire": "ven. 20 nov. 20h00",
    "diffuseur": "Handball TV",
    "statut": "",
@@ -1963,7 +1963,7 @@
   "pl/j11/valence/pontault": {
    "id": "pl/j11/valence/pontault",
    "journee": "J11",
-   "match": "VALENCE – PONTAULT",
+   "match": "Valence – Pontault",
    "horaire": "ven. 20 nov. 20h30",
    "diffuseur": "Handball TV + beIN SPORTS",
    "statut": "",
@@ -1975,7 +1975,7 @@
   "pl/j11/cherbourg/massy": {
    "id": "pl/j11/cherbourg/massy",
    "journee": "J11",
-   "match": "CHERBOURG – MASSY",
+   "match": "Cherbourg – Massy",
    "horaire": "ven. 20 nov. 20h30",
    "diffuseur": "Handball TV",
    "statut": "",
@@ -1987,7 +1987,7 @@
   "pl/j11/cournon/pau-billere": {
    "id": "pl/j11/cournon/pau-billere",
    "journee": "J11",
-   "match": "COURNON – PAU BILLÈRE",
+   "match": "Cournon – Pau Billere",
    "horaire": "ven. 20 nov. 20h30",
    "diffuseur": "Handball TV",
    "statut": "",
@@ -1999,7 +1999,7 @@
   "pl/j11/elite-val-d-oise/creteil": {
    "id": "pl/j11/elite-val-d-oise/creteil",
    "journee": "J11",
-   "match": "ELITE VAL D OISE – CRÉTEIL",
+   "match": "Elite Val D Oise – Creteil",
    "horaire": "ven. 20 nov. 20h30",
    "diffuseur": "Handball TV",
    "statut": "",
@@ -2016,14 +2016,14 @@
    "diffuseur": "Handball TV",
    "statut": "annulé",
    "provisoire": false,
-   "_miss": 36,
+   "_miss": 37,
    "_pend": null,
    "_annule": true
   },
   "pl/j11/ivry/saintes": {
    "id": "pl/j11/ivry/saintes",
    "journee": "J11",
-   "match": "IVRY – SAINTES",
+   "match": "Ivry – Saintes",
    "horaire": "ven. 20 nov. 20h30",
    "diffuseur": "Handball TV",
    "statut": "",
@@ -2064,7 +2064,7 @@
    "diffuseur": "Handball TV",
    "statut": "annulé",
    "provisoire": false,
-   "_miss": 36,
+   "_miss": 37,
    "_pend": null,
    "_annule": true
   },
@@ -2184,7 +2184,7 @@
    "diffuseur": "Handball TV",
    "statut": "annulé",
    "provisoire": false,
-   "_miss": 36,
+   "_miss": 37,
    "_pend": null,
    "_annule": true
   },
@@ -2256,7 +2256,7 @@
    "diffuseur": "Handball TV",
    "statut": "annulé",
    "provisoire": false,
-   "_miss": 36,
+   "_miss": 37,
    "_pend": null,
    "_annule": true
   },
@@ -2340,7 +2340,7 @@
    "diffuseur": "Handball TV",
    "statut": "annulé",
    "provisoire": false,
-   "_miss": 36,
+   "_miss": 37,
    "_pend": null,
    "_annule": true
   },
@@ -2604,7 +2604,7 @@
    "diffuseur": "Handball TV",
    "statut": "",
    "provisoire": false,
-   "_miss": 35,
+   "_miss": 36,
    "_pend": null,
    "_annule": false
   },
@@ -2616,7 +2616,7 @@
    "diffuseur": "Handball TV",
    "statut": "",
    "provisoire": false,
-   "_miss": 35,
+   "_miss": 36,
    "_pend": null,
    "_annule": false
   },
@@ -2628,7 +2628,7 @@
    "diffuseur": "Handball TV",
    "statut": "",
    "provisoire": false,
-   "_miss": 35,
+   "_miss": 36,
    "_pend": null,
    "_annule": false
   },
@@ -2640,7 +2640,7 @@
    "diffuseur": "Handball TV",
    "statut": "",
    "provisoire": false,
-   "_miss": 35,
+   "_miss": 36,
    "_pend": null,
    "_annule": false
   },
@@ -2652,7 +2652,7 @@
    "diffuseur": "Handball TV",
    "statut": "",
    "provisoire": false,
-   "_miss": 35,
+   "_miss": 36,
    "_pend": null,
    "_annule": false
   },
@@ -2664,7 +2664,7 @@
    "diffuseur": "Handball TV",
    "statut": "",
    "provisoire": false,
-   "_miss": 35,
+   "_miss": 36,
    "_pend": null,
    "_annule": false
   },
@@ -2676,7 +2676,7 @@
    "diffuseur": "Handball TV",
    "statut": "",
    "provisoire": false,
-   "_miss": 35,
+   "_miss": 36,
    "_pend": null,
    "_annule": false
   },
@@ -2688,7 +2688,7 @@
    "diffuseur": "Handball TV",
    "statut": "",
    "provisoire": false,
-   "_miss": 35,
+   "_miss": 36,
    "_pend": null,
    "_annule": false
   },
@@ -2700,7 +2700,7 @@
    "diffuseur": "Handball TV",
    "statut": "",
    "provisoire": false,
-   "_miss": 35,
+   "_miss": 36,
    "_pend": null,
    "_annule": false
   }
@@ -3167,7 +3167,7 @@
   "ehfcl/j06/gudme/sporting-lisbonne": {
    "id": "ehfcl/j06/gudme/sporting-lisbonne",
    "journee": "J06",
-   "match": "GUDME – SPORTING LISBONNE",
+   "match": "Gudme – Sporting Lisbonne",
    "horaire": "jeu. 29 oct. 18h45",
    "diffuseur": "Handball TV",
    "statut": "",
@@ -3304,7 +3304,7 @@
    "diffuseur": "",
    "statut": "",
    "provisoire": false,
-   "_miss": 61,
+   "_miss": 62,
    "_pend": null,
    "_annule": false
   },
@@ -3316,7 +3316,7 @@
    "diffuseur": "",
    "statut": "",
    "provisoire": false,
-   "_miss": 61,
+   "_miss": 62,
    "_pend": null,
    "_annule": false
   },
@@ -3328,7 +3328,7 @@
    "diffuseur": "",
    "statut": "",
    "provisoire": false,
-   "_miss": 61,
+   "_miss": 62,
    "_pend": null,
    "_annule": false
   },
@@ -3340,7 +3340,7 @@
    "diffuseur": "",
    "statut": "",
    "provisoire": false,
-   "_miss": 61,
+   "_miss": 62,
    "_pend": null,
    "_annule": false
   },
@@ -3352,7 +3352,7 @@
    "diffuseur": "",
    "statut": "",
    "provisoire": false,
-   "_miss": 61,
+   "_miss": 62,
    "_pend": null,
    "_annule": false
   },
@@ -3364,7 +3364,7 @@
    "diffuseur": "",
    "statut": "",
    "provisoire": false,
-   "_miss": 61,
+   "_miss": 62,
    "_pend": null,
    "_annule": false
   },
@@ -3376,7 +3376,7 @@
    "diffuseur": "",
    "statut": "",
    "provisoire": false,
-   "_miss": 61,
+   "_miss": 62,
    "_pend": null,
    "_annule": false
   },
@@ -3407,7 +3407,7 @@
   "ehfcl/mr-j1/kielce/barcelone": {
    "id": "ehfcl/mr-j1/kielce/barcelone",
    "journee": "Mr j1",
-   "match": "KIELCE – BARCELONE",
+   "match": "Kielce – Barcelone",
    "horaire": "jeu. 19 nov. 18h45",
    "diffuseur": "Handball TV + beIN SPORTS",
    "statut": "",
@@ -3419,7 +3419,7 @@
   "ehfcl/mr-j1/sporting-lisbonne/bucarest": {
    "id": "ehfcl/mr-j1/sporting-lisbonne/bucarest",
    "journee": "Mr j1",
-   "match": "SPORTING LISBONNE – BUCAREST",
+   "match": "Sporting Lisbonne – Bucarest",
    "horaire": "jeu. 19 nov. 20h45",
    "diffuseur": "Handball TV",
    "statut": "",
@@ -3702,7 +3702,7 @@
    "diffuseur": "Handball TV",
    "statut": "",
    "provisoire": false,
-   "_miss": 89,
+   "_miss": 90,
    "_pend": null,
    "_annule": false
   },
