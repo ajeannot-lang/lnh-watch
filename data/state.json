@@ -670,7 +670,7 @@
    "diffuseur": "Handball TV",
    "statut": "",
    "provisoire": false,
-   "_miss": 83,
+   "_miss": 84,
    "_pend": null,
    "_annule": false
   },
@@ -754,7 +754,7 @@
    "diffuseur": "",
    "statut": "",
    "provisoire": false,
-   "_miss": 35,
+   "_miss": 36,
    "_pend": null,
    "_annule": false
   },
@@ -2016,7 +2016,7 @@
    "diffuseur": "Handball TV",
    "statut": "annulé",
    "provisoire": false,
-   "_miss": 37,
+   "_miss": 38,
    "_pend": null,
    "_annule": true
   },
@@ -2064,7 +2064,7 @@
    "diffuseur": "Handball TV",
    "statut": "annulé",
    "provisoire": false,
-   "_miss": 37,
+   "_miss": 38,
    "_pend": null,
    "_annule": true
   },
@@ -2184,7 +2184,7 @@
    "diffuseur": "Handball TV",
    "statut": "annulé",
    "provisoire": false,
-   "_miss": 37,
+   "_miss": 38,
    "_pend": null,
    "_annule": true
   },
@@ -2256,7 +2256,7 @@
    "diffuseur": "Handball TV",
    "statut": "annulé",
    "provisoire": false,
-   "_miss": 37,
+   "_miss": 38,
    "_pend": null,
    "_annule": true
   },
@@ -2340,7 +2340,7 @@
    "diffuseur": "Handball TV",
    "statut": "annulé",
    "provisoire": false,
-   "_miss": 37,
+   "_miss": 38,
    "_pend": null,
    "_annule": true
   },
@@ -2604,7 +2604,7 @@
    "diffuseur": "Handball TV",
    "statut": "",
    "provisoire": false,
-   "_miss": 36,
+   "_miss": 37,
    "_pend": null,
    "_annule": false
   },
@@ -2616,7 +2616,7 @@
    "diffuseur": "Handball TV",
    "statut": "",
    "provisoire": false,
-   "_miss": 36,
+   "_miss": 37,
    "_pend": null,
    "_annule": false
   },
@@ -2628,7 +2628,7 @@
    "diffuseur": "Handball TV",
    "statut": "",
    "provisoire": false,
-   "_miss": 36,
+   "_miss": 37,
    "_pend": null,
    "_annule": false
   },
@@ -2640,7 +2640,7 @@
    "diffuseur": "Handball TV",
    "statut": "",
    "provisoire": false,
-   "_miss": 36,
+   "_miss": 37,
    "_pend": null,
    "_annule": false
   },
@@ -2652,7 +2652,7 @@
    "diffuseur": "Handball TV",
    "statut": "",
    "provisoire": false,
-   "_miss": 36,
+   "_miss": 37,
    "_pend": null,
    "_annule": false
   },
@@ -2664,7 +2664,7 @@
    "diffuseur": "Handball TV",
    "statut": "",
    "provisoire": false,
-   "_miss": 36,
+   "_miss": 37,
    "_pend": null,
    "_annule": false
   },
@@ -2676,7 +2676,7 @@
    "diffuseur": "Handball TV",
    "statut": "",
    "provisoire": false,
-   "_miss": 36,
+   "_miss": 37,
    "_pend": null,
    "_annule": false
   },
@@ -2688,7 +2688,7 @@
    "diffuseur": "Handball TV",
    "statut": "",
    "provisoire": false,
-   "_miss": 36,
+   "_miss": 37,
    "_pend": null,
    "_annule": false
   },
@@ -2700,7 +2700,7 @@
    "diffuseur": "Handball TV",
    "statut": "",
    "provisoire": false,
-   "_miss": 36,
+   "_miss": 37,
    "_pend": null,
    "_annule": false
   }
@@ -3296,18 +3296,6 @@
    "_pend": null,
    "_annule": false
   },
-  "ehfcl/mr-j1/melsungen/paris": {
-   "id": "ehfcl/mr-j1/melsungen/paris",
-   "journee": "Mr j1",
-   "match": "MELSUNGEN – PARIS",
-   "horaire": "jeu. 19 nov. 20h45",
-   "diffuseur": "",
-   "statut": "",
-   "provisoire": false,
-   "_miss": 62,
-   "_pend": null,
-   "_annule": false
-  },
   "ehfcl/mr-j2/paris/plock": {
    "id": "ehfcl/mr-j2/paris/plock",
    "journee": "Mr j2",
@@ -3316,7 +3304,7 @@
    "diffuseur": "",
    "statut": "",
    "provisoire": false,
-   "_miss": 62,
+   "_miss": 63,
    "_pend": null,
    "_annule": false
   },
@@ -3328,7 +3316,7 @@
    "diffuseur": "",
    "statut": "",
    "provisoire": false,
-   "_miss": 62,
+   "_miss": 63,
    "_pend": null,
    "_annule": false
   },
@@ -3340,7 +3328,7 @@
    "diffuseur": "",
    "statut": "",
    "provisoire": false,
-   "_miss": 62,
+   "_miss": 63,
    "_pend": null,
    "_annule": false
   },
@@ -3352,7 +3340,7 @@
    "diffuseur": "",
    "statut": "",
    "provisoire": false,
-   "_miss": 62,
+   "_miss": 63,
    "_pend": null,
    "_annule": false
   },
@@ -3364,7 +3352,7 @@
    "diffuseur": "",
    "statut": "",
    "provisoire": false,
-   "_miss": 62,
+   "_miss": 63,
    "_pend": null,
    "_annule": false
   },
@@ -3376,7 +3364,7 @@
    "diffuseur": "",
    "statut": "",
    "provisoire": false,
-   "_miss": 62,
+   "_miss": 63,
    "_pend": null,
    "_annule": false
   },
@@ -3702,7 +3690,7 @@
    "diffuseur": "Handball TV",
    "statut": "",
    "provisoire": false,
-   "_miss": 90,
+   "_miss": 91,
    "_pend": null,
    "_annule": false
   },
