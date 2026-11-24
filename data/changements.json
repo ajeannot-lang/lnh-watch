@@ -1,16 +1,5 @@
 [
  {
-  "ts": "2026-11-17T01:04",
-  "comp": "Daikin StarLigue",
-  "type": "horaire",
-  "id": "dsl/j13/chartres/nantes",
-  "journee": "J13",
-  "match": "CHARTRES – NANTES",
-  "avant": "dim. 6 déc. 16h00",
-  "apres": "ven. 4 déc. 20h00",
-  "diffuseur": "Handball TV"
- },
- {
   "ts": "2026-11-17T18:34",
   "comp": "Daikin StarLigue",
   "type": "nouveau",
