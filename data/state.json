@@ -670,7 +670,7 @@
    "diffuseur": "Handball TV",
    "statut": "",
    "provisoire": false,
-   "_miss": 95,
+   "_miss": 96,
    "_pend": null,
    "_annule": false
   },
@@ -754,7 +754,7 @@
    "diffuseur": "",
    "statut": "",
    "provisoire": false,
-   "_miss": 47,
+   "_miss": 48,
    "_pend": null,
    "_annule": false
   },
@@ -2052,7 +2052,7 @@
    "diffuseur": "Handball TV",
    "statut": "annulé",
    "provisoire": false,
-   "_miss": 49,
+   "_miss": 50,
    "_pend": null,
    "_annule": true
   },
@@ -2172,7 +2172,7 @@
    "diffuseur": "Handball TV",
    "statut": "annulé",
    "provisoire": false,
-   "_miss": 49,
+   "_miss": 50,
    "_pend": null,
    "_annule": true
   },
@@ -2244,7 +2244,7 @@
    "diffuseur": "Handball TV",
    "statut": "annulé",
    "provisoire": false,
-   "_miss": 49,
+   "_miss": 50,
    "_pend": null,
    "_annule": true
   },
@@ -2328,7 +2328,7 @@
    "diffuseur": "Handball TV",
    "statut": "annulé",
    "provisoire": false,
-   "_miss": 49,
+   "_miss": 50,
    "_pend": null,
    "_annule": true
   },
@@ -2592,7 +2592,7 @@
    "diffuseur": "Handball TV",
    "statut": "",
    "provisoire": false,
-   "_miss": 48,
+   "_miss": 49,
    "_pend": null,
    "_annule": false
   },
@@ -2604,7 +2604,7 @@
    "diffuseur": "Handball TV",
    "statut": "",
    "provisoire": false,
-   "_miss": 48,
+   "_miss": 49,
    "_pend": null,
    "_annule": false
   },
@@ -2616,7 +2616,7 @@
    "diffuseur": "Handball TV",
    "statut": "",
    "provisoire": false,
-   "_miss": 48,
+   "_miss": 49,
    "_pend": null,
    "_annule": false
   },
@@ -2628,7 +2628,7 @@
    "diffuseur": "Handball TV",
    "statut": "",
    "provisoire": false,
-   "_miss": 48,
+   "_miss": 49,
    "_pend": null,
    "_annule": false
   },
@@ -2640,7 +2640,7 @@
    "diffuseur": "Handball TV",
    "statut": "",
    "provisoire": false,
-   "_miss": 48,
+   "_miss": 49,
    "_pend": null,
    "_annule": false
   },
@@ -2652,7 +2652,7 @@
    "diffuseur": "Handball TV",
    "statut": "",
    "provisoire": false,
-   "_miss": 48,
+   "_miss": 49,
    "_pend": null,
    "_annule": false
   },
@@ -2664,7 +2664,7 @@
    "diffuseur": "Handball TV",
    "statut": "",
    "provisoire": false,
-   "_miss": 48,
+   "_miss": 49,
    "_pend": null,
    "_annule": false
   },
@@ -2676,7 +2676,7 @@
    "diffuseur": "Handball TV",
    "statut": "",
    "provisoire": false,
-   "_miss": 48,
+   "_miss": 49,
    "_pend": null,
    "_annule": false
   },
@@ -2688,7 +2688,7 @@
    "diffuseur": "Handball TV",
    "statut": "",
    "provisoire": false,
-   "_miss": 48,
+   "_miss": 49,
    "_pend": null,
    "_annule": false
   }
@@ -3220,7 +3220,7 @@
    "diffuseur": "Handball TV",
    "statut": "",
    "provisoire": false,
-   "_miss": 0,
+   "_miss": 1,
    "_pend": null,
    "_annule": false
   },
@@ -3232,7 +3232,7 @@
    "diffuseur": "Handball TV",
    "statut": "",
    "provisoire": false,
-   "_miss": 0,
+   "_miss": 1,
    "_pend": null,
    "_annule": false
   },
@@ -3292,7 +3292,7 @@
    "diffuseur": "",
    "statut": "",
    "provisoire": false,
-   "_miss": 74,
+   "_miss": 75,
    "_pend": null,
    "_annule": false
   },
@@ -3304,7 +3304,7 @@
    "diffuseur": "",
    "statut": "",
    "provisoire": false,
-   "_miss": 74,
+   "_miss": 75,
    "_pend": null,
    "_annule": false
   },
@@ -3316,7 +3316,7 @@
    "diffuseur": "",
    "statut": "",
    "provisoire": false,
-   "_miss": 74,
+   "_miss": 75,
    "_pend": null,
    "_annule": false
   },
@@ -3328,7 +3328,7 @@
    "diffuseur": "",
    "statut": "",
    "provisoire": false,
-   "_miss": 74,
+   "_miss": 75,
    "_pend": null,
    "_annule": false
   },
@@ -3340,7 +3340,7 @@
    "diffuseur": "",
    "statut": "",
    "provisoire": false,
-   "_miss": 74,
+   "_miss": 75,
    "_pend": null,
    "_annule": false
   },
@@ -3352,7 +3352,7 @@
    "diffuseur": "",
    "statut": "",
    "provisoire": false,
-   "_miss": 74,
+   "_miss": 75,
    "_pend": null,
    "_annule": false
   },
@@ -3523,6 +3523,30 @@
    "_miss": 0,
    "_pend": null,
    "_annule": false
+  },
+  "ehfcl/j01/melsungen/vardar": {
+   "id": "ehfcl/j01/melsungen/vardar",
+   "journee": "J01",
+   "match": "Melsungen – Vardar",
+   "horaire": "jeu. 10 sept. 20h45",
+   "diffuseur": "Handball TV",
+   "statut": "",
+   "provisoire": false,
+   "_miss": 0,
+   "_pend": null,
+   "_annule": false
+  },
+  "ehfcl/j02/vardar/nantes": {
+   "id": "ehfcl/j02/vardar/nantes",
+   "journee": "J02",
+   "match": "Vardar – Nantes",
+   "horaire": "mer. 16 sept. 18h45",
+   "diffuseur": "Handball TV",
+   "statut": "",
+   "provisoire": false,
+   "_miss": 0,
+   "_pend": null,
+   "_annule": false
   }
  },
  "Ligue Européenne EHF": {
@@ -3582,7 +3606,7 @@
    "diffuseur": "Handball TV",
    "statut": "",
    "provisoire": false,
-   "_miss": 0,
+   "_miss": 1,
    "_pend": null,
    "_annule": false
   },
@@ -3594,7 +3618,7 @@
    "diffuseur": "Handball TV",
    "statut": "",
    "provisoire": false,
-   "_miss": 0,
+   "_miss": 1,
    "_pend": null,
    "_annule": false
   },
@@ -3606,7 +3630,7 @@
    "diffuseur": "Handball TV",
    "statut": "",
    "provisoire": false,
-   "_miss": 0,
+   "_miss": 1,
    "_pend": null,
    "_annule": false
   },
@@ -3618,7 +3642,7 @@
    "diffuseur": "Handball TV",
    "statut": "",
    "provisoire": false,
-   "_miss": 0,
+   "_miss": 1,
    "_pend": null,
    "_annule": false
   },
@@ -3661,7 +3685,7 @@
   "eurehf/j05/schaffhausen/chambery": {
    "id": "eurehf/j05/schaffhausen/chambery",
    "journee": "J05",
-   "match": "SCHAFFHAUSEN – CHAMBÉRY",
+   "match": "Schaffhausen – Chambery",
    "horaire": "mar. 24 nov. 18h45",
    "diffuseur": "Handball TV",
    "statut": "",
@@ -3678,14 +3702,14 @@
    "diffuseur": "Handball TV",
    "statut": "",
    "provisoire": false,
-   "_miss": 102,
+   "_miss": 103,
    "_pend": null,
    "_annule": false
   },
   "eurehf/j05/saint-raphael/na-ice": {
    "id": "eurehf/j05/saint-raphael/na-ice",
    "journee": "J05",
-   "match": "SAINT-RAPHAËL – NAŠICE",
+   "match": "Saint Raphael – Na Ice",
    "horaire": "mar. 24 nov. 20h45",
    "diffuseur": "Handball TV",
    "statut": "",
@@ -3745,8 +3769,56 @@
   "eurehf/j05/madeira/limoges": {
    "id": "eurehf/j05/madeira/limoges",
    "journee": "J05",
-   "match": "MADEIRA – LIMOGES",
+   "match": "Madeira – Limoges",
    "horaire": "mar. 24 nov. 20h45",
+   "diffuseur": "Handball TV",
+   "statut": "",
+   "provisoire": false,
+   "_miss": 0,
+   "_pend": null,
+   "_annule": false
+  },
+  "eurehf/j01/ljubu-ki/chambery": {
+   "id": "eurehf/j01/ljubu-ki/chambery",
+   "journee": "J01",
+   "match": "Ljubu Ki – Chambery",
+   "horaire": "mar. 29 sept. 18h45",
+   "diffuseur": "Handball TV",
+   "statut": "",
+   "provisoire": false,
+   "_miss": 0,
+   "_pend": null,
+   "_annule": false
+  },
+  "eurehf/j01/na-ice/saint-raphael": {
+   "id": "eurehf/j01/na-ice/saint-raphael",
+   "journee": "J01",
+   "match": "Na Ice – Saint Raphael",
+   "horaire": "mar. 29 sept. 20h45",
+   "diffuseur": "Handball TV",
+   "statut": "",
+   "provisoire": false,
+   "_miss": 0,
+   "_pend": null,
+   "_annule": false
+  },
+  "eurehf/j01/limoges/madeira": {
+   "id": "eurehf/j01/limoges/madeira",
+   "journee": "J01",
+   "match": "Limoges – Madeira",
+   "horaire": "mer. 30 sept. 20h45",
+   "diffuseur": "Handball TV",
+   "statut": "",
+   "provisoire": false,
+   "_miss": 0,
+   "_pend": null,
+   "_annule": false
+  },
+  "eurehf/j03/limoges/irun": {
+   "id": "eurehf/j03/limoges/irun",
+   "journee": "J03",
+   "match": "Limoges – Irun",
+   "horaire": "mar. 13 oct. 20h45",
    "diffuseur": "Handball TV",
    "statut": "",
    "provisoire": false,

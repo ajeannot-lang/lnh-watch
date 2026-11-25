@@ -1,13 +1,68 @@
 [
  {
-  "ts": "2026-11-17T18:34",
-  "comp": "Daikin StarLigue",
+  "ts": "2026-11-25T01:35",
+  "comp": "Ligue des Champions",
   "type": "nouveau",
-  "id": "dsl/j15/tremblay/aix",
-  "journee": "J15",
-  "match": "TREMBLAY – AIX",
+  "id": "ehfcl/j01/melsungen/vardar",
+  "journee": "J01",
+  "match": "Melsungen – Vardar",
   "avant": "",
-  "apres": "mar. 22 déc. 20h30",
+  "apres": "jeu. 10 sept. 20h45",
+  "diffuseur": "Handball TV"
+ },
+ {
+  "ts": "2026-11-25T01:35",
+  "comp": "Ligue des Champions",
+  "type": "nouveau",
+  "id": "ehfcl/j02/vardar/nantes",
+  "journee": "J02",
+  "match": "Vardar – Nantes",
+  "avant": "",
+  "apres": "mer. 16 sept. 18h45",
+  "diffuseur": "Handball TV"
+ },
+ {
+  "ts": "2026-11-25T01:35",
+  "comp": "Ligue Européenne EHF",
+  "type": "nouveau",
+  "id": "eurehf/j01/ljubu-ki/chambery",
+  "journee": "J01",
+  "match": "Ljubu Ki – Chambery",
+  "avant": "",
+  "apres": "mar. 29 sept. 18h45",
+  "diffuseur": "Handball TV"
+ },
+ {
+  "ts": "2026-11-25T01:35",
+  "comp": "Ligue Européenne EHF",
+  "type": "nouveau",
+  "id": "eurehf/j01/na-ice/saint-raphael",
+  "journee": "J01",
+  "match": "Na Ice – Saint Raphael",
+  "avant": "",
+  "apres": "mar. 29 sept. 20h45",
+  "diffuseur": "Handball TV"
+ },
+ {
+  "ts": "2026-11-25T01:35",
+  "comp": "Ligue Européenne EHF",
+  "type": "nouveau",
+  "id": "eurehf/j01/limoges/madeira",
+  "journee": "J01",
+  "match": "Limoges – Madeira",
+  "avant": "",
+  "apres": "mer. 30 sept. 20h45",
+  "diffuseur": "Handball TV"
+ },
+ {
+  "ts": "2026-11-25T01:35",
+  "comp": "Ligue Européenne EHF",
+  "type": "nouveau",
+  "id": "eurehf/j03/limoges/irun",
+  "journee": "J03",
+  "match": "Limoges – Irun",
+  "avant": "",
+  "apres": "mar. 13 oct. 20h45",
   "diffuseur": "Handball TV"
  }
 ]
