@@ -670,7 +670,7 @@
    "diffuseur": "Handball TV",
    "statut": "",
    "provisoire": false,
-   "_miss": 98,
+   "_miss": 99,
    "_pend": null,
    "_annule": false
   },
@@ -754,7 +754,7 @@
    "diffuseur": "",
    "statut": "",
    "provisoire": false,
-   "_miss": 50,
+   "_miss": 51,
    "_pend": null,
    "_annule": false
   },
@@ -2052,7 +2052,7 @@
    "diffuseur": "Handball TV",
    "statut": "annulé",
    "provisoire": false,
-   "_miss": 52,
+   "_miss": 53,
    "_pend": null,
    "_annule": true
   },
@@ -2172,7 +2172,7 @@
    "diffuseur": "Handball TV",
    "statut": "annulé",
    "provisoire": false,
-   "_miss": 52,
+   "_miss": 53,
    "_pend": null,
    "_annule": true
   },
@@ -2244,7 +2244,7 @@
    "diffuseur": "Handball TV",
    "statut": "annulé",
    "provisoire": false,
-   "_miss": 52,
+   "_miss": 53,
    "_pend": null,
    "_annule": true
   },
@@ -2328,7 +2328,7 @@
    "diffuseur": "Handball TV",
    "statut": "annulé",
    "provisoire": false,
-   "_miss": 52,
+   "_miss": 53,
    "_pend": null,
    "_annule": true
   },
@@ -2592,7 +2592,7 @@
    "diffuseur": "Handball TV",
    "statut": "",
    "provisoire": false,
-   "_miss": 51,
+   "_miss": 52,
    "_pend": null,
    "_annule": false
   },
@@ -2604,7 +2604,7 @@
    "diffuseur": "Handball TV",
    "statut": "",
    "provisoire": false,
-   "_miss": 51,
+   "_miss": 52,
    "_pend": null,
    "_annule": false
   },
@@ -2616,7 +2616,7 @@
    "diffuseur": "Handball TV",
    "statut": "",
    "provisoire": false,
-   "_miss": 51,
+   "_miss": 52,
    "_pend": null,
    "_annule": false
   },
@@ -2628,7 +2628,7 @@
    "diffuseur": "Handball TV",
    "statut": "",
    "provisoire": false,
-   "_miss": 51,
+   "_miss": 52,
    "_pend": null,
    "_annule": false
   },
@@ -2640,7 +2640,7 @@
    "diffuseur": "Handball TV",
    "statut": "",
    "provisoire": false,
-   "_miss": 51,
+   "_miss": 52,
    "_pend": null,
    "_annule": false
   },
@@ -2652,7 +2652,7 @@
    "diffuseur": "Handball TV",
    "statut": "",
    "provisoire": false,
-   "_miss": 51,
+   "_miss": 52,
    "_pend": null,
    "_annule": false
   },
@@ -2664,7 +2664,7 @@
    "diffuseur": "Handball TV",
    "statut": "",
    "provisoire": false,
-   "_miss": 51,
+   "_miss": 52,
    "_pend": null,
    "_annule": false
   },
@@ -2676,7 +2676,7 @@
    "diffuseur": "Handball TV",
    "statut": "",
    "provisoire": false,
-   "_miss": 51,
+   "_miss": 52,
    "_pend": null,
    "_annule": false
   },
@@ -2688,7 +2688,7 @@
    "diffuseur": "Handball TV",
    "statut": "",
    "provisoire": false,
-   "_miss": 51,
+   "_miss": 52,
    "_pend": null,
    "_annule": false
   }
@@ -3212,30 +3212,6 @@
    "_pend": null,
    "_annule": false
   },
-  "ehfcl/j01/melsungen/skopje": {
-   "id": "ehfcl/j01/melsungen/skopje",
-   "journee": "J01",
-   "match": "Melsungen – Skopje",
-   "horaire": "jeu. 10 sept. 20h45",
-   "diffuseur": "Handball TV",
-   "statut": "",
-   "provisoire": false,
-   "_miss": 3,
-   "_pend": null,
-   "_annule": false
-  },
-  "ehfcl/j02/skopje/nantes": {
-   "id": "ehfcl/j02/skopje/nantes",
-   "journee": "J02",
-   "match": "Skopje – Nantes",
-   "horaire": "mer. 16 sept. 18h45",
-   "diffuseur": "Handball TV",
-   "statut": "",
-   "provisoire": false,
-   "_miss": 3,
-   "_pend": null,
-   "_annule": false
-  },
   "ehfcl/j02/berlin/veszprem": {
    "id": "ehfcl/j02/berlin/veszprem",
    "journee": "J02",
@@ -3292,7 +3268,7 @@
    "diffuseur": "",
    "statut": "",
    "provisoire": false,
-   "_miss": 77,
+   "_miss": 78,
    "_pend": null,
    "_annule": false
   },
@@ -3304,7 +3280,7 @@
    "diffuseur": "",
    "statut": "",
    "provisoire": false,
-   "_miss": 77,
+   "_miss": 78,
    "_pend": null,
    "_annule": false
   },
@@ -3316,7 +3292,7 @@
    "diffuseur": "",
    "statut": "",
    "provisoire": false,
-   "_miss": 77,
+   "_miss": 78,
    "_pend": null,
    "_annule": false
   },
@@ -3328,7 +3304,7 @@
    "diffuseur": "",
    "statut": "",
    "provisoire": false,
-   "_miss": 77,
+   "_miss": 78,
    "_pend": null,
    "_annule": false
   },
@@ -3340,7 +3316,7 @@
    "diffuseur": "",
    "statut": "",
    "provisoire": false,
-   "_miss": 77,
+   "_miss": 78,
    "_pend": null,
    "_annule": false
   },
@@ -3352,7 +3328,7 @@
    "diffuseur": "",
    "statut": "",
    "provisoire": false,
-   "_miss": 77,
+   "_miss": 78,
    "_pend": null,
    "_annule": false
   },
@@ -3598,54 +3574,6 @@
    "_pend": null,
    "_annule": false
   },
-  "eurehf/j01/limoges/irun": {
-   "id": "eurehf/j01/limoges/irun",
-   "journee": "J01",
-   "match": "Limoges – Irun",
-   "horaire": "mar. 13 oct. 20h45",
-   "diffuseur": "Handball TV",
-   "statut": "",
-   "provisoire": false,
-   "_miss": 3,
-   "_pend": null,
-   "_annule": false
-  },
-  "eurehf/01/ljubuski/chambery": {
-   "id": "eurehf/01/ljubuski/chambery",
-   "journee": "01",
-   "match": "Ljubuski – Chambery",
-   "horaire": "mar. 29 sept. 18h45",
-   "diffuseur": "Handball TV",
-   "statut": "",
-   "provisoire": false,
-   "_miss": 3,
-   "_pend": null,
-   "_annule": false
-  },
-  "eurehf/01/nasice/saint-raphael": {
-   "id": "eurehf/01/nasice/saint-raphael",
-   "journee": "01",
-   "match": "Nasice – Saint Raphael",
-   "horaire": "mar. 29 sept. 20h45",
-   "diffuseur": "Handball TV",
-   "statut": "",
-   "provisoire": false,
-   "_miss": 3,
-   "_pend": null,
-   "_annule": false
-  },
-  "eurehf/01/limoges/maritimo-da-madeira-andebol-sad": {
-   "id": "eurehf/01/limoges/maritimo-da-madeira-andebol-sad",
-   "journee": "01",
-   "match": "Limoges – Maritimo Da Madeira Andebol Sad",
-   "horaire": "mer. 30 sept. 20h45",
-   "diffuseur": "Handball TV",
-   "statut": "",
-   "provisoire": false,
-   "_miss": 3,
-   "_pend": null,
-   "_annule": false
-  },
   "eurehf/j04/saint-raphael/stockholm-hammarby": {
    "id": "eurehf/j04/saint-raphael/stockholm-hammarby",
    "journee": "J04",
@@ -3691,18 +3619,6 @@
    "statut": "",
    "provisoire": false,
    "_miss": 0,
-   "_pend": null,
-   "_annule": false
-  },
-  "eurehf/j01/madeira/limoges": {
-   "id": "eurehf/j01/madeira/limoges",
-   "journee": "J01",
-   "match": "MADEIRA – LIMOGES",
-   "horaire": "mar. 24 nov. 20h45",
-   "diffuseur": "Handball TV",
-   "statut": "",
-   "provisoire": false,
-   "_miss": 105,
    "_pend": null,
    "_annule": false
   },
