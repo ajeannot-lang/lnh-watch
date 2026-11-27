@@ -641,7 +641,7 @@
   "dsl/j12/selestat/saint-raphael": {
    "id": "dsl/j12/selestat/saint-raphael",
    "journee": "J12",
-   "match": "SÉLESTAT – SAINT-RAPHAËL",
+   "match": "Selestat – Saint Raphael",
    "horaire": "ven. 27 nov. 20h30",
    "diffuseur": "Handball TV",
    "statut": "",
@@ -670,7 +670,7 @@
    "diffuseur": "Handball TV",
    "statut": "",
    "provisoire": false,
-   "_miss": 103,
+   "_miss": 104,
    "_pend": null,
    "_annule": false
   },
@@ -754,14 +754,14 @@
    "diffuseur": "",
    "statut": "",
    "provisoire": false,
-   "_miss": 55,
+   "_miss": 56,
    "_pend": null,
    "_annule": false
   },
   "dsl/j12/chartres/aix": {
    "id": "dsl/j12/chartres/aix",
    "journee": "J12",
-   "match": "CHARTRES – AIX",
+   "match": "Chartres – Aix",
    "horaire": "ven. 27 nov. 20h00",
    "diffuseur": "Handball TV",
    "statut": "",
@@ -773,7 +773,7 @@
   "dsl/j12/montpellier/cesson-rennes": {
    "id": "dsl/j12/montpellier/cesson-rennes",
    "journee": "J12",
-   "match": "MONTPELLIER – CESSON-RENNES",
+   "match": "Montpellier – Cesson Rennes",
    "horaire": "ven. 27 nov. 20h00",
    "diffuseur": "Handball TV",
    "statut": "",
@@ -2023,7 +2023,7 @@
   "pl/j12/besancon/ivry": {
    "id": "pl/j12/besancon/ivry",
    "journee": "J12",
-   "match": "BESANÇON – IVRY",
+   "match": "Besancon – Ivry",
    "horaire": "ven. 27 nov. 20h30",
    "diffuseur": "Handball TV",
    "statut": "",
@@ -2035,7 +2035,7 @@
   "pl/j12/creteil/cournon": {
    "id": "pl/j12/creteil/cournon",
    "journee": "J12",
-   "match": "CRÉTEIL – COURNON",
+   "match": "Creteil – Cournon",
    "horaire": "ven. 27 nov. 20h30",
    "diffuseur": "Handball TV",
    "statut": "",
@@ -2052,14 +2052,14 @@
    "diffuseur": "Handball TV",
    "statut": "annulé",
    "provisoire": false,
-   "_miss": 57,
+   "_miss": 58,
    "_pend": null,
    "_annule": true
   },
   "pl/j12/massy/istres": {
    "id": "pl/j12/massy/istres",
    "journee": "J12",
-   "match": "MASSY – ISTRES",
+   "match": "Massy – Istres",
    "horaire": "ven. 27 nov. 20h30",
    "diffuseur": "Handball TV",
    "statut": "",
@@ -2071,7 +2071,7 @@
   "pl/j12/pau-billere/dijon": {
    "id": "pl/j12/pau-billere/dijon",
    "journee": "J12",
-   "match": "PAU BILLÈRE – DIJON",
+   "match": "Pau Billere – Dijon",
    "horaire": "ven. 27 nov. 20h30",
    "diffuseur": "Handball TV",
    "statut": "",
@@ -2083,7 +2083,7 @@
   "pl/j12/pontault/frontignan": {
    "id": "pl/j12/pontault/frontignan",
    "journee": "J12",
-   "match": "PONTAULT – FRONTIGNAN",
+   "match": "Pontault – Frontignan",
    "horaire": "ven. 27 nov. 20h30",
    "diffuseur": "Handball TV",
    "statut": "",
@@ -2095,7 +2095,7 @@
   "pl/j12/saintes/elite-val-d-oise": {
    "id": "pl/j12/saintes/elite-val-d-oise",
    "journee": "J12",
-   "match": "SAINTES – ELITE VAL D OISE",
+   "match": "Saintes – Elite Val D Oise",
    "horaire": "ven. 27 nov. 20h30",
    "diffuseur": "Handball TV",
    "statut": "",
@@ -2172,7 +2172,7 @@
    "diffuseur": "Handball TV",
    "statut": "annulé",
    "provisoire": false,
-   "_miss": 57,
+   "_miss": 58,
    "_pend": null,
    "_annule": true
   },
@@ -2244,7 +2244,7 @@
    "diffuseur": "Handball TV",
    "statut": "annulé",
    "provisoire": false,
-   "_miss": 57,
+   "_miss": 58,
    "_pend": null,
    "_annule": true
   },
@@ -2328,7 +2328,7 @@
    "diffuseur": "Handball TV",
    "statut": "annulé",
    "provisoire": false,
-   "_miss": 57,
+   "_miss": 58,
    "_pend": null,
    "_annule": true
   },
@@ -2592,7 +2592,7 @@
    "diffuseur": "Handball TV",
    "statut": "",
    "provisoire": false,
-   "_miss": 56,
+   "_miss": 57,
    "_pend": null,
    "_annule": false
   },
@@ -2604,7 +2604,7 @@
    "diffuseur": "Handball TV",
    "statut": "",
    "provisoire": false,
-   "_miss": 56,
+   "_miss": 57,
    "_pend": null,
    "_annule": false
   },
@@ -2616,7 +2616,7 @@
    "diffuseur": "Handball TV",
    "statut": "",
    "provisoire": false,
-   "_miss": 56,
+   "_miss": 57,
    "_pend": null,
    "_annule": false
   },
@@ -2628,7 +2628,7 @@
    "diffuseur": "Handball TV",
    "statut": "",
    "provisoire": false,
-   "_miss": 56,
+   "_miss": 57,
    "_pend": null,
    "_annule": false
   },
@@ -2640,7 +2640,7 @@
    "diffuseur": "Handball TV",
    "statut": "",
    "provisoire": false,
-   "_miss": 56,
+   "_miss": 57,
    "_pend": null,
    "_annule": false
   },
@@ -2652,7 +2652,7 @@
    "diffuseur": "Handball TV",
    "statut": "",
    "provisoire": false,
-   "_miss": 56,
+   "_miss": 57,
    "_pend": null,
    "_annule": false
   },
@@ -2664,7 +2664,7 @@
    "diffuseur": "Handball TV",
    "statut": "",
    "provisoire": false,
-   "_miss": 56,
+   "_miss": 57,
    "_pend": null,
    "_annule": false
   },
@@ -2676,7 +2676,7 @@
    "diffuseur": "Handball TV",
    "statut": "",
    "provisoire": false,
-   "_miss": 56,
+   "_miss": 57,
    "_pend": null,
    "_annule": false
   },
@@ -2688,7 +2688,7 @@
    "diffuseur": "Handball TV",
    "statut": "",
    "provisoire": false,
-   "_miss": 56,
+   "_miss": 57,
    "_pend": null,
    "_annule": false
   }
@@ -3268,7 +3268,7 @@
    "diffuseur": "",
    "statut": "",
    "provisoire": false,
-   "_miss": 82,
+   "_miss": 83,
    "_pend": null,
    "_annule": false
   },
@@ -3280,7 +3280,7 @@
    "diffuseur": "",
    "statut": "",
    "provisoire": false,
-   "_miss": 82,
+   "_miss": 83,
    "_pend": null,
    "_annule": false
   },
@@ -3292,7 +3292,7 @@
    "diffuseur": "",
    "statut": "",
    "provisoire": false,
-   "_miss": 82,
+   "_miss": 83,
    "_pend": null,
    "_annule": false
   },
@@ -3304,7 +3304,7 @@
    "diffuseur": "",
    "statut": "",
    "provisoire": false,
-   "_miss": 82,
+   "_miss": 83,
    "_pend": null,
    "_annule": false
   },
@@ -3316,7 +3316,7 @@
    "diffuseur": "",
    "statut": "",
    "provisoire": false,
-   "_miss": 82,
+   "_miss": 83,
    "_pend": null,
    "_annule": false
   },
@@ -3328,7 +3328,7 @@
    "diffuseur": "",
    "statut": "",
    "provisoire": false,
-   "_miss": 82,
+   "_miss": 83,
    "_pend": null,
    "_annule": false
   },
@@ -3407,7 +3407,7 @@
   "ehfcl/mr-j2/veszprem/aalborg": {
    "id": "ehfcl/mr-j2/veszprem/aalborg",
    "journee": "Mr j2",
-   "match": "VESZPREM – AALBORG",
+   "match": "Veszprem – Aalborg",
    "horaire": "jeu. 26 nov. 18h45",
    "diffuseur": "Handball TV + beIN SPORTS",
    "statut": "",
@@ -3419,7 +3419,7 @@
   "ehfcl/mr-j2/berlin/melsungen": {
    "id": "ehfcl/mr-j2/berlin/melsungen",
    "journee": "Mr j2",
-   "match": "BERLIN – MELSUNGEN",
+   "match": "Berlin – Melsungen",
    "horaire": "jeu. 26 nov. 20h45",
    "diffuseur": "Handball TV",
    "statut": "",
